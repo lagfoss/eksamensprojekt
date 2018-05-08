@@ -113,8 +113,41 @@ h1 {
    * 2.2 nav
    */
 nav{
+  text-align: center;
+  text-decoration: none;
   width: 100%;
   height: 60px;
   background-color: #c4b298;
 
+}
+.nav_banner{
+  padding: 0 105px;
+
+}
+nav a{
+  margin: 20px 10px 0 0;
+
+}
+/* unvisited link */
+nav a:link {
+    color: green;
+    text-decoration: none;
+
+
+}
+
+/* visited link */
+nav a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: red;
+}
+
+/* selected link */
+nav a:active {
+    color: yellow;
 }
