@@ -77,10 +77,6 @@ Colors:
 
 
 @font-face {
-<<<<<<< HEAD
-    font-family: 'augusta';
-    src: url(./assets/font/augusta.woff);
-=======
     font-family: "augusta";
     src: url("../font/Augusta.eot");
     src: url("../font/Augusta.eot?#iefix") format("embedded-opentype"),
@@ -89,7 +85,6 @@ Colors:
          url("../font/Augusta.svg#ALG") format("svg");
     font-weight: normal;
     font-style: normal;
->>>>>>> 51fc3626c64733d39c0e9cbe597fa2adc544b926
 }
 
 
