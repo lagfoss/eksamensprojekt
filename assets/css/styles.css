@@ -157,3 +157,10 @@ nav a{
   background-color: #710000;
   margin: 0px 0 0 0;
 }
+.container {
+  display: grid;
+  background-color: #888888;
+  margin: 0 15%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 50px;
+}
