@@ -99,17 +99,26 @@ color: #fff;
 /*
  * 2.0 header
  */
-
+header{
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: #c4b298;
+  right: 0;
+  left: 0;
+  top: 0;
+}
  /*
   * 2.1 logo
   */
 
   .logo{
-  position: absolute;
-  left: 50%;
-  text-align: center;
-  z-index: 1;
-  margin-left: -78.5px;
+    display: inline-flex;
+    justify-content: center;
+    width: 20%;
+    z-index: 1;
+
 }
 
   .banner{
@@ -123,74 +132,48 @@ color: #fff;
 nav{
   text-align: center;
   text-decoration: none;
-  width: 100%;
-  height: 60px;
-  background-color: #c4b298;
-
 }
 
-}
-nav a{
-  margin: 20px 10px 0 0;
-}
- section{
-  width: 100%;
-  margin: 0px 0 0 0;
-  padding: 0;
-  min-height: 380px;
-  background-color: rgba(0,0,0,0.3);
-  background-image: url("../images/front_img.jpg");
-  background-blend-mode: darken;
-  background-position: center;
-  background-size: cover;
-}
-.intro{
-  width: 100%;
-  background-color: #710000;
-  margin: 0px 0 0 0;
-}
-.container {
-  display: grid;
-  background-color: #888888;
-  margin: 0 15%;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50px 50px;
+   nav a{
+     margin: 20px 10px 0 0;
+   }
+nav.left{
+  display: inline-flex;
+  justify-content: flex-start;
+  width: 40%;
 }
 
-.sec {
-  width: 100%;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+nav.right{
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 40%;
 }
 
-.program {
-  background-color: #332244;
-  background-position: center;
-  background-size: cover;
+main{
+  margin-top: 60px;
 }
-.kort {
-  background-color: #335588;
-  background-position: center;
-  background-size: cover;
-}
-.info {
-  background-color: #553399;
-  background-position: center;
-  background-size: cover;
-}
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-  .indhold {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: 0 auto;
-  }
-  .program,
-  .kort,
-  .info{
-    width: 33.33%;
-    height: 180px;
-    max-height: 180px;
+
+    section{
+     width: 100%;
+     margin: 0px 0 0 0;
+     padding: 0;
+     min-height: 380px;
+     background-color: rgba(0,0,0,0.3);
+     background-image: url("../images/front_img.jpg");
+     background-blend-mode: darken;
+     background-position: center;
+     background-size: cover;
+   }
+
+   .intro{
+     width: 100%;
+     background-color: #710000;
+     margin: 0px 0 0 0;
+   }
+   .container {
+     display: grid;
+     background-color: #888888;
+     margin: 0 15%;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 50px 50px;
+   }
