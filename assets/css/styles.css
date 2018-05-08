@@ -183,6 +183,7 @@ nav a{
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   .indhold {
+    padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
     width: 80%;
@@ -191,6 +192,7 @@ nav a{
   .program,
   .kort,
   .info{
-    width: 33.33%;
+    width: 28%;
+    margin: 2%;
     height: 180px;
     max-height: 180px;
