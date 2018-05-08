@@ -129,35 +129,6 @@ nav{
 
 }
 
-<<<<<<< HEAD
-   nav a{
-     margin: 20px 10px 0 0;
-   }
-    section{
-     width: 100%;
-     margin: 0px 0 0 0;
-     padding: 0;
-     min-height: 380px;
-     background-color: rgba(0,0,0,0.3);
-     background-image: url("../images/front_img.jpg");
-     background-blend-mode: darken;
-     background-position: center;
-     background-size: cover;
-   }
-
-   .intro{
-     width: 100%;
-     background-color: #710000;
-     margin: 0px 0 0 0;
-   }
-   .container {
-     display: grid;
-     background-color: #888888;
-     margin: 0 15%;
-     grid-template-columns: 1fr 1fr 1fr;
-     grid-template-rows: 50px 50px;
-   }
-=======
 }
 nav a{
   margin: 20px 10px 0 0;
@@ -227,5 +198,7 @@ nav a{
 =======
     height: 250px;
     max-height: 250px;
->>>>>>> 9b73af0f1ea7d30f1d83cdb49f479eca9e8a2f79
+<<<<<<< HEAD
+>>>>>>> 893b5cd40a9b4ad959dfe1700ea5c28671ff19fe
+=======
 >>>>>>> 893b5cd40a9b4ad959dfe1700ea5c28671ff19fe
