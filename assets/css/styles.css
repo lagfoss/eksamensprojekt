@@ -129,6 +129,7 @@ nav{
 
 }
 
+<<<<<<< HEAD
    nav a{
      margin: 20px 10px 0 0;
    }
@@ -156,3 +157,74 @@ nav{
      grid-template-columns: 1fr 1fr 1fr;
      grid-template-rows: 50px 50px;
    }
+=======
+}
+nav a{
+  margin: 20px 10px 0 0;
+}
+ section{
+  width: 100%;
+  margin: 0px 0 0 0;
+  padding: 0;
+  min-height: 380px;
+  background-color: rgba(0,0,0,0.3);
+  background-image: url("../images/front_img.jpg");
+  background-blend-mode: darken;
+  background-position: center;
+  background-size: cover;
+}
+
+.intro{
+  width: 100%;
+  background-color: #710000;
+  margin: 0px 0 0 0;
+}
+.container {
+  display: grid;
+  background-color: #888888;
+  margin: 0 15%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 50px;
+}
+
+
+
+
+.sec {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.program {
+  background-color: #332244;
+  background-position: center;
+  background-size: cover;
+}
+.kort {
+  background-color: #335588;
+  background-position: center;
+  background-size: cover;
+}
+.info {
+  background-color: #553399;
+  background-position: center;
+  background-size: cover;
+}
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .indhold {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .program,
+  .kort,
+  .info{
+    width: 33.33%;
+    height: 250px;
+    max-height: 250px;
+>>>>>>> 9b73af0f1ea7d30f1d83cdb49f479eca9e8a2f79
