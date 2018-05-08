@@ -185,20 +185,12 @@ nav a{
   .indhold {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
   }
   .program,
   .kort,
   .info{
     width: 33.33%;
-<<<<<<< HEAD
     height: 180px;
     max-height: 180px;
-=======
-    height: 250px;
-    max-height: 250px;
-<<<<<<< HEAD
->>>>>>> 893b5cd40a9b4ad959dfe1700ea5c28671ff19fe
-=======
->>>>>>> 893b5cd40a9b4ad959dfe1700ea5c28671ff19fe
