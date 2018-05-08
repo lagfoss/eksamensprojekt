@@ -1,6 +1,6 @@
 @font-face {
     font-family: augusta;
-    src: url(assets/font/augusta.woff);
+    src: local(assets/font/augusta.woff);
 }
 
 h1 {
