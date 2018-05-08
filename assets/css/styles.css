@@ -62,7 +62,7 @@ Colors:
    * 1.0 Global
    */
    body {
-          font-family: Helvetica, Arial, sans-serif;
+          font-family: 'Montserrat', sans-serif;
           src:url(./assets/font/augusta.woff);
           font-size: 12px;
           color: #333333;
@@ -99,7 +99,8 @@ font-family: 'Montserrat', sans-serif;
 margin: 0px 0 0 0;
 padding: 30px 15% 30px 15% ;
 font-size: 12px;
-letter-spacing: 1.1pt;
+font-weight: 200;
+letter-spacing: 1.01pt;
 color: #fff;
 }
 /*
