@@ -103,6 +103,11 @@ h1 {
 
   .logo{
     text-align: center;
-
     z-index: 1;
   }
+  .banner{
+    width: 135px;
+  }
+  /*
+   * 2.2 nav
+   */
