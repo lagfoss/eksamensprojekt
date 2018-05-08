@@ -152,6 +152,7 @@ nav.right{
 main{
   margin-top: 60px;
 }
+<<<<<<< HEAD
 
     section{
      width: 100%;
@@ -177,3 +178,26 @@ main{
      grid-template-columns: 1fr 1fr 1fr;
      grid-template-rows: 50px 50px;
    }
+=======
+.info {
+  background-color: #553399;
+  background-position: center;
+  background-size: cover;
+}
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .indhold {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .program,
+  .kort,
+  .info{
+    width: 33.33%;
+
+    height: 180px;
+    max-height: 180px;
+>>>>>>> 42cc11e71fb37acc95329cd9ef3f424b19705046
