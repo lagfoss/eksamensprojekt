@@ -102,12 +102,16 @@ h1 {
   */
 
   .logo{
-    text-align: center;
-    z-index: 1;
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
   }
   .banner{
-    width: 135px;
+    width: 155px;
   }
   /*
    * 2.2 nav
    */
+nav{
+
+}
