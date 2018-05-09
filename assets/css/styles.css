@@ -274,6 +274,21 @@ section{
  background-size: cover;
 }
 
+.event_left1 {
+  background-image: url("../images/info_front.jpg");
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+ background-position: center;
+ background-size: cover;
+}
+.event_right1 {
+  background-image: url("../images/info_front.jpg");
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+ background-position: center;
+ background-size: cover;
+}
+
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
@@ -291,6 +306,12 @@ section{
     margin: 10px 0 10px 0;
     height: 180px;
     max-height: 180px;
+ }
+ .event_left1,
+ .event_right1{
+   width: 50%;
+   height: 180px;
+   max-height: 180px;
  }
 
  h4{
@@ -324,6 +345,12 @@ section{
     height: 180px;
     max-height: 180px;
  }
+ .event_left1,
+ .event_right1{
+   width: 50%;
+   height: 180px;
+   max-height: 180px;
+ }
 }
 /* Desktop Styles */
 @media only screen and (min-width: 720.01px) {
@@ -341,6 +368,12 @@ section{
    margin: 0 1% 0 1%;
    height: 180px;
    max-height: 180px;
+}
+.event_left1,
+.event_right1{
+  width: 50%;
+  height: 180px;
+  max-height: 180px;
 }
 
 
