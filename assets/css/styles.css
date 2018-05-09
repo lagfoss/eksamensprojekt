@@ -216,6 +216,26 @@ section{
  background-position: center;
  background-size: cover;
 }
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  
+  .indhold{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .program,
+  .kort,
+  .info{
+    width: 33.33%;
+
+    height: 180px;
+    max-height: 180px;
+ }
+}
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
  .indhold {
