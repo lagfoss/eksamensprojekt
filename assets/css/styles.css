@@ -285,6 +285,24 @@ section{
 
    /*Program Styles*/
 
+   .top-program {
+     display: flex;
+     flex-wrap: nowrap;
+     align-content: center;
+     background-color: #ffdab9;
+     border: 1px solid black;
+   }
+
+   .top-program > div {
+     background-color:yellow;
+     margin: auto;
+     width: 12.5%;
+     margin: 2%;
+     text-align: center;
+     line-height: 100%;
+     font-size: 30px;
+   }
+
    #main-program {
        width: 100%;
        height: 300px;
@@ -311,9 +329,8 @@ section{
    .time-on-days > div {
      background-color: #f1f1f1;
      text-align: center;
-     width: 100px;
-     margin: 10px;
-     text-align: center;
-     line-height: 75px;
+     width: 50%;
+     margin: 3%;
+     line-height: 100%;
      font-size: 30px;
    }
