@@ -249,12 +249,16 @@ section{
  background-size: cover;
 }
 .kort {
- background-color: #335588;
+  background-image: url("../images/kort_front.jpg");
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: darken;
  background-position: center;
  background-size: cover;
 }
 .info {
- background-color: #553399;
+  background-image: url("../images/info_front.jpg");
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: darken;
  background-position: center;
  background-size: cover;
 }
@@ -273,7 +277,7 @@ section{
   .kort,
   .info{
     width: 100%;
-
+    margin: 10px 0 10px 0;
     height: 180px;
     max-height: 180px;
  }
@@ -304,7 +308,8 @@ section{
   .program,
   .kort,
   .info{
-    width: 33.33%;
+    width: 31.33%;
+    margin: 0 1% 0 1%;
     height: 180px;
     max-height: 180px;
  }
@@ -321,8 +326,8 @@ section{
  .program,
  .kort,
  .info{
-   width: 33.33%;
-
+   width: 31.33%;
+   margin: 0 1% 0 1%;
    height: 180px;
    max-height: 180px;
 }
