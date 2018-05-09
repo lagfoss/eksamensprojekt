@@ -6,6 +6,7 @@ body {
        color: #333333;
        background-color: #ffffff;
        margin: 0;
+       cursor: zoom-in;
      }
 
 @font-face {
@@ -92,6 +93,12 @@ main{
 margin-top: 60px;
 }
 
+.picture img{
+    cursor: -moz-zoom-in;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+}
+
 #kort1{
 width: 100%;
 margin: 0px 0 0 0;
@@ -101,33 +108,44 @@ background-image: url("../images/kort1.jpg");
 background-blend-mode: darken;
 background-position: center;
 background-size: cover;
+cursor: zoom-in;
 }
 
 #kort2{
 width: 100%;
-margin: 0px 0 0 0;
-padding: 0;
 min-height: 680px;
 background-image: url("../images/kort2.jpg");
-background-blend-mode: darken;
 background-position: center;
 background-size: cover;
+cursor: zoom-in;
 }
 
 #kort3{
 width: 100%;
-margin: 0px 0 0 0;
-padding: 0;
 min-height: 680px;
 background-image: url("../images/kort3.jpg");
-background-blend-mode: darken;
 background-position: center;
 background-size: cover;
+cursor: zoom-in;
 }
 
+#kort4{
+width: 100%;
+min-height: 680px;
+background-image: url("../images/kort4.jpg");
+background-position: center;
+background-size: cover;
+cursor: zoom-in;
+}
 
-
-
+#kort5{
+width: 100%;
+min-height: 680px;
+background-image: url("../images/kort5.jpg");
+background-position: center;
+background-size: cover;
+cursor: zoom-out;
+}
 
 
 
