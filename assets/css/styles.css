@@ -144,6 +144,14 @@ nav.left{
 
 }
 
+.left_navi{
+float: right;
+  min-width: 300px;
+  margin-top: 20px;
+
+}
+
+
 nav.right{
   display: flex;
   justify-content: center;
