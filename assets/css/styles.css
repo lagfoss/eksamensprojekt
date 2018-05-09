@@ -253,7 +253,7 @@ section{
 
 .program {
  background-image: url("../images/program_front.jpg");
- background-color: rgba(0,0,0,0.3);
+ background-color: rgba(0,0,0,0.5);
  background-blend-mode: darken;
 
  background-position: center;
@@ -261,14 +261,14 @@ section{
 }
 .kort {
   background-image: url("../images/kort_front.jpg");
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.5);
   background-blend-mode: darken;
  background-position: center;
  background-size: cover;
 }
 .info {
   background-image: url("../images/info_front.jpg");
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.5);
   background-blend-mode: darken;
  background-position: center;
  background-size: cover;
@@ -383,7 +383,7 @@ section{
 
    .time-on-days {
      display: flex;
-     width: 70%;
+     width: 80%;
      margin: auto;
      flex-direction: column;
      background-color: DodgerBlue;
@@ -392,11 +392,18 @@ section{
    .time-on-days > div {
      background-color: #f1f1f1;
      text-align: center;
-     width: 100%;
+     width: 95%;
      margin: 3%;
      line-height: 100%;
      font-size: 30px;
    }
+
+   .time-of-event {
+      background-color: black;
+      width: 40px;
+      height: 40px;
+      margin-right: 400Px;
+    }
 
 
 /*kort styles*/
