@@ -132,23 +132,13 @@ nav{
    }
 nav.left{
   display: inline-flex;
-
+  justify-content: flex-end;
   width: 40%;
-
-
 }
-
-.left_navi{
-float: right;
-  min-width: 300px;
-  margin-top: 20px;
-
-}
-
 
 nav.right{
   display: inline-flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   width: 40%;
 }
 
