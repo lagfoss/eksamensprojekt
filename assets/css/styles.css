@@ -99,6 +99,17 @@ h2{
 
 
 }
+.overskrift{
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  font-size: 40px;
+  padding: 40px 20px 20px 20px;
+  letter-spacing: 1.2pt;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  padding: auto;
+}
 h3{
 text-align: center;
 font-family: 'Montserrat', sans-serif;
@@ -249,12 +260,16 @@ section{
  background-size: cover;
 }
 .kort {
- background-color: #335588;
+  background-image: url("../images/kort_front.jpg");
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: darken;
  background-position: center;
  background-size: cover;
 }
 .info {
- background-color: #553399;
+  background-image: url("../images/info_front.jpg");
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: darken;
  background-position: center;
  background-size: cover;
 }
@@ -273,7 +288,7 @@ section{
   .kort,
   .info{
     width: 100%;
-
+    margin: 10px 0 10px 0;
     height: 180px;
     max-height: 180px;
  }
@@ -304,7 +319,8 @@ section{
   .program,
   .kort,
   .info{
-    width: 33.33%;
+    width: 31.33%;
+    margin: 0 1% 0 1%;
     height: 180px;
     max-height: 180px;
  }
@@ -321,8 +337,8 @@ section{
  .program,
  .kort,
  .info{
-   width: 33.33%;
-
+   width: 31.33%;
+   margin: 0 1% 0 1%;
    height: 180px;
    max-height: 180px;
 }
@@ -381,9 +397,83 @@ section{
      line-height: 100%;
      font-size: 30px;
    }
+
    .time-of-event {
       background-color: black;
       width: 40px;
       height: 40px;
       margin-right: 400Px;
     }
+
+
+/*kort*/
+#kort1{
+width: 100%;
+margin: 0px 0 0 0;
+padding: 0;
+min-height: 680px;
+background-image: url("../images/kort1.jpg");
+background-blend-mode: darken;
+background-position: center;
+background-size: cover;
+cursor: zoom-in;
+}
+
+#kort2{
+width: 100%;
+min-height: 680px;
+background-image: url("../images/kort2.jpg");
+background-position: center;
+background-size: cover;
+cursor: zoom-in;
+}
+
+#kort3{
+width: 100%;
+min-height: 680px;
+background-image: url("../images/kort3.jpg");
+background-position: center;
+background-size: cover;
+cursor: zoom-in;
+}
+
+#kort4{
+width: 100%;
+min-height: 680px;
+background-image: url("../images/kort4.jpg");
+background-position: center;
+background-size: cover;
+cursor: zoom-in;
+}
+
+#kort5{
+width: 100%;
+min-height: 680px;
+background-image: url("../images/kort5.jpg");
+background-position: center;
+background-size: cover;
+cursor: zoom-out;
+
+}
+
+.semere{
+  height: 4%;
+  width: 90px;
+  position: absolute;
+  z-index: 5px;
+  margin-left: 34.6%;
+  margin-top: -245px;
+}
+
+
+
+
+   /*kontakt*/
+   .kontaktinfo{
+     height: 500px;
+     margin-top: 200px;
+     font-size: 20px;
+     text-align: center;
+     color: black;
+     background-color: ;
+   }
