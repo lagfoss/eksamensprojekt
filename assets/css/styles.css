@@ -76,9 +76,29 @@ Colors:
 
 h1 {
   font-family: augusta;
+  margin: auto;
+  font-size: 5.5vw;
+  padding-top: 150px;
+  letter-spacing: 1.2pt;
+  color: #fff;
+  text-align: center;
+  padding: auto;
 }
 
 h2{
+  font-family: augusta;
+  margin: auto;
+  font-size: 3.5vw;
+  padding-top: 0px;
+  letter-spacing: 1.2pt;
+  color: #fff;
+  text-align: center;
+  padding: auto;
+
+
+
+}
+h3{
 text-align: center;
 font-family: 'Montserrat', sans-serif;
 margin: 0px 0 0 0;
