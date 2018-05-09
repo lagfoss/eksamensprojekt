@@ -212,7 +212,10 @@ section{
 
 
 .program {
- background-color: #332244;
+ background-image: url("../images/program_front.jpg");
+ background-color: rgba(0,0,0,0.3);
+ background-blend-mode: darken;
+
  background-position: center;
  background-size: cover;
 }
@@ -248,7 +251,7 @@ section{
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 400px) and (max-width: 720px) {
+@media only screen and (min-width: 400.01px) and (max-width: 720px) {
 
   .indhold{
     padding-top: 20px;
@@ -266,7 +269,7 @@ section{
  }
 }
 /* Desktop Styles */
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 720.01px) {
  .indhold {
    padding-top: 20px;
    display: flex;
