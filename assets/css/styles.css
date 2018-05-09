@@ -383,7 +383,7 @@ section{
 
    .time-on-days {
      display: flex;
-     width: 70%;
+     width: 80%;
      margin: auto;
      flex-direction: column;
      background-color: DodgerBlue;
@@ -392,14 +392,21 @@ section{
    .time-on-days > div {
      background-color: #f1f1f1;
      text-align: center;
-     width: 100%;
+     width: 95%;
      margin: 3%;
      line-height: 100%;
      font-size: 30px;
    }
 
+   .time-of-event {
+      background-color: black;
+      width: 40px;
+      height: 40px;
+      margin-right: 400Px;
+    }
 
-/*kort*/
+
+/*kort styles*/
 #kort1{
 width: 100%;
 margin: 0px 0 0 0;
@@ -461,7 +468,7 @@ cursor: zoom-out;
 
 
 
-   /*kontakt*/
+   /*kontakt styles*/
    .kontaktinfo{
      height: 500px;
      margin-top: 200px;
