@@ -422,7 +422,7 @@ section{
      background-color: DodgerBlue;
    }
 
-   .time-on-days > div {
+  .time-on-days > div {
      background-color: #f1f1f1;
      text-align: center;
      width: 95%;
@@ -431,12 +431,25 @@ section{
      font-size: 30px;
    }
 
-   .time-of-event {
+  /* .timeevent {
       background-color: black;
-      width: 40px;
-      height: 40px;
-      margin-right: 400Px;
-    }
+      display: block;
+      width: 400px;
+      height: 400px;
+
+    }*/
+    .event-and-date {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.event-and-date > div {
+  background-color: #f1f1f1;
+  text-align: center;
+  line-height: 100%;
+  font-size: 30px;
+}
 
 
 /*kort styles*/
@@ -497,8 +510,6 @@ cursor: zoom-out;
   margin-left: 34.6%;
   margin-top: -245px;
 }
-
-
 
 
    /*kontakt styles*/
