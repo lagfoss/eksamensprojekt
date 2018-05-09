@@ -281,8 +281,6 @@ section{
 }
 .event_right1 {
   background-image: url("../images/info_front.jpg");
-  background-color: rgba(0,0,0,0.5);
-  background-blend-mode: darken;
  background-position: center;
  background-size: cover;
 }
