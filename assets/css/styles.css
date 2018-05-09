@@ -253,7 +253,7 @@ section{
 
 .program {
  background-image: url("../images/program_front.jpg");
- background-color: rgba(0,0,0,0.3);
+ background-color: rgba(0,0,0,0.5);
  background-blend-mode: darken;
 
  background-position: center;
@@ -261,14 +261,14 @@ section{
 }
 .kort {
   background-image: url("../images/kort_front.jpg");
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.5);
   background-blend-mode: darken;
  background-position: center;
  background-size: cover;
 }
 .info {
   background-image: url("../images/info_front.jpg");
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.5);
   background-blend-mode: darken;
  background-position: center;
  background-size: cover;
