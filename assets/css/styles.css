@@ -58,7 +58,7 @@ Colors:
           font-family: Helvetica, Arial, sans-serif;
           font-size: 12px;
           color: #333333;
-          background-color: #ffffff;
+          background-color: #ffdab9;
           margin: 0;
         }
 
@@ -246,7 +246,7 @@ section{
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 720px) {
+@media only screen and (min-width: 400px) and (max-width: 720px) {
 
   .indhold{
     padding-top: 20px;
@@ -264,7 +264,7 @@ section{
  }
 }
 /* Desktop Styles */
-@media only screen and (min-width: 721px) {
+@media only screen and (min-width: 720px) {
  .indhold {
    padding-top: 20px;
    display: flex;
