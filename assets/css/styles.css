@@ -58,7 +58,7 @@ Colors:
           font-family: Helvetica, Arial, sans-serif;
           font-size: 12px;
           color: #333333;
-          background-color: #ffffff;
+          background-color: #ffdab9;
           margin: 0;
         }
 
@@ -81,6 +81,7 @@ h1 {
   letter-spacing: 1.2pt;
   color: #fff;
   text-align: center;
+  text-shadow: 00px 0px 80px #000000;
   padding: auto;
 }
 
@@ -92,6 +93,7 @@ h2{
   letter-spacing: 1.2pt;
   color: #fff;
   text-align: center;
+  text-shadow: 00px 0px 60px #000000;
   padding: auto;
 
 
@@ -107,6 +109,35 @@ font-weight: 300;
 letter-spacing: 0.75pt;
 color: #fff;
 }
+h4{
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+margin-top: 75px;
+font-size: 2.5vw;
+font-weight: 700;
+letter-spacing: 0.75pt;
+vertical-align:middle;
+color: #fff;
+}
+h4 a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+h4 a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+h4 a:hover {
+    text-decoration: none;
+    color: #6a802a;
+}
+
+h4 a:active {
+    text-decoration: none;
+}
+
 
 /*
  * 2.0 header
@@ -210,7 +241,10 @@ section{
 
 
 .program {
- background-color: #332244;
+ background-image: url("../images/program_front.jpg");
+ background-color: rgba(0,0,0,0.3);
+ background-blend-mode: darken;
+
  background-position: center;
  background-size: cover;
 }
@@ -225,9 +259,41 @@ section{
  background-size: cover;
 }
 
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .indhold{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .program,
+  .kort,
+  .info{
+    width: 100%;
+
+    height: 180px;
+    max-height: 180px;
+ }
+
+ h4{
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+ margin-top: 75px;
+ font-size: 30px;
+ font-weight: 700;
+ letter-spacing: 0.75pt;
+ vertical-align:middle;
+ color: #fff;
+ }
+
+}
+
 /* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  
+@media only screen and (min-width: 400.01px) and (max-width: 720px) {
+
   .indhold{
     padding-top: 20px;
     display: flex;
@@ -239,13 +305,12 @@ section{
   .kort,
   .info{
     width: 33.33%;
-
     height: 180px;
     max-height: 180px;
  }
 }
 /* Desktop Styles */
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 720.01px) {
  .indhold {
    padding-top: 20px;
    display: flex;
@@ -266,9 +331,27 @@ section{
 
    /*Program Styles*/
 
+   .top-program {
+     display: flex;
+     flex-wrap: nowrap;
+     align-content: center;
+     background-color: #ffdab9;
+     border: 1px solid black;
+   }
+
+   .top-program > div {
+     background-color:yellow;
+     margin: auto;
+     width: 12.5%;
+     margin: 1%;
+     text-align: center;
+     line-height: 100%;
+     font-size: 30px;
+   }
+
    #main-program {
        width: 100%;
-       height: 300px;
+       height: 100%;
        border: 1px solid black;
        text-align: center;
        display: -webkit-flex; /* Safari */
@@ -292,9 +375,8 @@ section{
    .time-on-days > div {
      background-color: #f1f1f1;
      text-align: center;
-     width: 100px;
-     margin: 10px;
-     text-align: center;
-     line-height: 75px;
+     width: 50%;
+     margin: 3%;
+     line-height: 100%;
      font-size: 30px;
    }
