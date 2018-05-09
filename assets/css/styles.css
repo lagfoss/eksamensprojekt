@@ -119,6 +119,24 @@ letter-spacing: 0.75pt;
 vertical-align:middle;
 color: #fff;
 }
+h4 a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+h4 a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+h4 a:hover {
+    text-decoration: none;
+    color: #6a802a;
+}
+
+h4 a:active {
+    text-decoration: none;
+}
 
 
 /*
