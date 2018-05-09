@@ -58,6 +58,7 @@ top: 0;
  width: 20%;
  z-index: 1;
 
+
 }
 
 .banner{
@@ -145,6 +146,16 @@ background-image: url("../images/kort5.jpg");
 background-position: center;
 background-size: cover;
 cursor: zoom-out;
+
+}
+
+.semere{
+  height: 4%;
+  width: 90px;
+  position: absolute;
+  z-index: 5px;
+  margin-left: 34.6%;
+  margin-top: -245px;
 }
 
 
