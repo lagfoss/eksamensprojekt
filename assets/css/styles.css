@@ -395,16 +395,8 @@ section{
      width: 95%;
      margin: 3%;
      line-height: 100%;
-     font-size: 30px;
+
    }
-
-  /* .timeevent {
-      background-color: black;
-      display: block;
-      width: 400px;
-      height: 400px;
-
-    }*/
     .event-and-date {
   display: flex;
   flex-wrap: nowrap;
@@ -412,10 +404,17 @@ section{
 }
 
 .event-and-date > div {
-  background-color: #f1f1f1;
-  text-align: center;
+}
+
+.time-frame{
+  font-size: 20px;
+  background-color: lime;
   line-height: 100%;
-  font-size: 30px;
+  max-width: 100px;
+}
+.time-label{
+  background-color: lightgrey;
+  padding-top: 5px;
 }
 
 
