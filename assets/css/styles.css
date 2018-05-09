@@ -274,6 +274,18 @@ section{
  background-size: cover;
 }
 
+.event_left1 {
+  background-color:#fff;
+  background-position: center;
+  background-size: cover;
+}
+.event_right1 {
+  background-image: url("../images/info_front.jpg");
+ background-position: center;
+ background-size: cover;
+}
+
+
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
@@ -289,8 +301,19 @@ section{
   .info{
     width: 100%;
     margin: 10px 0 10px 0;
-    height: 180px;
+    height: 280px;
     max-height: 180px;
+ }
+ .event_left1,
+ .event_right1{
+   width: 100%;
+   height: 280px;
+   min-height: 180px;
+ }
+ .event_left1{ order: 2;
+ }
+
+ .event_right1{order: 1;
  }
 
  h4{
@@ -321,8 +344,19 @@ section{
   .info{
     width: 31.33%;
     margin: 0 1% 0 1%;
-    height: 180px;
-    max-height: 180px;
+    height: 280px;
+    min-height: 180px;
+ }
+ .event_left1,
+ .event_right1{
+   width: 100%;
+   height: 280px;
+   min-height: 180px;
+ }
+ .event_left1{ order: 2;
+ }
+
+ .event_right1{order: 1;
  }
 }
 /* Desktop Styles */
@@ -339,10 +373,15 @@ section{
  .info{
    width: 31.33%;
    margin: 0 1% 0 1%;
-   height: 180px;
-   max-height: 180px;
+   height: 280px;
+   min-height: 180px;
 }
-
+.event_left1,
+.event_right1{
+  width: 50%;
+  height: 280px;
+  min-height: 180px;
+}
 
 
    /*Program Styles*/
@@ -389,7 +428,7 @@ section{
      background-color: DodgerBlue;
    }
 
-   .time-on-days > div {
+  .time-on-days > div {
      background-color: #f1f1f1;
      text-align: center;
      width: 95%;
@@ -398,12 +437,25 @@ section{
      font-size: 30px;
    }
 
-   .time-of-event {
+  /* .timeevent {
       background-color: black;
-      width: 40px;
-      height: 40px;
-      margin-right: 400Px;
-    }
+      display: block;
+      width: 400px;
+      height: 400px;
+
+    }*/
+    .event-and-date {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.event-and-date > div {
+  background-color: #f1f1f1;
+  text-align: center;
+  line-height: 100%;
+  font-size: 30px;
+}
 
 
 /*kort styles*/
@@ -464,8 +516,6 @@ cursor: zoom-out;
   margin-left: 34.6%;
   margin-top: -245px;
 }
-
-
 
 
    /*kontakt styles*/
