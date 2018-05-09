@@ -110,6 +110,26 @@ h2{
   text-align: center;
   padding: auto;
 }
+.event_kasse1{
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  font-size: 30px;
+  padding: 20px 0px 0px 20px;
+  letter-spacing: 1.2pt;
+  color: #000;
+  font-weight: 700;
+  text-align: left;
+  padding: auto;
+}
+.event_kasse1 p{
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 20px 0 0;
+  font-weight: 300;
+
+  font-size:11px;
+
+}
+
 h3{
 text-align: center;
 font-family: 'Montserrat', sans-serif;
@@ -285,7 +305,18 @@ section{
  background-size: cover;
 }
 
+.rcorners1 {
+  margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 9px;
+    color: #fff;
+    background: #6a802a;
+    padding: 12px;
+    width: 105px;
 
+
+}
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
@@ -301,14 +332,14 @@ section{
   .info{
     width: 100%;
     margin: 10px 0 10px 0;
-    height: 280px;
+    height: 180px;
     max-height: 180px;
  }
  .event_left1,
  .event_right1{
    width: 100%;
-   height: 280px;
-   min-height: 180px;
+   height: 220px;
+   min-height: 220px;
  }
  .event_left1{ order: 2;
  }
@@ -344,14 +375,14 @@ section{
   .info{
     width: 31.33%;
     margin: 0 1% 0 1%;
-    height: 280px;
-    min-height: 180px;
+    height: 180px;
+    max-height: 180px;
  }
  .event_left1,
  .event_right1{
    width: 100%;
-   height: 280px;
-   min-height: 180px;
+   height: 240px;
+   min-height: 220px;
  }
  .event_left1{ order: 2;
  }
@@ -373,14 +404,14 @@ section{
  .info{
    width: 31.33%;
    margin: 0 1% 0 1%;
-   height: 280px;
-   min-height: 180px;
+   height: 180px;
+   max-height: 180px;
 }
 .event_left1,
 .event_right1{
   width: 50%;
-  height: 280px;
-  min-height: 180px;
+  height: 240px;
+  min-height: 220px;
 }
 
 
