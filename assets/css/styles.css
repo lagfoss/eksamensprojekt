@@ -76,6 +76,13 @@ Colors:
 
 h1 {
   font-family: augusta;
+  margin: auto;
+  font-size: 5vw; 
+  padding-top: 150px;
+  letter-spacing: 1.2pt;
+  color: #fff;
+  text-align: center;
+  padding: auto;
 }
 
 h2{
