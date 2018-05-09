@@ -114,11 +114,12 @@ header{
   */
 
   .logo{
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     width: 20%;
     z-index: 1;
-
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
   .banner{
@@ -138,16 +139,19 @@ nav{
      margin: 20px 10px 0 0;
    }
 nav.left{
-  display: inline-flex;
-  justify-content: flex-start;
+  display: flex;
+  justify-content: flex-end;
   width: 40%;
+  margin-right: 10px;
 
 }
 
+
 nav.right{
-  display: inline-flex;
-  justify-content: flex-end;
+  display: flex;
+  justify-content: flex-start;
   width: 40%;
+  margin-left: 10px;
 }
 
 main{
