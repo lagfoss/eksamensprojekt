@@ -118,7 +118,8 @@ header{
     justify-content: center;
     width: 20%;
     z-index: 1;
-
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
   .banner{
@@ -139,23 +140,18 @@ nav{
    }
 nav.left{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   width: 40%;
-
-}
-
-.left_navi{
-float: right;
-  min-width: 300px;
-  margin-top: 20px;
+  margin-right: 10px;
 
 }
 
 
 nav.right{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   width: 40%;
+  margin-left: 10px;
 }
 
 main{
