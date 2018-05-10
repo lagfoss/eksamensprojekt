@@ -99,10 +99,9 @@ h2{
   text-align: center;
   text-shadow: 00px 0px 60px #000000;
   padding: auto;
-
-
-
 }
+
+
 .overskrift{
   font-family: 'Montserrat', sans-serif;
   margin: auto;
@@ -334,7 +333,7 @@ section{
   background-size: cover;
 }
 .event_left2 {
-  background-image: url("../images/7kanten.jpg");
+  background-image: url("../images/lopus-tempus.jpg");
  background-position: center;
  background-size: cover;
 }
@@ -348,8 +347,16 @@ section{
     background: #6a802a;
     padding: 12px;
     width: 105px;
-
-
+}
+.rcorners2 {
+  margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 9px;
+    color: #fff;
+    background: #575b76;
+    padding: 12px;
+    width: 45px;
 }
 
 /* Mobile Styles */
@@ -381,10 +388,14 @@ section{
  }
  .event_right1{order: 1;
  }
+ .event_left2{ order: 3;
+ }
+ .event_right2{order: 4;
+ }
  .info{
    margin-left: 1%;
  }
-.event_right1{margin-top: 20px;}
+ .event_left2{margin-top: 20px;}
 }
 
 
@@ -416,8 +427,11 @@ section{
  }
  .event_left1{ order: 2;
  }
-
  .event_right1{order: 1;
+ }
+ .event_left2{ order: 3;
+ }
+ .event_right2{order: 4;
  }
  .info{
    margin-left: 2%;
@@ -425,7 +439,7 @@ section{
  .program{
    margin-right: 2%;
  }
- .event_right1{margin-top: 20px;}
+ .event_left2{margin-top: 20px;}
 }
 /* Desktop Styles */
 @media only screen and (min-width: 720.01px) {
