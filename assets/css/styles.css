@@ -61,6 +61,10 @@ Colors:
           background-color: #c4b298;
           margin: 0;
         }
+  .space{
+    width: 100%;
+    height: 20px;
+  }
 
 @font-face {
     font-family:"augusta";
@@ -122,6 +126,26 @@ h2{
   padding: auto;
 }
 .event_kasse1 p{
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 20px 0 0;
+  font-weight: 300;
+
+  font-size:11px;
+
+}
+
+.event_kasse2{
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  font-size: 30px;
+  padding: 20px 0px 0px 20px;
+  letter-spacing: 1.2pt;
+  color: #000;
+  font-weight: 700;
+  text-align: left;
+  padding: auto;
+}
+.event_kasse2 p{
   font-family: 'Montserrat', sans-serif;
   margin: 20px 20px 0 0;
   font-weight: 300;
@@ -304,6 +328,16 @@ section{
  background-position: center;
  background-size: cover;
 }
+.event_right2 {
+  background-color:#fff;
+  background-position: center;
+  background-size: cover;
+}
+.event_left2 {
+  background-image: url("../images/7kanten.jpg");
+ background-position: center;
+ background-size: cover;
+}
 
 .rcorners1 {
   margin-top: 10px;
@@ -336,7 +370,9 @@ section{
     max-height: 180px;
  }
  .event_left1,
- .event_right1{
+ .event_right1,
+ .event_left2,
+ .event_right2{
    width: 100%;
    height: 220px;
    min-height: 220px;
@@ -382,7 +418,9 @@ section{
     max-height: 180px;
  }
  .event_left1,
- .event_right1{
+ .event_right1,
+ .event_left2,
+ .event_right2{
    width: 100%;
    height: 240px;
    min-height: 220px;
@@ -417,7 +455,9 @@ section{
    max-height: 180px;
 }
 .event_left1,
-.event_right1{
+.event_right1,
+.event_left2,
+.event_right2{
   width: 50%;
   height: 240px;
   min-height: 220px;
