@@ -374,18 +374,19 @@ section{
  .event_left2,
  .event_right2{
    width: 100%;
-   height: 220px;
+   height: 240px;
    min-height: 220px;
  }
  .event_left1{ order: 2;
  }
  .event_right1{order: 1;
  }
+ .info{
+   margin-left: 1%;
+ }
+.event_right1{margin-top: 20px;}
+}
 
-}
-.info{
-  margin-left: 1%;
-}
 
 /* Tablet Styles */
 @media only screen and (min-width: 400.01px) and (max-width: 720px) {
@@ -424,6 +425,7 @@ section{
  .program{
    margin-right: 2%;
  }
+ .event_right1{margin-top: 20px;}
 }
 /* Desktop Styles */
 @media only screen and (min-width: 720.01px) {
@@ -456,6 +458,7 @@ section{
 .program{
   margin-right: 2%;
 }
+
 }
    /*Program Styles*/
 
