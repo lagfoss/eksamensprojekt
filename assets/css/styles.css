@@ -284,13 +284,6 @@ section{
   margin: 20px auto 0 auto;
 }
 
-.container {
- display: grid;
- background-color: #888888;
- margin: 0 15%;
- grid-template-columns: 1fr 1fr 1fr;
- grid-template-rows: 50px 50px;
-}
 
 .sec {
  width: 100%;
