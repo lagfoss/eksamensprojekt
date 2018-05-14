@@ -1,8 +1,17 @@
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
 <html>
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Varde Middelalderfestival - Handelsruten til omverdenen</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
+
+
   <style>
     * {
       box-sizing: border-box;
@@ -10,7 +19,7 @@
 
     .img-zoom-container {
       position: relative;
-      margin-top: 120px;
+      margin-top: 20px;
     }
 
     .img-zoom-lens {
@@ -22,12 +31,12 @@
     }
 
     .img-zoom-result {
-      border: 4px solid white;
+      border: 8px solid #720101;
       /*set the size of the result div:*/
       width: 300px;
       height: 300px;
-      margin-left: -7px;
-      margin-top: -605px;
+      margin-left: -4px;
+      margin-top: -700px;
       position: absolute;
 
     }
@@ -113,17 +122,42 @@
 
 <body>
 
+  <header>
+    <nav class="left">
+      <a href="program.html">Program</a>
+      <a href="omfestivalen.html">Om festivalen</a>
+      <a href="praktiskinfo.html">Praktisk info</a>
+    </nav>
+    <div class="logo">
+      <a href="index.html"><img class="banner" src="assets/images/logo.png" alt=""></a>
+    </div>
+    <nav class="right">
+      <a href="blivaktor.html">Bliv aktør</a>
+      <a href="blivfrivillig.html">Bliv frivillig</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+  </header>
 
-  <div class="img-zoom-container">
-    <img id="myimage" src="assets/images/kort3k.jpg" width="1550" height="600">
-    <div id="myresult" class="img-zoom-result"></div>
-  </div>
 
+
+  <main>
+    <div class="img-zoom-container">
+      <a href="kort5.html"><img id="myimage" src="assets/images/kort3k.jpg" width="1550" height="700">
+      <div id="myresult" class="img-zoom-result"></div>
+    </div>
+
+
+  </main>
 
   <script>
     // Initiate zoom effect:
     imageZoom("myimage", "myresult");
   </script>
+
+
+  <footer>
+
+  </footer>
 
 </body>
 
