@@ -594,10 +594,12 @@ footer {
 
  .seo_om_vmf, .kortkontakt{
    width: 100%;
-margin-top: 20px;
-padding: 20px;
+   margin-top: 20px;
+   padding: 20px;
    min-height: 220px;}
+
 }
+
 /* Desktop Styles */
 @media only screen and (min-width: 720.01px) {
 
