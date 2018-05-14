@@ -101,6 +101,30 @@ h2{
   padding: auto;
 }
 
+footer{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1.3pt;
+  line-height: 24pt;
+  color: #fff;
+  font-weight: 300;
+  padding-top: 20px;
+  min-height: 80px;
+
+
+}
+
+.footer_tekst{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.vardekommune{
+width: 8%;
+text-align: center;
+margin-bottom: 15px;
+
+}
 
 .overskrift{
   font-family: 'Montserrat', sans-serif;
@@ -114,6 +138,7 @@ h2{
   text-align: center;
   padding: auto;
 }
+
 .event_kasse1{
   font-family: 'Montserrat', sans-serif;
   margin: auto;
@@ -419,11 +444,10 @@ section{
    min-height: 220px;}
 }
 footer {
-   margin-top: 20px;
    left: 0;
    bottom: 0;
    width: 100%;
-   height: 220px;
+   margin: 30px auto 30px auto;
    background-color: #2d314e;
    color: white;
    text-align: center;
