@@ -415,10 +415,19 @@ section{
   background-size: cover;
 }
 .seo_om_vmf2 {
-  background-image: url("../images/om_vmf.jpg");
+ background-image: url("../images/om_vmf.jpg");
  background-position: center;
  background-size: cover;
 }
+
+
+.kortkontakt {
+ background-image: url("../images/kort1.jpg");
+ background-position: center;
+ background-size: cover;
+}
+
+
 .praktiskinfo {
   background-image: url("../images/praktiskinfo.jpg");
  background-position: center;
@@ -618,9 +627,8 @@ padding: 20px;
 .program{
   margin-right: 2%;
 }
-.seo_om_vmf,.seo_om_vmf2,.praktiskinfo{
+.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt{
   width: 50%;
-
   min-height: 220px;}
 }
    /*Program Styles*/
