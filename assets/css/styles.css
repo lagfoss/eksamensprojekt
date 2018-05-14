@@ -479,6 +479,8 @@ section{
  .event_left2{margin-top: 20px;}
  .seo_om_vmf{
    width: 100%;
+   margin-top: 20px;
+   padding: 20px;
    min-height: 220px;}
 }
 footer {
@@ -546,7 +548,8 @@ footer {
 
  .seo_om_vmf{
    width: 100%;
-
+margin-top: 20px;
+padding: 20px;
    min-height: 220px;}
 }
 /* Desktop Styles */
@@ -594,6 +597,7 @@ footer {
 }
 .seo_om_vmf,.seo_om_vmf2{
   width: 50%;
+
   min-height: 220px;}
 }
    /*Program Styles*/
