@@ -349,7 +349,18 @@ section{
   background-position: center;
   background-size: cover;
 }
-.event_right1 {
+
+.event_tekst1 {
+  background-color:#fff;
+  background-position: center;
+  background-size: cover;
+}
+.event_tekst2 {
+  background-color:#fff;
+  background-position: center;
+  background-size: cover;
+}
+.event_img_left {
   background-image: url("../images/7kanten.jpg");
  background-position: center;
  background-size: cover;
@@ -359,7 +370,12 @@ section{
   background-position: center;
   background-size: cover;
 }
-.event_left2 {
+.event_img_middle {
+  background-image: url("../images/lopus-tempus.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.event_img_right {
   background-image: url("../images/lopus-tempus.jpg");
  background-position: center;
  background-size: cover;
@@ -422,17 +438,21 @@ section{
    height: 240px;
    min-height: 220px;
  }
- .event_left1{ order: 2;
+ .event_left1{ order: 4;
  }
  .event_right1{order: 1;
  }
  .event_left2{order: 3;
  }
- .event_right2{order: 4;
+ .event_right2{order: 96;
  }
  .seo_om_vmf{order: 6;
  }
  .seo_om_vmf2{order: 5;
+ }
+ .event_tekst1{order: 2;
+ }
+ .event_tekst2{order: 2;
  }
  .info{
    margin-left: 1%;
@@ -523,9 +543,20 @@ footer {
 .event_left1,
 .event_right1,
 .event_left2,
-.event_right2{
+.event_right2,
+.event_tekst1,
+.event_tekst2,
+.event_img_left,
+.event_img_middle,
+.event_img_right{
   width: 32%;
   min-height: 220px;
+}
+.event_left1,.event_img_middle,.event_img_right{
+  margin-left: 2%;
+}
+.event_left{
+  margin-right: 2%;
 }
 .info{
   margin-left: 2%;
