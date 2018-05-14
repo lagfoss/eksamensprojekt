@@ -103,7 +103,7 @@ h2{
 
 footer{
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 10px;
   letter-spacing: 1.3pt;
   line-height: 24pt;
   color: #fff;
@@ -255,12 +255,17 @@ nav{
 }
 
 nav a{
-     margin: 20px 10px 20px 10px;
+     margin-left: 10px;
+     margin-right: 10px;
      width: 33%;
+     height: 50px;
+     font-size: 15px;
      border-style: solid;
      border-width: 2px;
-     border-color: #ffffff;
+     border-color: transparent;
      text-decoration: none;
+     border-radius: 5px;
+     box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
    }
 
 nav a.active{
@@ -275,12 +280,16 @@ nav a.active{
 nav.left{
   display: flex;
   justify-content: flex-end;
+  align-items: baseline;
+  line-height: 50px;
   width: 40%;
 }
 
 nav.right{
   display: flex;
   justify-content: flex-start;
+  align-items: baseline;
+  line-height: 50px;
   width: 40%;
 }
 
@@ -349,20 +358,37 @@ section{
   background-position: center;
   background-size: cover;
 }
-.event_right1 {
-  background-image: url("../images/7kanten.jpg");
- background-position: center;
- background-size: cover;
-}
-.event_right2 {
+
+.event_tekst1 {
   background-color:#fff;
   background-position: center;
   background-size: cover;
 }
-.event_left2 {
+.event_tekst2 {
+  background-color:#fff;
+  background-position: center;
+  background-size: cover;
+}
+.event_img_left {
+  background-image: url("../images/7kanten.jpg");
+ background-position: center;
+ background-size: cover;
+}
+
+.event_img_middle {
   background-image: url("../images/lopus-tempus.jpg");
  background-position: center;
  background-size: cover;
+}
+.event_img_right {
+  background-image: url("../images/info_front.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.event_text_left,.event_text_middle,.event_text_right{
+  background-color:#fff;
+  background-position: center;
+  background-size: cover;
 }
 
 .seo_om_vmf {
@@ -417,36 +443,51 @@ section{
  .event_left1,
  .event_right1,
  .event_left2,
- .event_right2{
+ .event_right2,
+ .event_text_left,
+ .event_text_middle,
+ .event_text_right,
+ .event_tekst2,
+ .event_img_left,
+ .event_img_middle,
+ .event_img_right{
    width: 100%;
-   height: 240px;
+
    min-height: 220px;
  }
- .event_left1{ order: 2;
+ .event_img_left{ order: 1;
  }
- .event_right1{order: 1;
+ .event_text_left{order: 2;
+   margin-bottom: 20px;
  }
- .event_left2{order: 3;
+ .event_img_middle{ order: 3;
  }
- .event_right2{order: 4;
+ .event_text_middle{order: 4;
+   margin-bottom: 20px;
  }
- .seo_om_vmf{order: 6;
+ .event_img_right{order: 5;
  }
- .seo_om_vmf2{order: 5;
+ .event_text_right{order: 6;
+   margin-bottom: 20px;
  }
+
+
+
  .info{
    margin-left: 1%;
  }
  .event_left2{margin-top: 20px;}
  .seo_om_vmf{
    width: 100%;
+   margin-top: 20px;
+   padding: 20px;
    min-height: 220px;}
 }
 footer {
    left: 0;
    bottom: 0;
    width: 100%;
-   margin: 30px auto 30px auto;
+   margin: 30px auto 00px auto;
    background-color: #2d314e;
    color: white;
    text-align: center;
@@ -473,22 +514,29 @@ footer {
  .event_left1,
  .event_right1,
  .event_left2,
- .event_right2{
+ .event_right2,
+ .event_text_left,
+ .event_text_middle,
+ .event_text_right,
+ .event_tekst2,
+ .event_img_left,
+ .event_img_middle,
+ .event_img_right{
    width: 100%;
    height: 240px;
    min-height: 220px;
  }
- .event_left1{ order: 2;
+ .event_img_left{ order: 1;
  }
- .event_right1{order: 1;
+ .event_text_left{order: 2;
  }
- .event_left2{ order: 3;
+ .event_img_middle{ order: 3;
  }
- .event_right2{order: 4;
+ .event_text_middle{order: 4;
  }
- .seo_om_vmf{order: 6;
+ .event_img_right{order: 5;
  }
- .seo_om_vmf2{order: 5;
+ .event_text_right{order: 6;
  }
  .info{
    margin-left: 2%;
@@ -500,7 +548,8 @@ footer {
 
  .seo_om_vmf{
    width: 100%;
-
+margin-top: 20px;
+padding: 20px;
    min-height: 220px;}
 }
 /* Desktop Styles */
@@ -523,9 +572,22 @@ footer {
 .event_left1,
 .event_right1,
 .event_left2,
-.event_right2{
+.event_right2,
+.event_text_left,
+.event_text_middle,
+.event_text_right,
+.event_tekst2,
+.event_img_left,
+.event_img_middle,
+.event_img_right{
   width: 32%;
   min-height: 220px;
+}
+.event_left1,.event_img_middle,.event_img_right,.event_text_middle,.event_text_right{
+  margin-left: 2%;
+}
+.event_left{
+  margin-right: 2%;
 }
 .info{
   margin-left: 2%;
@@ -535,6 +597,7 @@ footer {
 }
 .seo_om_vmf,.seo_om_vmf2{
   width: 50%;
+
   min-height: 220px;}
 }
    /*Program Styles*/
@@ -594,6 +657,8 @@ footer {
   flex-wrap: nowrap;
   background-color: DodgerBlue;
 }
+
+
 
 .event-and-date > div {
 }
