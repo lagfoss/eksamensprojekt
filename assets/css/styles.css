@@ -231,6 +231,10 @@ header{
   left: 0;
   top: 0;
 }
+
+.empty{
+  width: 5%;
+}
  /*
   * 2.1 logo
   */
@@ -273,16 +277,16 @@ nav a.active{
   font-weight: bold;
  }
 
-   nav a:hover{
-     color: #00a19b;
-   }
+nav a:hover, .droplang, .droplang-content a:hover{
+  color: #00a19b;
+}
 
 nav.left{
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
   line-height: 50px;
-  width: 40%;
+  width: 35%;
 }
 
 nav.right{
@@ -290,12 +294,43 @@ nav.right{
   justify-content: flex-start;
   align-items: baseline;
   line-height: 50px;
-  width: 40%;
+  width: 35%;
 }
 
-main{
-
+.droplang {
+  margin-left: 0;
+  text-align: center;
+  text-decoration: none;
 }
+
+.droplang-content {
+    display: none;
+    position: absolute;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #044C7F;
+    border-radius: 40px;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+.droplang-content{
+  padding: 10px;
+}
+
+.droplang-content a {
+    display: block;
+    color: #044C7F;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.droplang:hover .droplang-content{
+  display: block;
+}
+
+
 section{
  width: 100%;
  margin: 0px 0 0 0;
