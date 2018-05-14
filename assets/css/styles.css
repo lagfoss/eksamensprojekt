@@ -587,6 +587,7 @@ footer {
   .info{
     width: 32%;
     height: 180px;
+    margin-top: 20px;
     max-height: 180px;
  }
  .event_left1,
