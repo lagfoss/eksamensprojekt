@@ -643,7 +643,7 @@ cursor: zoom-out;
   height: 4%;
   width: 90px;
   position: absolute;
-  z-index: 5px;
+  z-index: -1px;
   margin-left: 34.6%;
   margin-top: -245px;
 }
