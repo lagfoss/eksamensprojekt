@@ -399,7 +399,7 @@ section{
  background-size: cover;
 }
 .event_img_right {
-  background-image: url("../images/info_front.jpg");
+  background-image: url("../images/ml.jpg");
  background-position: center;
  background-size: cover;
 }
@@ -444,6 +444,17 @@ section{
     background: #575b76;
     padding: 12px;
     width: 45px;
+}
+.rcorners3 {
+  margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 9px;
+    color: #fff;
+    background: #a17a2b;
+    padding: 12px;
+    width: 60px;
 }
 
 /* Mobile Styles */
@@ -552,14 +563,17 @@ footer {
  .event_img_left{ order: 1;
  }
  .event_text_left{order: 2;
+   margin-bottom: 20px;
  }
  .event_img_middle{ order: 3;
  }
  .event_text_middle{order: 4;
+   margin-bottom: 20px;
  }
  .event_img_right{order: 5;
  }
  .event_text_right{order: 6;
+   margin-bottom: 20px;
  }
  .info{
    margin-left: 2%;
