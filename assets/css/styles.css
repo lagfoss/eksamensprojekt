@@ -752,7 +752,6 @@ footer {
 }
 
 
-
 .event-and-date > div {
 }
 
@@ -764,11 +763,19 @@ footer {
   color: #ecf6f8;
 }
 .time-label{
+}
+
+.popup-info{
+  width: 100%;
+  height: 100%;
+}
+.time-label button{
+  border: none;
+  background-color: transparent;
   background-color: #2e304f;
   padding-top: 5px;
   color: #a19496;
 }
-
 
 /*kort styles*/
 #kort1{
