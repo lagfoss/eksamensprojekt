@@ -31,14 +31,18 @@
     }
 
     .img-zoom-result {
-      border: 8px solid #720101;
+      border: 1px solid black;
+      box-shadow: 00px 00px 30px #000000;
       /*set the size of the result div:*/
-      width: 300px;
-      height: 300px;
-      margin-left: -4px;
-      margin-top: -700px;
+      width: 30%;
+      height: 60%;
+      margin-left: -0px;
+      margin-top: -49%;
       position: absolute;
+    }
 
+    #kort {
+      background-repeat: no-repeat;
     }
   </style>
   <script>
@@ -142,7 +146,7 @@
 
   <main>
     <div class="img-zoom-container">
-      <a href="kort5.html"><img id="myimage" src="assets/images/kort3k.jpg" width="1550" height="700">
+      <a href="kort5.html"><img id="kort" src="assets/images/kort3k.jpg" width="100%" >
       <div id="myresult" class="img-zoom-result"></div>
     </div>
 
@@ -151,7 +155,7 @@
 
   <script>
     // Initiate zoom effect:
-    imageZoom("myimage", "myresult");
+    imageZoom("kort", "myresult");
   </script>
 
 
