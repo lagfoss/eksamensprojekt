@@ -303,30 +303,30 @@ nav.right{
 }
 
 .dropdown {
-  float: right;
-  position: relative;
-  display: inline-block;
+  width: 5%;
+  justify-content: center;
+  display: block;
   overflow: hidden;
-  background-color: transparent;
+}
+
+.dropdown button{
+border: none;
 }
 
 .droplang {
-  background-color: transparent;
-  text-align: center;
-  text-decoration: none;
+  background-color: #c4b298;
   cursor: pointer;
+  padding: 10px;
 }
 
 .droplang-content {
     display: none;
     position: absolute;
     background-color: #c4b298;
-    border-style: solid;
-    border-width: 2px;
     border-radius: 5px;
-    border-color: transparent;
+    border-color: none;
     box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
-    z-index: 3;
+    z-index: 5;
 }
 
 .droplang-content a {
@@ -335,7 +335,7 @@ nav.right{
     text-decoration: none;
 }
 
-.show {display:block;}
+.show {display:block;;}
 
 section{
  width: 100%;
