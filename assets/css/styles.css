@@ -297,39 +297,45 @@ nav.right{
   width: 35%;
 }
 
+.droplang:hover .droplang-content, .dropdown:hover,
+.dropdown:hover .droplang,{
+  display: block;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background-color: transparent;
+}
+
 .droplang {
-  margin-left: 0;
+  background-color: transparent;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .droplang-content {
     display: none;
     position: absolute;
+    background-color: #c4b298;
     border-style: solid;
     border-width: 2px;
-    border-color: #044C7F;
-    border-radius: 40px;
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 2;
-}
-
-.droplang-content{
-  padding: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+    z-index: 3;
 }
 
 .droplang-content a {
     display: block;
-    color: #044C7F;
     padding: 10px;
     text-decoration: none;
 }
 
-.droplang:hover .droplang-content{
-  display: block;
-}
-
+.show {display:block;}
 
 section{
  width: 100%;
