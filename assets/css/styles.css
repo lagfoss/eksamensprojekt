@@ -326,7 +326,6 @@ section{
  background-image: url("../images/program_front.jpg");
  background-color: rgba(0,0,0,0.5);
  background-blend-mode: darken;
-
  background-position: center;
  background-size: cover;
 }
@@ -518,7 +517,6 @@ footer {
  .kort,
  .info{
    width: 32%;
-
    height: 180px;
    max-height: 180px;
 }
@@ -526,8 +524,7 @@ footer {
 .event_right1,
 .event_left2,
 .event_right2{
-  width: 50%;
-
+  width: 32%;
   min-height: 220px;
 }
 .info{
