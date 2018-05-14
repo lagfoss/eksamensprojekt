@@ -691,6 +691,12 @@ footer {
 }
    /*Program Styles*/
 
+   .program-background{
+    background-image: url("../images/gabestok.jpg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+   }
    .top-program {
      display: flex;
      flex-wrap: nowrap;
@@ -709,6 +715,7 @@ footer {
    }
 
    #main-program {
+
        width: 100%;
        height: 100%;
        text-align: center;
