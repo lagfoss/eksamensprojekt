@@ -316,11 +316,12 @@ border: none;
 .droplang {
   background-color: #c4b298;
   cursor: pointer;
-  padding: 10px;
+  padding: 10px 10px 0 10px;
 }
 
 .droplang-content {
     display: none;
+    margin-top: 0px;
     position: absolute;
     background-color: #c4b298;
     border-radius: 5px;
