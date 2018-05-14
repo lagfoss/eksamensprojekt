@@ -722,11 +722,10 @@ footer {
      width: 80%;
      margin: auto;
      flex-direction: column;
-     background-color: DodgerBlue;
-   }
+      }
 
   .time-on-days > div {
-     background-color: #f1f1f1;
+     background-color: #ecf6f8;
      text-align: center;
      width: 95%;
      margin: 3%;
@@ -736,7 +735,6 @@ footer {
     .event-and-date {
   display: flex;
   flex-wrap: nowrap;
-  background-color: DodgerBlue;
 }
 
 
@@ -746,13 +744,15 @@ footer {
 
 .time-frame{
   font-size: 20px;
-  background-color: lime;
+  background-color: #667a29;
   line-height: 100%;
   max-width: 100px;
+  color: #ecf6f8;
 }
 .time-label{
-  background-color: lightgrey;
+  background-color: #2e304f;
   padding-top: 5px;
+  color: #a19496;
 }
 
 
