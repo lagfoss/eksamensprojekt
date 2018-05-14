@@ -230,12 +230,17 @@ nav{
 }
 
 nav a{
-     margin: 20px 10px 20px 10px;
+     margin-left: 10px;
+     margin-right: 10px;
      width: 33%;
+     height: 50px;
+     font-size: 15px;
      border-style: solid;
      border-width: 2px;
-     border-color: #ffffff;
+     border-color: transparent;
      text-decoration: none;
+     border-radius: 5px;
+     box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
    }
 
 nav a.active{
@@ -250,12 +255,16 @@ nav a.active{
 nav.left{
   display: flex;
   justify-content: flex-end;
+  align-items: baseline;
+  line-height: 50px;
   width: 40%;
 }
 
 nav.right{
   display: flex;
   justify-content: flex-start;
+  align-items: baseline;
+  line-height: 50px;
   width: 40%;
 }
 
