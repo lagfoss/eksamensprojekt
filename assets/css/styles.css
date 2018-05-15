@@ -158,25 +158,7 @@ margin-bottom: 15px;
   font-size:12px;
 
 }
-.form{
-  font-family: 'Montserrat', sans-serif;
-  margin: auto;
-  font-size: 12px;
-  padding: 20px 20px 20px 20px;
-  letter-spacing: 1.2pt;
-  color: #000;
-  font-weight: 700;
-  text-align: left;
-  padding: auto;
-}
-.form p{
-  font-family: 'Montserrat', sans-serif;
-  margin: 20px 20px 30px 0;
-  font-weight: 300;
-  line-height: 14pt;
-  font-size:12px;
 
-}
 .event_kasse2{
   font-family: 'Montserrat', sans-serif;
   margin: auto;
@@ -443,11 +425,6 @@ section{
   background-position: center;
   background-size: cover;
 }
-.frivillig_form {
-  background-color:#fff;
-  background-position: center;
-  background-size: cover;
-}
 
 .event_tekst1 {
   background-color:#fff;
@@ -628,12 +605,6 @@ footer {
   footer{
     margin-top: 20px;
   }
-  .seo_om_vmf{
-    width: 100%;
-    margin-top: 20px;
-    padding: 20px;
-    min-height: 220px;}
-
   .indhold{
     display: flex;
     flex-wrap: wrap;
@@ -686,7 +657,7 @@ footer {
  }
  .event_left2{margin-top: 20px;}
 
- .seo_om_vmf, .kortkontakt,.frivillig_form  {
+ .seo_om_vmf, .kortkontakt, {
    width: 100%;
    margin-top: 20px;
    padding: 20px;
@@ -738,13 +709,7 @@ footer {
   margin-right: 2%;
 }
 
-.frivillig_form{
-  width: 100%;
-  font-size: 12px;
-
-}
-
-.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor,.frivillig,{
+.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor, .frivillig{
 
   width: 50%;
   min-height: 220px;}
@@ -1022,6 +987,7 @@ margin-left: 35%;
    textarea{
      margin-top: -25px;
    }
+<<<<<<< HEAD
    * {
        box-sizing: border-box;
    }
@@ -1086,3 +1052,5 @@ margin-left: 35%;
            display: inline-block;
        }
    }
+=======
+>>>>>>> c7bee9e30dce4828912dd399b8ebec8ee2be5ceb
