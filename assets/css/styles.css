@@ -476,6 +476,17 @@ section{
  background-size: cover;
 }
 
+.frivillig {
+ background-image: url("../images/frivillig.PNG");
+ background-position: center;
+ background-size: cover;
+}
+
+.aktor {
+ background-image: url("../images/aktor.jpg");
+ background-position: center;
+ background-size: cover;
+}
 
 .praktiskinfo {
   background-image: url("../images/praktiskinfo.jpg");
@@ -642,7 +653,7 @@ footer {
  }
  .event_left2{margin-top: 20px;}
 
- .seo_om_vmf, .kortkontakt{
+ .seo_om_vmf, .kortkontakt, .frivillig, .aktor{
    width: 100%;
    margin-top: 20px;
    padding: 20px;
@@ -693,7 +704,7 @@ footer {
 .program{
   margin-right: 2%;
 }
-.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt{
+.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt, .frivillig, .aktor{
   width: 50%;
   min-height: 220px;}
 }
@@ -943,15 +954,7 @@ cursor: zoom-out;
 
 
    /*kontakt styles*/
-   .kontaktinfo{
-     height: 500px;
-     margin-top: 200px;
-     padding-bottom: 200px;
-     font-size: 20px;
-     text-align: center;
-     color: black;
-     background-color: ;
-   }
+
 
    #hvor{
      height: 100%;
@@ -963,4 +966,10 @@ margin-left: 35%;
 
 
 
+   }
+
+
+
+   textarea{
+     margin-top: -25px;
    }
