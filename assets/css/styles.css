@@ -477,7 +477,7 @@ section{
 }
 
 .frivillig {
- background-image: url("../images/frivillig.png");
+ background-image: url("../images/frivillig.PNG");
  background-position: center;
  background-size: cover;
 }
@@ -657,7 +657,7 @@ footer {
  }
  .event_left2{margin-top: 20px;}
 
- .seo_om_vmf,.kortkontakt,{
+ .seo_om_vmf, .kortkontakt, .frivillig, {
    width: 100%;
    margin-top: 20px;
    padding: 20px;
@@ -709,7 +709,7 @@ footer {
   margin-right: 2%;
 }
 
-.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor,.frivillig,{
+.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor{
 
   width: 50%;
   min-height: 220px;}
