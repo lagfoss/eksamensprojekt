@@ -38,13 +38,13 @@
             <div class="time-frame">
             <p>10:00<br>11:00</div>
             <div class="time-label">
-              <button onclick="programpopups()" class="popup-info">
+              <button onclick="programpopups(this)" class="popup-info">
             <label>MIDDELALDERGØGL I BØRNEHØJDE OG
               KØBSTADSJUBILÆUM </label>
               <p>STED: Varde Torv <br>
               ARRANGØR: Varde Kommune</P>
 
-              <span class="popup-info2" id="firstevent">
+              <span class="popup-info2" id="e1">
                 På Torvet møder børnene den
                 gamle middelaldergøgler Mester Peder, der på
                 ægte historisk vis vil underholde og fornøje
@@ -59,12 +59,12 @@
             <div class="time-frame">
             <p>13:00<br>14:00</p></div>
             <div class="time-label">
-              <button onclick="programpopups()" class="popup-info">
+              <button onclick="programpopups(this)" class="popup-info">
             <label>Historisk Byvandring </label>
               <p>STED: Varde Torv <br>
               ARRANGØR: Musik og Billdskolen</P>
 
-              <span class="popup-info2" id="firstevent">
+              <span class="popup-info2">
                 Følg med museumsinspektør
                 Lars Chr. Bentsen og hør om nedrevne kirker,
                 konger, borge, bondeoprør og brande. Sct.
@@ -325,10 +325,25 @@
 
   <script>
   // When the user clicks on div, open the popup
-  function programpopups() {
-      var popup = document.getElementById("firstevent");
-      popup.classList.toggle("show");
+  function programpopups(a) {
+    a.parentNode.getElementsByClassName("popup-info2")[0].classList.toggle("show");
   }
+
+  // Close the popup if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.popup-info')) {
+
+      var popup = document.getElementsByClassName("popup-info2");
+      var i;
+      for (i = 0; i < popup.length; i++) {
+        var openPopup = popup[i];
+        if (openPopup.classList.contains('show')) {
+          openPopup.classList.remove('show');
+        }
+      }
+    }
+  }
+
   </script>
 
   <footer>
