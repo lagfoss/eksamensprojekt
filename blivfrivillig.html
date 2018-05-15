@@ -46,45 +46,81 @@
 
     <div class="indhold">
       <!-- Seo 1 -->
-      <div class="seo_om_vmf">
+      <div class="frivillig_form">
 
-        <div class="event_kasse1"> Tilmeld dig som frivillig
+        <div class="form"> Tilmeld dig som frivillig
 
           <main>
 
             <p><b>Kom og lær en masse andre mennesker at kende, få en autentisk og lærerig oplevese. <br>Få gratis mad og overnatning, samt erfaring på dit CV</b>
 
 
-              <form action="mailto:sofie_feldborg@hotmail.com" method="POST" enctype="multipart/form-data" name="EmailTestForm">
 
-                <p>Dit/ jeres navn</p>
-                <textarea name="VisitorComment" rows="2" cols="70"></textarea>
-
-                <p> Din/ jeres alder</p>
-                <textarea name="VisitorComment" rows="4" cols="70"></textarea>
-
-                <p>
-                  Hvad prioriterer du at lave? (.....)</p>
-                <textarea name="VisitorComment" rows="4" cols="70"></textarea>
-
-                <p> Hvor mange dage og hvilke dage kan du hjælpe (Du kan være frivillig d.7-11 august) </p>
-                <textarea name="VisitorComment" rows="4" cols="70"></textarea>
-
-                <div><input type="submit" value="Send"></div>
-            </p>
-            </form>
+<div class="container2">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Dit fulde navn*</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="Navn" placeholder="Dit navn..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Fødselsdato <br> (du skal være 18 år). *</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="Alder" placeholder="ddmmåååå..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">E-mail*</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="E-Mail" placeholder="E-mail">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Telefonnummer*</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Telefonnummer..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
 
           </main>
 
         </div>
 
       </div>
-
-
-      <div class="frivillig">
-
-      </div>
-      <!-- Seo 1 Slut -->
 
       <div class="space"></div>
 
