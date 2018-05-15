@@ -754,6 +754,9 @@ footer {
      line-height: 100%;
      font-size: 15px;
    }
+   #fleredagsop{
+     margin-top: -4%;
+   }
    .downbox{
      background-color:#a19496;
      position: relative;
