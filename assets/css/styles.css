@@ -900,9 +900,6 @@ cursor: zoom-out;
 }
 
 /*korttest*/
-  * {
-    box-sizing: border-box;
-  }
 
   .img-zoom-container {
     position: relative;
