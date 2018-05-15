@@ -18,3 +18,8 @@ window.onclick = function(event) {
     }
   }
 }
+
+
+
+
+/*kort*/
