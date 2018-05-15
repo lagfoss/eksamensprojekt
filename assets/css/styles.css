@@ -303,11 +303,15 @@ nav.right{
 }
 
 .dropdown {
-  float: right;
-  position: relative;
-  display: inline-block;
+  width: 5%;
+  justify-content: center;
+  display: block;
   overflow: hidden;
   background-color: transparent;
+}
+
+.dropdown button{
+border: none;
 }
 
 .droplang {
