@@ -7,6 +7,87 @@
   <meta name="description" content="" />
   <meta name="keywords" content="" />
   <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/script.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    width:100%;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+</style>
+<head>
+  <meta charset="utf-8">
+  <title>Varde Middelalderfestival - Handelsruten til omverdenen</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link rel="stylesheet" href="assets/css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
@@ -33,83 +114,46 @@
       <a href="kontakt.html">Kontakt</a>
     </nav>
   </header>
+  <section class="small">
 
-  <main>
+  </section>
 
-    <section class="small">
-
-    </section>
-
-
-
-
-
-    <div class="indhold">
-      <!-- Seo 1 -->
-      <div class="seo_om_vmf">
-
-        <div class="event_kasse1"> Tilmeld dig som frivillig
-
-          <main>
-
-            <p><b>Kom og lær en masse andre mennesker at kende, få en autentisk og lærerig oplevese. <br>Få gratis mad og overnatning, samt erfaring på dit CV</b>
-
-
-              <form action="mailto:sofie_feldborg@hotmail.com" method="POST" enctype="multipart/form-data" name="EmailTestForm">
-
-
-<div class="container2">
+<div class="container">
   <form action="/action_page.php">
     <div class="row">
       <div class="col-25">
-        <label for="fname">Dit fulde navn*</label>
+        <label for="fname">First Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="Navn" placeholder="Dit navn..">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
       </div>
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="lname">Fødselsdato (du skal være 18 år). *</label>
+        <label for="lname">Last Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="Alder" placeholder="ddmmåååå..">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
       </div>
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="lname">E-mail*</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="lname" name="E-Mail" placeholder="E-mail">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="lname">Telefonnummer*</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Telefonnummer..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="country">Land</label>
+        <label for="country">Country</label>
       </div>
       <div class="col-75">
         <select id="country" name="country">
-          <option value="Danmark">Danmark</option>
-          <option value="Tyskland">Tyskland</option>
-          <option value="Holland">Holland</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
         </select>
       </div>
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="subject">Kan du flere sprog</label>
+        <label for="subject">Subject</label>
       </div>
       <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Sprog (udfyld blanket med andre sprog, hvis du kan flere sprog). *" style="height:80px"></textarea>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
       </div>
     </div>
     <div class="row">
@@ -117,28 +161,6 @@
     </div>
   </form>
 </div>
-
-
-
-
-          </main>
-
-        </div>
-
-      </div>
-
-
-      <div class="frivillig">
-
-      </div>
-      <!-- Seo 1 Slut -->
-
-      <div class="space"></div>
-
-
-    </div>
-
-  </main>
   <footer>
     <div class="footer_tekst">
 
