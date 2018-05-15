@@ -343,40 +343,7 @@ border: none;
 
 .show {display:block;}
 
-.topnav .icon {
-  display: none;
-}
 
-@media screen and (max-width: 1000px) {
-  .topnav a:not(:first-child), {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .topnav.responsive {float: none;}
-  .topnav.responsive {position: relative;}
-  .topnav.responsive {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-}
 
 section{
  width: 100%;
@@ -730,10 +697,47 @@ footer {
   width: 50%;
   min-height: 220px;}
 }
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .topnav, a:not(:first-child), {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive {float: none;}
+  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
    /*Program Styles*/
 
    .program-background{
-    background-image: url("../images/gabestok.jpg");
+    background-image: url("../images/boatatriverbed.jpg");
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -745,7 +749,7 @@ footer {
    }
 
    .top-program > div {
-     background-color:lightblue;
+     background-color:#a19496;
      margin: auto;
      padding: 0,5%;
      width: 14%;
@@ -753,6 +757,12 @@ footer {
      text-align: center;
      line-height: 100%;
      font-size: 15px;
+   }
+   .downandgreen{
+     background-color: #667a29;
+     padding-top: 2%;
+     padding-bottom: 10%;
+     color: #ecf6f8;
    }
 
    #main-program {
@@ -814,13 +824,14 @@ footer {
 }
 
 .popup-info2{
+  display: inline-block;
   width: 100%;
-  height: 120%;
+  min-height: 100%;
   visibility: hidden;
   background-color: #555;
   color: #fff;
   border-radius: 6px;
-  padding: 8px;
+  padding: 20px;
   position: absolute;
   z-index: 1;
   bottom: -25%;
