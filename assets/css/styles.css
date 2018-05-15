@@ -737,7 +737,7 @@ footer {
    /*Program Styles*/
 
    .program-background{
-    background-image: url("../images/gabestok.jpg");
+    background-image: url("../images/boatatriverbed.jpg");
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -749,7 +749,7 @@ footer {
    }
 
    .top-program > div {
-     background-color:lightblue;
+     background-color:#a19496;
      margin: auto;
      padding: 0,5%;
      width: 14%;
@@ -757,6 +757,12 @@ footer {
      text-align: center;
      line-height: 100%;
      font-size: 15px;
+   }
+   .downandgreen{
+     background-color: #667a29;
+     padding-top: 2%;
+     padding-bottom: 10%;
+     color: #ecf6f8;
    }
 
    #main-program {
@@ -818,13 +824,14 @@ footer {
 }
 
 .popup-info2{
+  display: inline-block;
   width: 100%;
-  height: 120%;
+  min-height: 100%;
   visibility: hidden;
   background-color: #555;
   color: #fff;
   border-radius: 6px;
-  padding: 8px;
+  padding: 20px;
   position: absolute;
   z-index: 1;
   bottom: -25%;
