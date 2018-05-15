@@ -748,12 +748,8 @@ footer {
 
    }
     .event-and-date {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-
-.event-and-date > div {
+      display: flex;
+      flex-wrap: nowrap;
 }
 
 .time-frame{
@@ -764,18 +760,45 @@ footer {
   color: #ecf6f8;
 }
 .time-label{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .popup-info{
   width: 100%;
   height: 100%;
-}
-.time-label button{
   border: none;
   background-color: transparent;
   background-color: #2e304f;
   padding-top: 5px;
   color: #a19496;
+}
+
+.popup-info2{
+  width: 100%;
+  height: 120%;
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  border-radius: 6px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+
+}
+
+.time-label .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 0,5s;
+    animation: fadeIn 0.5s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 /*kort styles*/

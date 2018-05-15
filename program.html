@@ -38,11 +38,19 @@
             <div class="time-frame">
             <p>10:00<br>11:00</div>
             <div class="time-label">
-              <button onclick="event-info-button()" class="popup-info">
+              <button onclick="myFunction()" class="popup-info">
             <label>MIDDELALDERGØGL I BØRNEHØJDE OG
               KØBSTADSJUBILÆUM </label>
               <p>STED: Varde Torv <br>
               ARRANGØR: Varde Kommune</P>
+
+              <span class="popup-info2" id="firstevent">
+                På Torvet møder børnene den
+                gamle middelaldergøgler Mester Peder, der på
+                ægte historisk vis vil underholde og fornøje
+                børnene med gøgl og løjer. Derudover vil Varde
+                Kommunes børnehavebørn optræde med sang,
+                teater og optog iført hjemmelavede kostumer. </span>
               </div>
           </div>
 
@@ -271,6 +279,15 @@
     </div>
   </div>
   </main>
+
+  <script>
+  // When the user clicks on div, open the popup
+  function myFunction() {
+      var popup = document.getElementById("firstevent");
+      popup.classList.toggle("show");
+  }
+  </script>
+
   <footer>
 
   </footer>
