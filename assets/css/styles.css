@@ -315,10 +315,12 @@ nav.right{
   text-align: center;
   text-decoration: none;
   cursor: pointer;
+  padding: 10px 10px 0 10px;
 }
 
 .droplang-content {
     display: none;
+    margin-top: 0px;
     position: absolute;
     background-color: #c4b298;
     border-style: solid;
