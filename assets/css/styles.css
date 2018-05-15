@@ -708,11 +708,9 @@ footer {
 .program{
   margin-right: 2%;
 }
-<<<<<<< HEAD
+
 .seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen{
-=======
-.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt, .frivillig, .aktor{
->>>>>>> 17ba1b3491560996ad80941bf369a5be53387cab
+
   width: 50%;
   min-height: 220px;}
 }
