@@ -482,7 +482,11 @@ section{
  background-position: center;
  background-size: cover;
 }
-
+.omfestivalen {
+  background-image: url("../images/omfestivalen.jpg");
+ background-position: center;
+ background-size: cover;
+}
 .rcorners1 {
   margin-top: 10px;
     border-radius: 10px;
