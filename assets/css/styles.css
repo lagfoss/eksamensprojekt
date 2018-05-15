@@ -303,18 +303,17 @@ nav.right{
 }
 
 .dropdown {
-  width: 5%;
-  justify-content: center;
-  display: block;
+  float: right;
+  position: relative;
+  display: inline-block;
   overflow: hidden;
-}
-
-.dropdown button{
-border: none;
+  background-color: transparent;
 }
 
 .droplang {
-  background-color: #c4b298;
+  background-color: transparent;
+  text-align: center;
+  text-decoration: none;
   cursor: pointer;
   padding: 15px 10px 0 10px;
 }
@@ -324,10 +323,12 @@ border: none;
     margin-top: 0px;
     position: absolute;
     background-color: #c4b298;
+    border-style: solid;
+    border-width: 2px;
     border-radius: 5px;
-    border-color: none;
+    border-color: transparent;
     box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
-    z-index: 5;
+    z-index: 3;
 }
 
 .droplang-content a {
@@ -336,7 +337,7 @@ border: none;
     text-decoration: none;
 }
 
-.show {display:block;;}
+.show {display:block;}
 
 .topnav .icon {
   display: none;
@@ -751,7 +752,6 @@ footer {
    }
 
    #main-program {
-
        width: 100%;
        height: 100%;
        text-align: center;
@@ -771,7 +771,7 @@ footer {
      width: 80%;
      margin: auto;
      flex-direction: column;
-      }
+}
 
   .time-on-days > div {
      background-color: #ecf6f8;
@@ -782,12 +782,8 @@ footer {
 
    }
     .event-and-date {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-
-.event-and-date > div {
+      display: flex;
+      flex-wrap: nowrap;
 }
 
 .time-frame{
@@ -798,18 +794,46 @@ footer {
   color: #ecf6f8;
 }
 .time-label{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .popup-info{
   width: 100%;
   height: 100%;
-}
-.time-label button{
   border: none;
   background-color: transparent;
   background-color: #2e304f;
   padding-top: 5px;
   color: #a19496;
+}
+
+.popup-info2{
+  width: 100%;
+  height: 120%;
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  border-radius: 6px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: -25%;
+  margin-left: -50%;
+
+}
+
+.time-label .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 0,5s;
+    animation: fadeIn 0.5s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 /*kort styles*/
