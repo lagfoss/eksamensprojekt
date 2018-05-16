@@ -222,18 +222,18 @@ h4 a:active {
 /*
  * 2.0 header
  */
-header{
-  display: flex;
-  width: 100%;
-  height: 60px;
-  background-color: #c4b298;
-  right: 0;
-  left: 0;
-  top: 0;
-}
+ header{
+   width: 100%;
+   height: 60px;
+   background-color: #c4b298;
+   right: 0;
+   left: 0;
+   top: 0;
+ }
 
-.empty{
-  width: 5%;
+.empty2{
+  width: 20%;
+  background-color: transparent;
 }
  /*
   * 2.1 logo
@@ -242,7 +242,8 @@ header{
   .logo{
     display: flex;
     justify-content: center;
-    width: 20%;
+    position: absolute;
+    width: 100%;
     z-index: 1;
 }
 
@@ -254,96 +255,129 @@ header{
    * 2.2 nav
    */
 
-nav{
-  text-align: center;
-}
-
-nav a{
-     margin-left: 10px;
-     margin-right: 10px;
-     width: 33%;
-     height: 50px;
-     font-size: 15px;
-     border-style: solid;
-     border-width: 2px;
-     border-color: transparent;
-     text-decoration: none;
-     border-radius: 5px;
-     box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+   nav {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     overflow: hidden;
+     width: 100%;
+     z-index: 2;
    }
 
-nav a.active{
-  color: #333333;
-  font-weight: bold;
- }
+   nav a {
+     float: left;
+     display: block;
+     background-color: #c4b298;
+     color: #710000;
+     margin-left: 10px;
+     margin-right: 10px;
+     height: 50px;
+     font-size: 15px;
+     text-align: center;
+     text-decoration: none;
+   }
 
-nav a:hover, .droplang, .droplang-content a:hover{
-  color: #00a19b;
-}
+   nav a.active{
+     color: #333333;
+     font-weight: bold;
+    }
 
-nav.left{
-  display: flex;
-  justify-content: flex-end;
-  align-items: baseline;
-  line-height: 50px;
-  width: 35%;
-}
+   nav .icon {
+     display: none;
+   }
 
-nav.right{
-  display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-  line-height: 50px;
-  width: 35%;
-}
+   nav a:hover, .dropdown:hover, .droplang, .droplang-content a:hover{
+     color: #00a19b;
+   }
 
-.droplang:hover .droplang-content, .dropdown:hover,
-.dropdown:hover .droplang,{
-  display: block;
-}
+   .dropdown {
+     justify-content: center;
+     display: block;
+     overflow: hidden;
+   }
 
-.dropdown {
-  width: 5%;
-  justify-content: center;
-  display: block;
-  overflow: hidden;
-  background-color: transparent;
-}
+   .dropdown button{
+   border: none;
+   }
 
-.dropdown button{
-border: none;
-}
+   .droplang {
+     background-color: #c4b298;
+     text-align: center;
+     text-decoration: none;
+     cursor: pointer;
+     padding: 15px 10px 0 10px;
+   }
 
-.droplang {
-  background-color: transparent;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  padding: 15px 10px 0 10px;
-}
+   .droplang-content {
+       display: none;
+       margin-top: 0px;
+       position: absolute;
+       background-color: #c4b298;
+       border-style: solid;
+       border-width: 2px;
+       border-radius: 5px;
+       border-color: transparent;
+       box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+       z-index: 5;
+   }
 
-.droplang-content {
-    display: none;
-    margin-top: 0px;
-    position: absolute;
-    background-color: #c4b298;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 5px;
-    border-color: transparent;
-    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
-    z-index: 3;
-}
+   .droplang-content a {
+     float: none;
+     display: block;
+     padding: 10px;
+     text-decoration: none;
+     text-align: left;
+   }
 
-.droplang-content a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-}
+   .droplang-content a:hover {
+     background-color: #ddd;
+     color: black;
+   }
+
+   .dropdown:hover .dropdown-content {
+     display: block;
+   }
+
+   .droplang:hover .droplang-content, .dropdown:hover,
+   .dropdown:hover .droplang,{
+     display: block;
+   }
 
 .show {display:block;}
 
+@media screen and (max-width: 800px) {
+  nav a, .dropdown .droplang, .empty2 {
+    display: none;
+  }
+  nav a.icon {
+    float: right;
+    display: block;
+  }
+}
 
+@media screen and (max-width: 800px) {
+  nav.responsive {position: relative;}
+  nav.responsive .icon {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+  }
+  nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    margin: 0;
+  }
+  nav.responsive a .empty2{ display: none;}
+  nav.responsive .dropdown {float: none;}
+  nav.responsive .droplang-content {position: relative;}
+  nav.responsive .dropdown .droplang {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
 
 section{
  width: 100%;
@@ -477,7 +511,7 @@ section{
 }
 
 .frivillig {
- background-image: url("../images/frivillig.png");
+ background-color:#fff;
  background-position: center;
  background-size: cover;
 }
@@ -657,7 +691,7 @@ footer {
  }
  .event_left2{margin-top: 20px;}
 
- .seo_om_vmf, .kortkontakt, {
+ .seo_om_vmf, .kortkontakt,.frivillig{ 
    width: 100%;
    margin-top: 20px;
    padding: 20px;
@@ -709,46 +743,12 @@ footer {
   margin-right: 2%;
 }
 
-.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor, .frivillig{
+
+
+.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor,{
 
   width: 50%;
   min-height: 220px;}
-}
-
-.topnav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 1000px) {
-  .topnav, a:not(:first-child), {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-
-}
-
-@media screen and (max-width: 1000px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .topnav.responsive {float: none;}
-  .topnav.responsive {position: relative;}
-  .topnav.responsive {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
 }
 
    /*Program Styles*/
@@ -928,7 +928,7 @@ cursor: zoom-out;
   height: 4%;
   width: 90px;
   position: absolute;
-  z-index: -1px;
+  z-index: -1;
   margin-left: 34.6%;
   margin-top: -245px;
 }

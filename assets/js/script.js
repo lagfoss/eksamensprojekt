@@ -21,10 +21,10 @@ window.onclick = function(event) {
 
 /* Navigation responsive */
 function responsiveNav() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
+    var x = document.getElementById("myNav");
+    if (x.className === "nav") {
         x.className += " responsive";
     } else {
-        x.className = "topnav";
+        x.className = "nav";
     }
 }

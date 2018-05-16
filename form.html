@@ -34,7 +34,7 @@ input[type=submit]:hover {
 }
 
 .container {
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #f2f2f2;
     padding: 20px;
 }
@@ -76,38 +76,41 @@ input[type=submit]:hover {
   <form action="/action_page.php">
     <div class="row">
       <div class="col-25">
-        <label for="fname">First Name</label>
+        <label for="fname">Dit fulde navn*</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <input type="text" id="fname" name="Navn" placeholder="Dit navn..">
       </div>
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="lname">Last Name</label>
+        <label for="mail">E-mail*</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <input type="text" id="Email" name="Email" placeholder="Din E-mail..">
       </div>
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="country">Country</label>
+        <label for="country">Har du tidligere arbejdet som frivillig i middelalderen? *
+       Ingen
+       Ja, en eller et par gange
+       Ja, jeg har meget erfaring</label>
       </div>
       <div class="col-75">
         <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
+          <option value="Ingen erfaring">Ingen erfaring</option>
+          <option value="Ja, en eller et par gange">Ja, en eller et par gange</option>
+          <option value="Ja, jeg har meget erfaring">Ja, jeg har meget erfaring</option>
         </select>
       </div>
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="subject">Subject</label>
+        <label for="subject">Sprog (udfyld blanket med andre sprog, hvis du kan flere sprog). *</label>
       </div>
       <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:80px"></textarea>
       </div>
     </div>
     <div class="row">
@@ -115,6 +118,7 @@ input[type=submit]:hover {
     </div>
   </form>
 </div>
+
 
 </body>
 </html>
