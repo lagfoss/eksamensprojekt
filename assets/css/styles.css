@@ -777,7 +777,6 @@ footer {
    .downbox{
      background-color:#a19496;
      position: relative;
-     padding: 0.5%;
      margin: 0.5%;
      margin-bottom: 0;
 
@@ -844,7 +843,6 @@ footer {
   border: none;
   background-color: transparent;
   background-color: #2e304f;
-  padding-top: 5px;
   color: #a19496;
 }
 
@@ -859,7 +857,7 @@ footer {
   padding: 20px;
   position: absolute;
   z-index: 1;
-  bottom: -25%;
+  bottom: 0;
   margin-left: -50%;
 
 }
