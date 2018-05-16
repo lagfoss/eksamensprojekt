@@ -269,16 +269,15 @@ h4 a:active {
      display: block;
      background-color: #c4b298;
      color: #710000;
-     margin-left: 10px;
-     margin-right: 10px;
+     margin: 20px 20px 0px 20px;
      height: 50px;
-     font-size: 15px;
+     font-size: 20px;
      text-align: center;
      text-decoration: none;
    }
 
    nav a.active{
-     color: #333333;
+     color: #2d314e;
      font-weight: bold;
     }
 
@@ -287,7 +286,7 @@ h4 a:active {
    }
 
    nav a:hover, .dropdown:hover, .droplang, .droplang-content a:hover{
-     color: #00a19b;
+     color: #ffffff;
    }
 
    .dropdown {
@@ -354,8 +353,9 @@ h4 a:active {
   nav.responsive .icon {
     position: absolute;
     display: block;
-    right: 0;
-    top: 0;
+    font-size: 20px;
+    margin: 20px 20px 0px 20px;
+    float: right;
   }
   nav.responsive a {
     float: none;
