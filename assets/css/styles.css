@@ -256,7 +256,7 @@ h4 a:active {
    */
 
    nav {
-     position: relative;
+     position: absolute;
      display: flex;
      justify-content: center;
      overflow: hidden;
@@ -291,7 +291,7 @@ h4 a:active {
    }
 
    .dropdown {
-     justify-content: center;
+     justify-content: flex-end;
      display: block;
      overflow: hidden;
    }
@@ -311,7 +311,7 @@ h4 a:active {
    .droplang-content {
        display: none;
        margin-top: 0px;
-       position: absolute;
+       position: relative;
        background-color: #c4b298;
        border-style: solid;
        border-width: 2px;
@@ -324,14 +324,8 @@ h4 a:active {
    .droplang-content a {
      float: none;
      display: block;
-     padding: 10px;
+     padding-top: 10px;
      text-decoration: none;
-     text-align: left;
-   }
-
-   .droplang-content a:hover {
-     background-color: #ddd;
-     color: black;
    }
 
    .dropdown:hover .dropdown-content {
@@ -691,7 +685,7 @@ footer {
  }
  .event_left2{margin-top: 20px;}
 
- .seo_om_vmf, .kortkontakt,.frivillig{ 
+ .seo_om_vmf, .kortkontakt,.frivillig{
    width: 100%;
    margin-top: 20px;
    padding: 20px;
