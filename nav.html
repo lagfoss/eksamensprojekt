@@ -20,8 +20,8 @@
         display: flex;
         justify-content: center;
         position: absolute;
-        width: 20%;
-        z-index: 5;
+        width: 100%;
+        z-index: 1;
     }
 
       .banner{
@@ -33,9 +33,12 @@
       }
 
       nav {
+        position: relative;
+        justify-content: center;
         overflow: hidden;
         width: 100%;
         text-align: center;
+        z-index: 2;
       }
 
       nav a {
@@ -153,11 +156,11 @@
     </style>
   </head>
   <body>
+    <div class="logo">
+      <a href="index.html"><img class="banner" src="assets/images/logo.png" alt="Varde Middelalderfestival Banner"></a>
+    </div>
 
     <header>
-      <div class="logo">
-        <a href="index.html"><img class="banner" src="assets/images/logo.png" alt="Varde Middelalderfestival Banner"></a>
-      </div>
       <nav id="myNav">
         <div class="empty"></div>
         <a href="program.html">Program</a>

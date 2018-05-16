@@ -19,29 +19,27 @@
 </head>
 
 <body>
-  <header class="topnav" id="myTopnav">
-    <div class="empty"></div>
-    <nav class="left">
+  <div class="logo">
+    <a href="index.html"><img class="banner" src="assets/images/logo.png" alt=""></a>
+  </div>
+  <header>
+    <nav id="myNav">
+      <div class="empty"></div>
       <a href="program.html">Program</a>
       <a href="omfestivalen.html">Om festivalen</a>
       <a href="praktiskinfo.html">Praktisk info</a>
-    </nav>
-    <div class="logo">
-      <a href="index.html"><img class="banner" src="assets/images/logo.png" alt=""></a>
-    </div>
-    <nav class="right">
+      <a href="index.html" class="empty"></a>
       <a href="blivaktor.html">Bliv aktør</a>
       <a href="blivfrivillig.html">Bliv frivillig</a>
       <a href="kontakt.html">Kontakt</a>
+      <div class="dropdown">
+        <button onclick="Language()" class="droplang"><img src="assets/images/dk.png" alt="Danish language"></button>
+        <div id="myLanguage" class="droplang-content">
+          <a href="#dk"><img src="assets/images/dk.png" alt="Danish language"/></a>
+        </div>
+      </div>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="responsiveNav()">&#9776;</a>
     </nav>
-
-    <div class="dropdown">
-  <button onclick="Language()" class="droplang"><img src="assets/images/dk.png" alt="Danish language"></button>
-  <div id="myLanguage" class="droplang-content">
-    <a href="#dk"><img src="assets/images/dk.png" alt="Danish language"/></a>
-  </div>
-</div>
-<a href="javascript:void(0);"  class="icon" onclick="responsiveNav()">&#9776;</a>
 
 
   </header>
@@ -167,16 +165,6 @@ vardekommune@varde.dk  -
 CVR-nr: 2918 9811  </div>
  <a href="#"> <img class="vardekommune" src="assets/images/vk_logo.png" alt=""> </a>
   </footer>
-  <script>
-  function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-          x.className += " responsive";
-      } else {
-          x.className = "topnav";
-      }
-  }
-  </script>
 </body>
 
 
