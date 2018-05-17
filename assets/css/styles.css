@@ -234,6 +234,7 @@ h4 a:active {
 .empty2{
   width: 20%;
   background-color: transparent;
+  display: block;
 }
  /*
   * 2.1 logo
@@ -297,6 +298,8 @@ h4 a:active {
 
    .dropdown button{
    border: none;
+   display: flex;
+   justify-content: flex-end;
    }
 
    .droplang {
@@ -363,10 +366,10 @@ h4 a:active {
     text-align: left;
     margin: 0;
   }
-  nav.responsive a .empty2{ display: none;}
+  nav.responsive a.empty2{ display: none;}
   nav.responsive .dropdown {float: none;}
   nav.responsive .droplang-content {position: relative;}
-  nav.responsive .dropdown .droplang {
+  nav.responsive, .dropdown .droplang {
     display: block;
     width: 100%;
     text-align: left;
