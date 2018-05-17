@@ -8,37 +8,45 @@
 </head>
 
 <body>
+  <div class="logo">
+    <a href="index.html"><img class="banner" src="assets/images/logo.png" alt=""></a>
+  </div>
   <header>
-    <div class="logo">
-
-    </div>
-    <nav>
-      <a href="program.html" class="active">Program</a>
+    <nav id="myNav">
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="responsiveNav()">&#9776;</a>
+      <a href="program.html">Program</a>
       <a href="omfestivalen.html">Om festivalen</a>
       <a href="praktiskinfo.html">Praktisk info</a>
-
-      <a href="index.html"><img src="......." alt="logo"></a>
-
+      <a href="index.html" class="empty2"></a>
       <a href="blivaktor.html">Bliv aktør</a>
       <a href="blivfrivillig.html">Bliv frivillig</a>
       <a href="kontakt.html">Kontakt</a>
+      <div class="dropdown">
+        <button onclick="Language()" class="droplang"><img src="assets/images/dk.png" alt="Danish language"></button>
+        <div id="myLanguage" class="droplang-content">
+          <a href="#dk"><img src="assets/images/dk.png" alt="Danish language"/></a>
+        </div>
+      </div>
     </nav>
+
+
   </header>
 
-    <body>
-      <main>
-        <div class="program-background">
 
-    <div id="main-program">
-      <div>
-        <h2>Fredag</h2>
-        <div class="time-on-days">
+  <body>
+    <main>
+      <div class="program-background">
 
-          <div class="event-and-date">
-            <div class="time-frame">
-            <p>10:00<br>11:00</div>
-            <div class="time-label">
-              <button onclick="programpopups(this)" class="popup-info">
+        <div id="main-program">
+          <div>
+            <h2>Fredag</h2>
+            <div class="time-on-days">
+
+              <div class="event-and-date">
+                <div class="time-frame">
+                  <p>10:00<br>11:00</div>
+                <div class="time-label">
+                  <button onclick="programpopups(this)" class="popup-info">
             <label>MIDDELALDERGØGL I BØRNEHØJDE OG
               KØBSTADSJUBILÆUM </label>
               <p>STED: Varde Torv <br>
