@@ -351,9 +351,7 @@ h4 a:active {
     float: right;
     display: block;
   }
-  .seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor,{
-    width: 50%;
-    min-height: 220px;}
+
 
 }
 
@@ -569,6 +567,12 @@ section{
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
+  .seo_om_vmf{
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    min-height: 220px;}
+
   .indhold{
     padding-top: 20px;
     display: flex;
@@ -621,11 +625,7 @@ section{
    margin-left: 1%;
  }
  .event_left2{margin-top: 20px;}
- .seo_om_vmf{
-   width: 100%;
-   margin-top: 20px;
-   padding: 20px;
-   min-height: 220px;}
+
 }
 footer {
    left: 0;
@@ -694,7 +694,7 @@ footer {
  }
  .event_left2{margin-top: 20px;}
 
- .seo_om_vmf, .kortkontakt,.frivillig{
+ .seo_om_vmf,.kortkontakt,.frivillig{
    width: 100%;
    margin-top: 20px;
    padding: 20px;
@@ -704,7 +704,6 @@ footer {
 
 /* Desktop Styles */
 @media only screen and (min-width: 720.01px) {
-
  .indhold {
    padding-top: 20px;
    display: flex;
@@ -745,9 +744,9 @@ footer {
 .program{
   margin-right: 2%;
 }
-.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor,{
+.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor{
   width: 50%;
-  height: 200px;
+  
   min-height: 220px;}
 }
 
