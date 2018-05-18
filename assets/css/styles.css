@@ -343,7 +343,7 @@ h4 a:active {
 .show {display:block;}
 
 @media screen and (max-width: 800px) {
-  nav a, .dropdown .droplang, .empty2 {
+  nav a, .empty2 {
     display: none;
   }
   nav a.icon {
@@ -352,8 +352,9 @@ h4 a:active {
     float: right;
     display: block;
   }
-
-
+  .dropdown{
+    float: right;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -365,9 +366,7 @@ h4 a:active {
     margin: 20px 20px 0px 20px;
     float: right;
   }
-  nav.responsive .logo{
-    z-index: 6;
-  }
+
   nav.responsive a {
     float: none;
     display: block;
