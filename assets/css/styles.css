@@ -997,6 +997,8 @@ margin-left: 35%;
        color: white;
        padding: 12px 20px;
        border: none;
+       margin: 20px;
+       margin-right: 45%;
        border-radius: 4px;
        cursor: pointer;
        float: right;
