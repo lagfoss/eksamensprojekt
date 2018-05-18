@@ -968,9 +968,10 @@ margin-left: 35%;
 
 label{
   font-size: 18px;
+  margin-top: 15px;
 }
 
-  
+
 
    * {
        box-sizing: border-box;
