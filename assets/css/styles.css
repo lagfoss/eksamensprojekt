@@ -156,7 +156,6 @@ margin-bottom: 15px;
   font-weight: 300;
   line-height: 14pt;
   font-size:12px;
-
 }
 
 .event_kasse2{
@@ -343,7 +342,7 @@ h4 a:active {
 .show {display:block;}
 
 @media screen and (max-width: 800px) {
-  nav a, .dropdown .droplang, .empty2 {
+  nav a, .empty2 {
     display: none;
   }
   nav a.icon {
@@ -352,8 +351,9 @@ h4 a:active {
     float: right;
     display: block;
   }
-
-
+  .dropdown{
+    float: right;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -365,9 +365,7 @@ h4 a:active {
     margin: 20px 20px 0px 20px;
     float: right;
   }
-  nav.responsive .logo{
-    z-index: 6;
-  }
+
   nav.responsive a {
     float: none;
     display: block;
@@ -750,7 +748,7 @@ footer {
 .program{
   margin-right: 2%;
 }
-.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor{
+.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor,.article1{
   width: 50%;
 
   min-height: 220px;}
@@ -979,10 +977,6 @@ cursor: zoom-out;
      background-image: url("../images/hvor.jpg");
 background-repeat: no-repeat;
 margin-left: 35%;
-
-
-
-
    }
 
 
@@ -1042,3 +1036,30 @@ margin-left: 35%;
        display: table;
        clear: both;
    }
+
+
+   /*All Articles*/
+
+   .article_kasse1{
+     font-family: 'Montserrat', sans-serif;
+     margin: auto;
+     font-size: 20px;
+     padding: 20px 0px 0px 20px;
+     letter-spacing: 1.2pt;
+     color: #000;
+     font-weight: 700;
+     text-align: left;
+     padding: auto;
+}
+    .article1{
+      background-image: url("../images/7kanten.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+    .article_kasse1 p{
+      font-family: 'Montserrat', sans-serif;
+      margin: 20px 20px 30px 0;
+      font-weight: 300;
+      line-height: 14pt;
+      font-size:12px;
+    }
