@@ -1,7 +1,6 @@
 <?php
 
-
-if (isset($_POST['submit'])){
+if (isset($_POST['submit'])) {
   $name = $_POST['name'];
   $subject = $_POST['subject'];
   $mailFrom = $_POST['mail'];
@@ -9,7 +8,7 @@ if (isset($_POST['submit'])){
 
 
   $mailTo = "tca47@live.dk";
-  $header = "From: ".$mailFrom
+  $header = "From: ".$mailFrom;
   $txt = "Tilmeding som frivillig fra ".$name.".\n\n".$message;
 
   mail($mail_To, $subject, $txt, $header );

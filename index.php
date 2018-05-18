@@ -6,7 +6,7 @@
   </head>
   <body>
 <p>Send E-mail</p>
-<form class="contact-form" action="contactform.html" method="post">
+<form class="contact-form" action="contactform.php" method="post">
 <input type="text" name="name" placeholder="Dit fulde navn">
 <input type="text" name="mail" placeholder="Din email">
 <input type="text" name="subject" placeholder="Har du tidligere arbejdet som frivillig til en festival?">
