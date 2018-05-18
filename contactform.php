@@ -8,12 +8,11 @@ if (isset($_POST['submit'])) {
 
 
   $mailTo = "tca47@live.dk";
-  $header = "From: ".$mailFrom;
+  $headers = "From: ".$mailFrom;
   $txt = "Tilmeding som frivillig fra ".$name.".\n\n".$message;
 
-  mail($mail_To, $subject, $txt, $header );
+  mail($mailTo, $subject, $txt, $headers );
   header("Location: index.php?mailsend");
-
 }
 
 
