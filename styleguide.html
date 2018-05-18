@@ -162,15 +162,111 @@
 
 
   <h2 class="overskrift"> Ikoner </h2>
-  
-
-  <h2 class="overskrift"> Menu struktur </h2>
-
-
-  <h2 class="overskrift"> Knap styling </h2>
+    <p><b>  logo.png</b></p>
+      <img src="assets/images/logo.png" alt="htmlkodemenu" style="width:120px; margin-bottom:50px;">
+    <p><b>  dk.png</b></P>
+        <img src="assets/images/dk.png" alt="htmlkodemenu" style="width:50px; margin-bottom:50px;">
+  <h2 class="overskrift"> Knapper </h2>
 
 
   <h2 class="overskrift"> Indput felter </h2>
+
+
+  <h2 class="overskrift"> Menu </h2>
+
+              <div class="bgc">
+                    <div class="logo">
+                      <a href="index.html"><img class="banner" src="assets/images/logo.png" alt="Varde Middelalderfestival banner"></a>
+                    </div>
+                    <nav id="myNav">
+
+                      <a href="program.html">Program</a>
+                      <a href="omfestivalen.html">Om festivalen</a>
+                      <a href="praktiskinfo.html">Praktisk info</a>
+                      <a href="index.html" class="empty2"></a>
+                      <a href="blivaktor.html">Bliv aktør</a>
+                      <a href="blivfrivillig.html">Bliv frivillig</a>
+                      <a href="kontakt.html">Kontakt</a>
+                      <div class="dropdown">
+                        <button onclick="Language()" class="droplang"><img src="assets/images/dk.png" alt="Danish language"></button>
+                        <div id="myLanguage" class="droplang-content">
+
+                        </div>
+                      </div>
+                    </nav>
+                </div>
+
+
+
+        <p><b>HTML:</b></p>
+
+
+              <img src="assets/images/koden.png" alt="htmlkodemenu" style="width:50%; margin-bottom:50px;">
+
+
+
+
+        <p><b>CSS:</b></p>
+        header{<br>
+          height: 60px;<br>
+          background-color: #c4b298;<br>
+          right: 0;<br>
+          left: 0;<br>
+          top: 0;<br>
+        }<br><br>
+
+        .bgc{<br>
+          background-color:  #c4b298;<br>
+          height: 60px;<br>
+          width: 100%;<br>
+          margin-bottom: 200px;<br>
+        }<br><br>
+
+        .dropdown button{<br>
+        border: none;<br>
+        margin-top: 10px;<br>
+        }<br><br>
+
+        .empty2{<br>
+         width: 10%;<br>
+         background-color: transparent;<br>
+         display: block;<br>
+        }<br><br>
+
+         .logo{<br>
+           display: flex;<br>
+           justify-content: center;<br>
+           position: absolute;<br>
+           width: 100%;<br>
+           z-index: 1;<br>
+        }<br><br>
+
+         .banner{<br>
+           width: 135px;<br>
+         }<br><br>
+
+          nav {<br>
+            position: absolute;<br>
+            display: flex;<br>
+            justify-content: center;<br>
+            overflow: hidden;<br>
+            width: 100%;<br>
+            z-index: 2;<br>
+          }<br><br>
+
+          nav a {<br>
+            display: block;<br>
+            background-color: #c4b298;<br>
+            color: #710000;<br>
+            margin: 20px 20px 0px 20px;<br>
+            height: 40px;<br>
+            font-size: 14px;<br>
+            text-transform: uppercase;<br>
+            text-align: center;<br>
+            text-decoration: none;<br>
+            letter-spacing: 1.3pt;<br>
+          }<br>
+
 
 
   <h2 class="overskrift"> Moduler og Layouts </h2>

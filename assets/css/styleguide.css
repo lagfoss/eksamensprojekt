@@ -96,3 +96,70 @@ b{
   margin-top: 50px;
   margin-bottom: 0px;
 }
+
+
+
+
+
+
+
+/*menu*/
+header{
+  height: 60px;
+  background-color: #c4b298;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.bgc{
+  background-color:  #c4b298;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.dropdown button{
+border: none;
+margin-top: 10px;
+}
+
+.empty2{
+ width: 10%;
+ background-color: transparent;
+ display: block;
+}
+
+ .logo{
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   width: 100%;
+   z-index: 1;
+}
+
+ .banner{
+   width: 135px;
+ }
+
+  nav {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    z-index: 2;
+  }
+
+  nav a {
+    display: block;
+    background-color: #c4b298;
+    color: #710000;
+    margin: 20px 20px 0px 20px;
+    height: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1.3pt;
+  }
