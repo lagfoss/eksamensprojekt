@@ -223,7 +223,6 @@ h4 a:active {
  * 2.0 header
  */
  header{
-   width: 100%;
    height: 60px;
    background-color: #c4b298;
    right: 0;
@@ -266,7 +265,6 @@ h4 a:active {
    }
 
    nav a {
-     float: left;
      display: block;
      background-color: #c4b298;
      color: #710000;
@@ -294,21 +292,20 @@ h4 a:active {
 
    .dropdown {
      display: block;
-     overflow: hidden;
+     position: relative;
    }
 
    .dropdown button{
    border: none;
-   display: flex;
-   justify-content: flex-end;
    }
 
    .droplang {
+     margin-right: 10px;
      background-color: #c4b298;
      text-align: center;
      text-decoration: none;
      cursor: pointer;
-     padding: 15px 10px 0 10px;
+     padding: 20px 10px 0 10px;
    }
 
    .droplang-content {
@@ -327,23 +324,16 @@ h4 a:active {
    .droplang-content a {
      float: none;
      display: block;
-     padding-top: 10px;
      text-decoration: none;
    }
-
-   .dropdown:hover .dropdown-content {
-     display: block;
-   }
-
-   .droplang:hover .droplang-content, .dropdown:hover,
-   .dropdown:hover .droplang,{
-     display: block;
-   }
+.droplang:hover{
+        opacity: 0.5;
+        }
 
 .show {display:block;}
 
-@media screen and (max-width: 800px) {
-  nav a, .empty2 {
+@media screen and (max-width: 920px) {
+  nav a, .dropdown img, .dropdown .droplang, .empty2 {
     display: none;
   }
   nav a.icon {
@@ -352,12 +342,9 @@ h4 a:active {
     float: right;
     display: block;
   }
-  .dropdown{
-    float: right;
-  }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 920px) {
   nav.responsive {position: relative;}
   nav.responsive .icon {
     position: absolute;
@@ -376,7 +363,7 @@ h4 a:active {
   nav.responsive a.empty2{ display: none;}
   nav.responsive .dropdown {float: none;}
   nav.responsive .droplang-content {position: relative;}
-  nav.responsive, .dropdown, .dropdown .droplang {
+  nav.responsive, .dropdown, .dropdown img .dropdown .droplang {
     display: block;
     width: 100%;
     text-align: left;
