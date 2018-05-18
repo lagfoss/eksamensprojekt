@@ -156,7 +156,6 @@ margin-bottom: 15px;
   font-weight: 300;
   line-height: 14pt;
   font-size:12px;
-
 }
 
 .event_kasse2{
@@ -223,7 +222,6 @@ h4 a:active {
  * 2.0 header
  */
  header{
-   width: 100%;
    height: 60px;
    background-color: #c4b298;
    right: 0;
@@ -232,7 +230,7 @@ h4 a:active {
  }
 
 .empty2{
-  width: 20%;
+  width: 10%;
   background-color: transparent;
   display: block;
 }
@@ -266,15 +264,16 @@ h4 a:active {
    }
 
    nav a {
-     float: left;
      display: block;
      background-color: #c4b298;
      color: #710000;
      margin: 20px 20px 0px 20px;
      height: 40px;
-     font-size: 20px;
+     font-size: 14px;
+     text-transform: uppercase;
      text-align: center;
      text-decoration: none;
+     letter-spacing: 1.3pt;
    }
 
    nav a.active{
@@ -291,23 +290,21 @@ h4 a:active {
    }
 
    .dropdown {
-     justify-content: flex-end;
      display: block;
-     overflow: hidden;
+     position: relative;
    }
 
    .dropdown button{
    border: none;
-   display: flex;
-   justify-content: flex-end;
    }
 
    .droplang {
+     margin-right: 10px;
      background-color: #c4b298;
      text-align: center;
      text-decoration: none;
      cursor: pointer;
-     padding: 15px 10px 0 10px;
+     padding: 20px 10px 0 10px;
    }
 
    .droplang-content {
@@ -326,23 +323,16 @@ h4 a:active {
    .droplang-content a {
      float: none;
      display: block;
-     padding-top: 10px;
      text-decoration: none;
    }
-
-   .dropdown:hover .dropdown-content {
-     display: block;
-   }
-
-   .droplang:hover .droplang-content, .dropdown:hover,
-   .dropdown:hover .droplang,{
-     display: block;
-   }
+.droplang:hover{
+        opacity: 0.5;
+        }
 
 .show {display:block;}
 
-@media screen and (max-width: 800px) {
-  nav a, .dropdown .droplang, .empty2 {
+@media screen and (max-width: 920px) {
+  nav a, .dropdown img, .dropdown .droplang, .empty2 {
     display: none;
   }
   nav a.icon {
@@ -351,11 +341,9 @@ h4 a:active {
     float: right;
     display: block;
   }
-
-
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 920px) {
   nav.responsive {position: relative;}
   nav.responsive .icon {
     position: absolute;
@@ -364,6 +352,7 @@ h4 a:active {
     margin: 20px 20px 0px 20px;
     float: right;
   }
+
   nav.responsive a {
     float: none;
     display: block;
@@ -373,7 +362,7 @@ h4 a:active {
   nav.responsive a.empty2{ display: none;}
   nav.responsive .dropdown {float: none;}
   nav.responsive .droplang-content {position: relative;}
-  nav.responsive, .dropdown, .dropdown .droplang {
+  nav.responsive, .dropdown, .dropdown img .dropdown .droplang {
     display: block;
     width: 100%;
     text-align: left;
@@ -746,7 +735,7 @@ footer {
 .program{
   margin-right: 2%;
 }
-.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor{
+.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor,.article1,.article_kasse2{
   width: 50%;
 
   min-height: 220px;}
@@ -975,10 +964,6 @@ cursor: zoom-out;
      background-image: url("../images/hvor.jpg");
 background-repeat: no-repeat;
 margin-left: 35%;
-
-
-
-
    }
 
 
@@ -1038,3 +1023,51 @@ margin-left: 35%;
        display: table;
        clear: both;
    }
+
+
+   /*All Articles*/
+
+   .article_kasse1{
+     font-family: 'Montserrat', sans-serif;
+     margin: auto;
+     font-size: 20px;
+     padding: 20px 0px 0px 20px;
+     letter-spacing: 1.2pt;
+     color: #000;
+     font-weight: 700;
+     text-align: left;
+     padding: auto;
+}
+    .article1{
+      background-image: url("../images/7kanten.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+    .article_kasse1 p{
+      font-family: 'Montserrat', sans-serif;
+      margin: 20px 20px 30px 0;
+      font-weight: 300;
+      line-height: 14pt;
+      font-size:12px;
+    }
+
+    .article_kasse2{
+      font-family: 'Montserrat', sans-serif;
+      margin: auto;
+      font-size: 20px;
+      padding: 20px 0px 0px 20px;
+      letter-spacing: 1.2pt;
+      color: #000;
+      font-weight: 700;
+      text-align: left;
+      padding: auto;
+      background-color: #ffffff;
+    }
+
+    .article_kasse2 p{
+      font-family: 'Montserrat', sans-serif;
+      margin: 20px 20px 30px 0;
+      font-weight: 300;
+      line-height: 14pt;
+      font-size:12px;
+    }
