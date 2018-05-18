@@ -977,16 +977,19 @@ margin-left: 35%;
    }
 
    input[type=text], select, textarea {
-       width: 100%;
+       width: 96.5%;
        padding: 12px;
        border: 1px solid #9b8368;
        border-radius: 4px;
        resize: vertical;
    }
 
+
+
    label {
        padding: 12px 12px 12px 0;
        display: inline-block;
+
    }
 
    input[type=submit] {
