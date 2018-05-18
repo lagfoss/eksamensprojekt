@@ -966,11 +966,11 @@ background-repeat: no-repeat;
 margin-left: 35%;
    }
 
+label{
+  font-size: 18px;
+}
 
-
-   textarea{
-     margin-top: -25px;
-   }
+  
 
    * {
        box-sizing: border-box;
