@@ -1,0 +1,98 @@
+body {
+       font-family: Helvetica, Arial, sans-serif;
+       font-size: 12px;
+       margin-left: 5%;
+     }
+
+
+.op{
+  margin-top: 3px;
+}
+
+
+h1{
+  margin-top: 70px;
+  font-size: 50px;
+}
+
+h2{
+  margin-top: 70px;
+  font-size: 25px;
+  border-bottom: 1px solid black;
+  width: 95%;
+  padding-bottom: 5px;
+
+}
+
+b{
+  font-size: 14px;
+}
+
+
+.Primærefarver, .sekundærefarver{
+  margin-top: 50px;
+}
+
+
+
+.farvekode1{
+  height: 55px;
+  width: 120px;
+  background-color: #c4b298;
+}
+
+.farvekode2{
+  height: 55px;
+  width: 120px;
+  background-color: #710000;
+}
+
+.farvekode3{
+  height: 40px;
+  width: 90px;
+  background-color: #2D314E;
+
+}
+
+.farvekode4{
+  height: 40px;
+  width: 90px;
+  background-color: #667A29;
+}
+
+
+
+
+.overskrift{
+ margin-top: 80px;
+}
+
+
+
+
+
+/*Skrifttyper*/
+
+
+#augusta{
+  font-family: augusta;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+
+#helveticat{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+
+#montserrat{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
