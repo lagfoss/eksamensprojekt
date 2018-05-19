@@ -163,3 +163,110 @@ margin-top: 10px;
     text-decoration: none;
     letter-spacing: 1.3pt;
   }
+
+
+  /*layout (program)*/
+
+  .top-program {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+  }
+
+  .top-program > div {
+    width: 14%;
+    text-align: center;
+    line-height: 100%;
+    font-size: 15px;
+  }
+
+
+  #main-program {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      display: -webkit-flex; /* Safari */
+      display: flex;
+  }
+
+  #main-program div {
+      -webkit-flex: 1;  /* Safari 6.1+ */
+      -ms-flex: 1;  /* IE 10 */
+      flex: 1;
+  }
+
+
+  .time-on-days {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+}
+
+ .time-on-days > div {
+    background-color: #ecf6f8;
+    text-align: center;
+    width: 95%;
+    margin: 3%;
+    line-height: 100%;
+
+  }
+   .event-and-date {
+     display: flex;
+     flex-wrap: nowrap;
+}
+
+.time-frame{
+ font-size: 20px;
+ background-color: #667a29;
+ line-height: 100%;
+ max-width: 100px;
+ color: #ecf6f8;
+}
+.time-label{
+ position: relative;
+ display: inline-block;
+ cursor: pointer;
+}
+
+.popup-info{
+ width: 100%;
+ height: 100%;
+ border: none;
+ background-color: transparent;
+ background-color: #2e304f;
+ color: #a19496;
+}
+
+
+
+/*knapper*/
+.rcorners2 {
+  margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 7px;
+    color: #000;
+    border: 1px solid #000;
+    padding: 12px;
+    width: 65px;
+}
+
+
+
+/*knap 2*/
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 80px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+
+}
