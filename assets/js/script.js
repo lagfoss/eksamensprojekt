@@ -353,18 +353,19 @@ function escapeHtml(htmlText) {
 
 /*layout del 1*/
 var html_kode =
-`
-
-<section>
+`<section>
   <h1>Varde Middelalderfestival</h1>
   <h2>Den 8 - 10 AUGUST 2019</h2>
 </section>
 
 
 <div class="intro">
-  <h3>Middelalderlige dage for alle der kan lide gøgl,
-  markeder, ridderkampe, gadeartister, brand shows,
-  eventyr, vandreture, forelæsninger og meget mere.</h2>
+  <h3>Middelalderlige dage for
+  alle der kan lide gøgl,
+  markeder, ridderkampe,
+  gadeartister, brand shows,
+  eventyr, vandreture,
+  forelæsninger og meget mere.</h2>
 </div>
 
 `;
