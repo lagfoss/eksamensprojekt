@@ -733,7 +733,8 @@ footer {
 .program{
   margin-right: 2%;
 }
-.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor,.article1,.article2,.article_kasse2{
+.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor,
+.article1,.article2,.article3,.article4,.article_kasse2{
   width: 50%;
   min-height: 220px;}
 }
@@ -1046,6 +1047,16 @@ margin-left: 35%;
     }
     .article2{
       background-image: url("../images/lopus-tempus.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+    .article3{
+      background-image: url("../images/ml.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+    .article4{
+      background-image: url("../images/salgvedvandet.jpg");
       background-position: center;
       background-size: cover;
     }
