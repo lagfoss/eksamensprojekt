@@ -1059,6 +1059,7 @@ margin-left: 35%;
       background-image: url("../images/salgvedvandet.jpg");
       background-position: center;
       background-size: cover;
+      width: 40%;
     }
 
     .article_kasse1 p{
