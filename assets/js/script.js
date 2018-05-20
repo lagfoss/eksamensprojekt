@@ -460,3 +460,47 @@ function escapeHtml(htmlText) {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
 }
+
+
+
+
+
+
+
+
+
+
+/*del 3*/
+
+var html_kode =
+`<body>
+  <div class='indhold'>
+   <div class='program'><h4><a  href="assets/images/
+   program_middelalderfestival_koebstad_575_varde.pdf"
+   target="_blank">Se Program</a></h4> </div>
+   <div class='kort'><h4><a href="kort1.html">Se Kort
+   </a></h4> </div>
+   <div class='info'><h4><a href="praktiskinfo.html">
+   Praktisk Info</a></h4> </div>
+    </div>
+</body>
+
+`;
+
+// Find codeblock elementet i HTML'en på siden
+var codeElement = document.getElementById('codeblockdel3');
+
+// Kør html-indholdet igennem vores egen escapeHtml funktion
+var escapedCode = escapeHtml(html_kode);
+
+// Sæt det nye escaped html tilbage i codeblock elementet.
+codeElement.innerHTML = escapedCode;
+
+function escapeHtml(htmlText) {
+  return htmlText
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}

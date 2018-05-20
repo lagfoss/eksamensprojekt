@@ -621,3 +621,225 @@ font-weight: 300;
 letter-spacing: 0.75pt;
 color: #fff;
 }
+
+
+
+
+
+
+
+
+/*del 3*/
+.indhold{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+.program {
+ background-image: url("../images/program_front.jpg");
+ background-color: rgba(0,0,0,0.5);
+ background-blend-mode: darken;
+ background-position: center;
+ background-size: cover;
+}
+.kort {
+  background-image: url("../images/kort_front.jpg");
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+ background-position: center;
+ background-size: cover;
+}
+.info {
+  background-image: url("../images/info_front.jpg");
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+ background-position: center;
+ background-size: cover;
+}
+
+.program,
+.kort,
+.info{
+  width: 32%;
+  height: 180px;
+  max-height: 180px;
+}
+.info{
+ margin-left: 2%;
+}
+.program{
+ margin-right: 2%;
+}
+
+h4{
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+margin-top: 75px;
+font-size: 2.5vw;
+font-weight: 700;
+letter-spacing: 0.75pt;
+vertical-align:middle;
+color: #fff;
+}
+h4 a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+h4 a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+h4 a:hover {
+    text-decoration: none;
+    color: #c4b298;
+}
+
+h4 a:active {
+    text-decoration: none;
+}
+
+
+
+
+
+/*del 4*/
+.indhold{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.event_left1 {
+  background-color:#fff;
+  background-position: center;
+  background-size: cover;
+}
+
+.event_tekst1 {
+  background-color:#fff;
+  background-position: center;
+  background-size: cover;
+}
+.event_tekst2 {
+  background-color:#fff;
+  background-position: center;
+  background-size: cover;
+}
+.event_img_left {
+  background-image: url("../images/7kanten.jpg");
+ background-position: center;
+ background-size: cover;
+}
+
+.event_img_middle {
+  background-image: url("../images/lopus-tempus.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.event_img_right {
+  background-image: url("../images/ml.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.event_text_left,.event_text_middle,.event_text_right{
+  background-color:#fff;
+  background-position: center;
+  background-size: cover;
+}
+
+.event_left1,
+.event_right1,
+.event_left2,
+.event_right2,
+.event_text_left,
+.event_text_middle,
+.event_text_right,
+.event_tekst2,
+.event_img_left,
+.event_img_middle,
+.event_img_right{
+  width: 32%;
+  min-height: 220px;
+}
+.rcorners1 {
+  margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 7px;
+    color: #000;
+    border: 1px solid #000;
+    padding: 12px;
+    width: 120px;
+}
+.rcorners2 {
+  margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 7px;
+    color: #000;
+    border: 1px solid #000;
+    padding: 12px;
+    width: 65px;
+}
+.rcorners3 {
+  margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 7px;
+    color: #000;
+    border: 1px solid #000;
+    padding: 12px;
+    width: 85px;
+}
+.event_kasse1{
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  font-size: 30px;
+  padding: 20px 0px 0px 20px;
+  letter-spacing: 1.2pt;
+  color: #000;
+  font-weight: 700;
+  text-align: left;
+  padding: auto;
+}
+.event_kasse1 p{
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 20px 30px 0;
+  font-weight: 300;
+  line-height: 14pt;
+  font-size:12px;
+}
+
+.event_kasse2{
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  font-size: 30px;
+  padding: 20px 0px 0px 20px;
+  letter-spacing: 1.2pt;
+  color: #000;
+  font-weight: 700;
+  text-align: left;
+  padding: auto;
+}
+.event_kasse2 p{
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 20px 30px 0;
+  font-weight: 300;
+  line-height: 14pt;
+  font-size:12px;
+
+}
+.event_left1,.event_img_middle,.event_img_right,.event_text_middle,.event_text_right{
+  margin-left: 2%;
+}
+.event_left{
+  margin-right: 2%;
+}
