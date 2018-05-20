@@ -342,3 +342,47 @@ function escapeHtml(htmlText) {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
 }
+
+
+
+
+
+
+
+
+
+/*layout del 1*/
+var html_kode =
+`
+
+<section>
+  <h1>Varde Middelalderfestival</h1>
+  <h2>Den 8 - 10 AUGUST 2019</h2>
+</section>
+
+
+<div class="intro">
+  <h3>Middelalderlige dage for alle der kan lide gøgl,
+  markeder, ridderkampe, gadeartister, brand shows,
+  eventyr, vandreture, forelæsninger og meget mere.</h2>
+</div>
+
+`;
+
+// Find codeblock elementet i HTML'en på siden
+var codeElement = document.getElementById('codeblockdel1');
+
+// Kør html-indholdet igennem vores egen escapeHtml funktion
+var escapedCode = escapeHtml(html_kode);
+
+// Sæt det nye escaped html tilbage i codeblock elementet.
+codeElement.innerHTML = escapedCode;
+
+function escapeHtml(htmlText) {
+  return htmlText
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}

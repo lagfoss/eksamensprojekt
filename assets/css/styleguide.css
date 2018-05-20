@@ -20,12 +20,12 @@ body {
 
 
 
-h1{
+#over {
   margin-top: 90px;
   font-size: 60px;
 }
 
-h2{
+h6{
   font-size: 35px;
   font-weight: 100;
   border-bottom: 2px solid black;
@@ -513,4 +513,111 @@ margin-left: -50%;
  visibility: visible;
  -webkit-animation: fadeIn 0,5s;
  animation: fadeIn 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*del 1*/
+.indhold {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+.seo_om_vmf {
+  background-color:#fff;
+  background-position: center;
+  background-size: cover;
+}
+.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor,.article1,.article_kasse2{
+  width: 50%;
+  min-height: 220px;
+}
+
+  .event_kasse1{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    font-size: 30px;
+    padding: 20px 0px 0px 20px;
+    letter-spacing: 1.2pt;
+    color: #000;
+    font-weight: 700;
+    text-align: left;
+    padding: auto;
+  }
+  .event_kasse1 p{
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 20px 30px 0;
+    font-weight: 300;
+    line-height: 14pt;
+    font-size:12px;
+  }
+
+.praktiskinfo {
+  background-image: url("../images/praktiskinfo.jpg");
+ background-position: center;
+ background-size: cover;
+}
+
+
+
+
+
+/*del 2*/
+section{
+ width: 100%;
+ margin: 0px 0 0 0;
+ padding: 0;
+ min-height: 380px;
+ background-color: rgba(0,0,0,0.3);
+ background-image: url("../images/front_img.jpg");
+ background-blend-mode: darken;
+ background-position: center;
+ background-size: cover;
+}
+.intro{
+ width: 100%;
+ background-color: #710000;
+ margin: 0px 0 0 0;
+}
+h1 {
+  font-family: augusta;
+  margin: auto;
+  font-size: 5.5vw;
+  padding-top: 150px;
+  letter-spacing: 1.2pt;
+  color: #fff;
+  text-align: center;
+  text-shadow: 00px 0px 80px #000000;
+  padding: auto;
+}
+h2{
+  font-family: augusta;
+  margin: auto;
+  font-size: 3.5vw;
+  padding-top: 0px;
+  letter-spacing: 1.2pt;
+  color: #fff;
+  text-align: center;
+  text-shadow: 00px 0px 60px #000000;
+  padding: auto;
+}
+h3{
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+margin: 0px 0 0 0;
+padding: 30px 18% 30px 18% ;
+font-size: 14px;
+font-weight: 300;
+letter-spacing: 0.75pt;
+color: #fff;
 }
