@@ -387,3 +387,76 @@ function escapeHtml(htmlText) {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*layout del 2*/
+var html_kode =
+`
+<body>
+  <div class="indhold">
+  <!-- praktiskinfo 1 -->
+  <div class="seo_om_vmf">
+
+  <div class="event_kasse1">
+  Praktisk Info
+  <p>
+  Hele middelalderfestivalens
+  weekendprogram foregår ved Varde Å.</p>
+  <p> Der er indgang til Middelalderpladsen
+  fra Slotsgade. Nærmeste P-plads er på
+  Pramstedvej og Stålværksgrunden
+  indkørsel fra Vestervold.</p>
+
+  <p><b>Festivalens åbningstider
+    for 2019:</b></p>
+
+  <p>fredag d. 8. august kl.
+  16 - 23. lørdag
+  d. 9. august kl. 10 - 23.
+  Børneområdet holdte
+  ligeledes åben fredag d. 8. august
+  kl. 9.00-13.00. Der var gratis entré
+  til festivalområdet.
+  </p>
+  </div>
+
+  </div>
+  <div class="praktiskinfo">
+
+  </div>
+  <!-- praktiskinfo 1 Slut -->
+
+  <div class="space"></div>
+  </div>
+</body>
+
+`;
+
+// Find codeblock elementet i HTML'en på siden
+var codeElement = document.getElementById('codeblockdel2');
+
+// Kør html-indholdet igennem vores egen escapeHtml funktion
+var escapedCode = escapeHtml(html_kode);
+
+// Sæt det nye escaped html tilbage i codeblock elementet.
+codeElement.innerHTML = escapedCode;
+
+function escapeHtml(htmlText) {
+  return htmlText
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
