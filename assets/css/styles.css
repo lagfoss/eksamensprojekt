@@ -86,7 +86,6 @@ h1 {
   color: #fff;
   text-align: center;
   text-shadow: 00px 0px 80px #000000;
-  padding: auto;
 }
 
 h2{
@@ -98,7 +97,6 @@ h2{
   color: #fff;
   text-align: center;
   text-shadow: 00px 0px 60px #000000;
-  padding: auto;
 }
 
 footer{
@@ -134,7 +132,6 @@ margin-bottom: 15px;
   color: #fff;
   font-weight: 700;
   text-align: center;
-  padding: auto;
 }
 
 .event_kasse1{
@@ -146,7 +143,6 @@ margin-bottom: 15px;
   color: #000;
   font-weight: 700;
   text-align: left;
-  padding: auto;
 }
 .event_kasse1 p{
   font-family: 'Montserrat', sans-serif;
@@ -165,7 +161,6 @@ margin-bottom: 15px;
   color: #000;
   font-weight: 700;
   text-align: left;
-  padding: auto;
 }
 .event_kasse2 p{
   font-family: 'Montserrat', sans-serif;
@@ -631,7 +626,6 @@ section{
     color: #fff;
     text-align: center;
     text-shadow: 00px 0px 80px #000000;
-    padding: auto;
   }
 
   h2{
@@ -643,7 +637,6 @@ section{
     color: #fff;
     text-align: center;
     text-shadow: 00px 0px 60px #000000;
-    padding: auto;
   }
 
   h4{
@@ -667,7 +660,6 @@ section{
     color: #fff;
     font-weight: 700;
     text-align: center;
-    padding: auto;
   }
   .event_kasse1{
     font-family: 'Montserrat', sans-serif;
@@ -792,7 +784,6 @@ footer {
     color: #fff;
     font-weight: 700;
     text-align: center;
-    padding: auto;
   }
 
   .indhold{
@@ -1201,7 +1192,6 @@ margin-left: 35%;
      color: #000;
      font-weight: 700;
      text-align: left;
-     padding: auto;
 }
     .article1{
       background-image: url("../images/7kanten.jpg");
@@ -1242,7 +1232,6 @@ margin-left: 35%;
       color: #000;
       font-weight: 700;
       text-align: left;
-      padding: auto;
       background-color: #ffffff;
     }
 
