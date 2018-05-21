@@ -196,17 +196,19 @@ letter-spacing: 0.75pt;
 vertical-align:middle;
 color: #fff;
 }
+
+
 h4 a:link {
     text-decoration: none;
     color: #fff;
 }
 
-h4 a:visited {
+h4  a:visited {
     text-decoration: none;
     color: #fff;
 }
 
-h4 a:hover {
+h4  a:hover {
     text-decoration: none;
     color: #c4b298;
 }
@@ -215,6 +217,25 @@ h4 a:active {
     text-decoration: none;
 }
 
+
+.event_kasse1,.event_kasse2 a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+.event_kasse1,.event_kasse2  a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.event_kasse1,.event_kasse2  a:hover {
+    text-decoration: none;
+    color: #c4b298;
+}
+
+.event_kasse1,.event_kasse2 a:active {
+    text-decoration: none;
+}
 
 /*
  * 2.0 header
