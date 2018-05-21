@@ -218,22 +218,22 @@ h4 a:active {
 }
 
 
-.event_kasse1,.event_kasse2 a:link {
+.event_kasse1 a:link,.event_kasse2 a:link {
     text-decoration: none;
     color: #000;
 }
 
-.event_kasse1,.event_kasse2  a:visited {
+.event_kasse1 a:visited,.event_kasse2  a:visited {
     text-decoration: none;
     color: #000;
 }
 
-.event_kasse1,.event_kasse2  a:hover {
+.event_kasse1 a:hover,.event_kasse2  a:hover {
     text-decoration: none;
     color: #c4b298;
 }
 
-.event_kasse1,.event_kasse2 a:active {
+.event_kasse1 a:active,.event_kasse2 a:active {
     text-decoration: none;
 }
 
