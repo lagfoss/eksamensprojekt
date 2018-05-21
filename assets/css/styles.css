@@ -625,6 +625,19 @@ footer {
    color: white;
    text-align: center;
 }
+.socialmedier{
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
+
+.fb{
+  width: 35px;
+  padding: 5px;
+}
+.ig{
+  width: 35px;
+  padding: 5px;
+}
 
 /* Tablet Styles */
 @media only screen and (min-width: 400.01px) and (max-width: 720px) {
@@ -1059,7 +1072,7 @@ margin-left: 35%;
       background-image: url("../images/salgvedvandet.jpg");
       background-position: center;
       background-size: cover;
-      
+
     }
 
     .article_kasse1 p{
