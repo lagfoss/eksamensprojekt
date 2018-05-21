@@ -31,12 +31,6 @@ function responsiveNav() {
 
 
 
-
-
-
-
-
-
 /*style giude html knap 1*/
 var html_kode =
 `<body>
@@ -63,9 +57,6 @@ function escapeHtml(htmlText) {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
 }
-
-
-
 
 
 /*style giude html knap 2*/
@@ -98,9 +89,6 @@ function escapeHtml(htmlText) {
 
 
 
-
-
-
 /*style giude html knap 3*/
 var html_kode =
 `<body>
@@ -128,11 +116,6 @@ function escapeHtml(htmlText) {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
 }
-
-
-
-
-
 
 
 /*style giude html menu*/
@@ -181,11 +164,6 @@ function escapeHtml(htmlText) {
 }
 
 
-
-
-
-
-
 /*style giude html foter*/
 var html_kode =
 ` <footer><div class="footer_tekst">
@@ -227,23 +205,6 @@ function escapeHtml(htmlText) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*style giude html foter*/
 var html_kode =
 `
@@ -278,9 +239,6 @@ var html_kode =
 
               </div>
           </div>
-
-
-
 
 
 
@@ -345,12 +303,6 @@ function escapeHtml(htmlText) {
 
 
 
-
-
-
-
-
-
 /*layout del 1*/
 var html_kode =
 `<section>
@@ -387,17 +339,6 @@ function escapeHtml(htmlText) {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*layout del 2*/
@@ -460,14 +401,6 @@ function escapeHtml(htmlText) {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
 }
-
-
-
-
-
-
-
-
 
 
 /*del 3*/

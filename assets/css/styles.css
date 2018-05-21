@@ -86,7 +86,6 @@ h1 {
   color: #fff;
   text-align: center;
   text-shadow: 00px 0px 80px #000000;
-  padding: auto;
 }
 
 h2{
@@ -98,7 +97,6 @@ h2{
   color: #fff;
   text-align: center;
   text-shadow: 00px 0px 60px #000000;
-  padding: auto;
 }
 
 footer{
@@ -134,7 +132,6 @@ margin-bottom: 15px;
   color: #fff;
   font-weight: 700;
   text-align: center;
-  padding: auto;
 }
 
 .event_kasse1{
@@ -146,7 +143,6 @@ margin-bottom: 15px;
   color: #000;
   font-weight: 700;
   text-align: left;
-  padding: auto;
 }
 .event_kasse1 p{
   font-family: 'Montserrat', sans-serif;
@@ -165,7 +161,6 @@ margin-bottom: 15px;
   color: #000;
   font-weight: 700;
   text-align: left;
-  padding: auto;
 }
 .event_kasse2 p{
   font-family: 'Montserrat', sans-serif;
@@ -196,17 +191,19 @@ letter-spacing: 0.75pt;
 vertical-align:middle;
 color: #fff;
 }
+
+
 h4 a:link {
     text-decoration: none;
     color: #fff;
 }
 
-h4 a:visited {
+h4  a:visited {
     text-decoration: none;
     color: #fff;
 }
 
-h4 a:hover {
+h4  a:hover {
     text-decoration: none;
     color: #c4b298;
 }
@@ -215,6 +212,25 @@ h4 a:active {
     text-decoration: none;
 }
 
+
+.event_kasse1 a:link,.event_kasse2 a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+.event_kasse1 a:visited,.event_kasse2  a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.event_kasse1 a:hover,.event_kasse2  a:hover {
+    text-decoration: none;
+    color: #c4b298;
+}
+
+.event_kasse1 a:active,.event_kasse2 a:active {
+    text-decoration: none;
+}
 
 /*
  * 2.0 header
@@ -231,6 +247,7 @@ h4 a:active {
   width: 10%;
   background-color: transparent;
   display: block;
+
 }
  /*
   * 2.1 logo
@@ -297,22 +314,28 @@ h4 a:active {
    }
 
    .droplang {
-     margin-right: 10px;
+     margin-top: 17px;
+     width: 30px;
+     height: 20px;
+     background-image: url("../images/dk.jpg");
      background-color: #c4b298;
+     background-repeat: no-repeat;
      text-align: center;
      text-decoration: none;
      cursor: pointer;
-     padding: 20px 10px 0 10px;
+
    }
 
    .droplang-content {
        display: none;
        margin-top: 0px;
+       margin-right: -60px;
        position: relative;
        background-color: #c4b298;
        border-style: solid;
        border-width: 2px;
        border-radius: 5px;
+
        border-color: transparent;
        box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
        z-index: 5;
@@ -342,7 +365,8 @@ h4 a:active {
 }
 
 @media screen and (max-width: 920px) {
-  nav.responsive {position: relative;}
+  nav.responsive {position: relative;
+  background-color: #c4b298;}
   nav.responsive .icon {
     position: relative;
     display: block;
@@ -355,7 +379,8 @@ h4 a:active {
     float: none;
     display: block;
     text-align: left;
-    margin: 0;
+    margin: 20px 0 0 10px;
+
   }
   nav.responsive a.empty2{ display: none;}
   nav.responsive .dropdown {float: none;}
@@ -396,6 +421,9 @@ section{
   letter-spacing: 1.2pt;
 
 }
+.small h3{
+  display: none;
+  }
 .intro{
  width: 100%;
  background-color: #710000;
@@ -441,6 +469,7 @@ section{
  background-position: center;
  background-size: cover;
 }
+
 
 .event_left1 {
   background-color:#fff;
@@ -520,6 +549,37 @@ section{
  background-position: center;
  background-size: cover;
 }
+.knap1{
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 7px;
+    color: #fff;
+    background-color: #6a802a;
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 90px;
+}
+.knap1 a:link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.knap1 a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.knap1 a:hover {
+    text-decoration: none;
+
+    color: #c4b298;
+}
+
+.knap1 a:active {
+    text-decoration: none;
+}
+
 .rcorners1 {
   margin-top: 10px;
     border-radius: 5px;
@@ -528,7 +588,7 @@ section{
     font-size: 7px;
     color: #000;
     border: 1px solid #000;
-    padding: 12px;
+    padding: 9px;
     width: 120px;
 }
 .rcorners2 {
@@ -539,7 +599,7 @@ section{
     font-size: 7px;
     color: #000;
     border: 1px solid #000;
-    padding: 12px;
+    padding: 9px;
     width: 65px;
 }
 .rcorners3 {
@@ -550,12 +610,66 @@ section{
     font-size: 7px;
     color: #000;
     border: 1px solid #000;
-    padding: 12px;
+    padding: 9px;
     width: 85px;
 }
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
+
+  h1 {
+    font-family: augusta;
+    margin: auto;
+    font-size: 7vw;
+    padding: 150px 20px 0 20px;
+    letter-spacing: 1.2pt;
+    color: #fff;
+    text-align: center;
+    text-shadow: 00px 0px 80px #000000;
+  }
+
+  h2{
+    font-family: augusta;
+    margin: auto;
+    font-size: 6.5vw;
+    padding: 0px 20px 0 20px;
+    letter-spacing: 1.2pt;
+    color: #fff;
+    text-align: center;
+    text-shadow: 00px 0px 60px #000000;
+  }
+
+  h4{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 75px;
+  font-size: 5.5vw;
+  font-weight: 700;
+  letter-spacing: 0.75pt;
+  vertical-align:middle;
+  color: #fff;
+  }
+
+  .overskrift{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    font-size: 20px;
+    padding: 20px 0px 0px 0px;
+    letter-spacing: 1.2pt;
+    line-height: 22pt;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+  }
+  .event_kasse1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+  }
+  .event_kasse1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size:12px;
+  }
+
   .seo_om_vmf{
     width: 100%;
     margin-top: 20px;
@@ -621,16 +735,57 @@ footer {
    bottom: 0;
    width: 100%;
    margin: 30px auto 00px auto;
+   padding: 20px 20px 0 20px;
    background-color: #2d314e;
    color: white;
    text-align: center;
 }
+.socialmedier{
+  width: 100%;
+    text-decoration: none;
+  margin: 10px 0 10px 0;
+}
+
+.fb{
+  width: 35px;
+  padding: 5px;
+    text-decoration: none;
+}
+.ig{
+  width: 35px;
+  padding: 5px;
+    text-decoration: none;
+}
 
 /* Tablet Styles */
 @media only screen and (min-width: 400.01px) and (max-width: 720px) {
+
+
+
+  .event_kasse1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+  }
+  .event_kasse1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size:12px;
+  }
   footer{
     margin-top: 20px;
+    padding: 20px 20px 0 20px;
   }
+  .overskrift{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    font-size: 30px;
+    padding: 20px 20px 10px 20px;
+    letter-spacing: 1.2pt;
+    line-height: 32pt;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+  }
+
   .indhold{
     display: flex;
     flex-wrap: wrap;
@@ -657,8 +812,7 @@ footer {
  .event_img_middle,
  .event_img_right{
    width: 100%;
-   height: 240px;
-   min-height: 220px;
+   min-height: 240px;
  }
  .event_img_left{ order: 1;
  }
@@ -1038,7 +1192,6 @@ margin-left: 35%;
      color: #000;
      font-weight: 700;
      text-align: left;
-     padding: auto;
 }
     .article1{
       background-image: url("../images/7kanten.jpg");
@@ -1079,7 +1232,6 @@ margin-left: 35%;
       color: #000;
       font-weight: 700;
       text-align: left;
-      padding: auto;
       background-color: #ffffff;
     }
 
