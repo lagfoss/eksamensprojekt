@@ -252,6 +252,7 @@ h4 a:active {
   width: 10%;
   background-color: transparent;
   display: block;
+
 }
  /*
   * 2.1 logo
@@ -363,7 +364,8 @@ h4 a:active {
 }
 
 @media screen and (max-width: 920px) {
-  nav.responsive {position: relative;}
+  nav.responsive {position: relative;
+  background-color: #c4b298;}
   nav.responsive .icon {
     position: relative;
     display: block;
@@ -376,7 +378,8 @@ h4 a:active {
     float: none;
     display: block;
     text-align: left;
-    margin: 0;
+    margin: 20px 0 0 10px;
+
   }
   nav.responsive a.empty2{ display: none;}
   nav.responsive .dropdown {float: none;}
