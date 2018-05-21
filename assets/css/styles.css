@@ -554,6 +554,37 @@ section{
  background-position: center;
  background-size: cover;
 }
+.knap1{
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 7px;
+    color: #fff;
+    background-color: #6a802a;
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 90px;
+}
+.knap1 a:link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.knap1 a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.knap1 a:hover {
+    text-decoration: none;
+
+    color: #c4b298;
+}
+
+.knap1 a:active {
+    text-decoration: none;
+}
+
 .rcorners1 {
   margin-top: 10px;
     border-radius: 5px;
@@ -562,7 +593,7 @@ section{
     font-size: 7px;
     color: #000;
     border: 1px solid #000;
-    padding: 12px;
+    padding: 9px;
     width: 120px;
 }
 .rcorners2 {
@@ -573,7 +604,7 @@ section{
     font-size: 7px;
     color: #000;
     border: 1px solid #000;
-    padding: 12px;
+    padding: 9px;
     width: 65px;
 }
 .rcorners3 {
@@ -584,7 +615,7 @@ section{
     font-size: 7px;
     color: #000;
     border: 1px solid #000;
-    padding: 12px;
+    padding: 9px;
     width: 85px;
 }
 
@@ -704,8 +735,7 @@ footer {
  .event_img_middle,
  .event_img_right{
    width: 100%;
-   height: 240px;
-   min-height: 220px;
+   min-height: 240px;
  }
  .event_img_left{ order: 1;
  }
