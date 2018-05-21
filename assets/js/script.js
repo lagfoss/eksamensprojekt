@@ -406,7 +406,8 @@ function escapeHtml(htmlText) {
 /*del 3*/
 
 var html_kode =
-`<body>
+`
+<body>
   <div class='indhold'>
    <div class='program'><h4><a  href="assets/images/
    program_middelalderfestival_koebstad_575_varde.pdf"
@@ -439,22 +440,149 @@ function escapeHtml(htmlText) {
 }
 
 
-// When the user clicks on div, open the popup
-function programpopups(a) {
-  a.parentNode.getElementsByClassName("popup-info2")[0].classList.toggle("show");
+
+
+
+
+
+
+
+
+
+/*program*/
+
+
+var html_kode =
+`
+<body>
+  <div class='indhold'>
+   <div class='program'><h4><a  href="assets/images/
+   program_middelalderfestival_koebstad_575_varde.pdf"
+   target="_blank">Se Program</a></h4> </div>
+   <div class='kort'><h4><a href="kort1.html">Se Kort
+   </a></h4> </div>
+   <div class='info'><h4><a href="praktiskinfo.html">
+   Praktisk Info</a></h4> </div>
+    </div>
+</body>
+
+`;
+
+// Find codeblock elementet i HTML'en på siden
+var codeElement = document.getElementById('codeblock10');
+
+// Kør html-indholdet igennem vores egen escapeHtml funktion
+var escapedCode = escapeHtml(html_kode);
+
+// Sæt det nye escaped html tilbage i codeblock elementet.
+codeElement.innerHTML = escapedCode;
+
+function escapeHtml(htmlText) {
+  return htmlText
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 }
 
-// Close the popup if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.popup-info')) {
 
-    var popup = document.getElementsByClassName("popup-info2");
-    var i;
-    for (i = 0; i < popup.length; i++) {
-      var openPopup = popup[i];
-      if (openPopup.classList.contains('show')) {
-        openPopup.classList.remove('show');
-      }
-    }
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*del 4*/
+
+
+var html_kode =
+`
+<body>
+  <div class="indhold">
+    <!-- 1 Event -->
+    <div class="event_img_left">
+    </div>
+
+    <div class="event_img_middle">
+    </div>
+
+    <div class="event_img_right">
+    </div>
+
+      <div class="event_text_left">
+
+        <div class="event_kasse1">
+          7 kanten
+        <div class="rcorners1">
+          PROGRAM EVENT
+        </div>
+         <p>7-kanten er en af Danmarks største og mest aktive
+         amatørteaterforeninger med cirka 500 medlemmer
+         inklusive en børneafdeling på ca. 60 og en
+         ungdomsafdeling på ca. 40 og en afdeling for
+         pensionister "Teater om Dagen". </p>
+        </div>
+
+      </div>
+
+      <div class="event_text_middle">
+
+        <div class="event_kasse2">
+          Lupus Tempus
+          <div class="rcorners2">
+            SHOW
+      </div>
+        <p>Lupus Tempus –et historisk selskab
+          blev dannet i november 2006 og består
+          i dag af 10 medlemmer.
+          Vi formidler og levendegøre nordeuropæisk
+          middelalder kulturarv gennem reenactment.</p>
+          </div>
+      </div>
+
+      <div class="event_text_right">
+
+        <div class="event_kasse2">
+          Mikkel Langbue
+          <div class="rcorners3">
+            Frivillig
+              </div>
+                  <p>Mikkel Langbue indtager markedet. Grin som pisket af historierne om Sorte Karen, De grimme kællinger og Laurits Låddenhals.</p>
+          </div>
+      </div>
+      <!-- 1 Event Slut -->
+  </div>
+
+
+    </div>
+</body>
+
+`;
+
+// Find codeblock elementet i HTML'en på siden
+var codeElement = document.getElementById('codeblockdel4');
+
+// Kør html-indholdet igennem vores egen escapeHtml funktion
+var escapedCode = escapeHtml(html_kode);
+
+// Sæt det nye escaped html tilbage i codeblock elementet.
+codeElement.innerHTML = escapedCode;
+
+function escapeHtml(htmlText) {
+  return htmlText
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 }

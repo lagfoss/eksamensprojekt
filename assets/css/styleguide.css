@@ -738,6 +738,190 @@ h4 a:active {
 
 
 
+
+
+
+/*login*/
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+/* Set a style for all buttons */
+
+button {
+  background-color: #70150e;
+  color: white;
+  padding: 14px 20px;
+  margin: 0px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #70150e;
+  border-radius: 4px;
+}
+
+/* Center the image and position the close button */
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 16%;
+  border-radius: 0%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+  background-color: #C4B298;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 30%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*program*/
 .program-background{
  background-image: url("../images/boatatriverbed.jpg");
@@ -853,238 +1037,3 @@ margin-left: -50%;
  -webkit-animation: fadeIn 0,5s;
  animation: fadeIn 0.5s;
 }
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
- from {opacity: 0;}
- to {opacity: 1;}
-}
-
-/*kort styles*/
-#kort1{
-width: 100%;
-margin: 0px 0 0 0;
-padding: 0;
-min-height: 680px;
-background-image: url("../images/kort1.jpg");
-background-blend-mode: darken;
-background-position: center;
-background-size: cover;
-cursor: zoom-in;
-}
-
-#kort2{
-width: 100%;
-min-height: 680px;
-background-image: url("../images/kort2.jpg");
-background-position: center;
-background-size: cover;
-cursor: zoom-in;
-}
-
-#kort3{
-width: 100%;
-min-height: 680px;
-background-image: url("../images/kort3.jpg");
-background-position: center;
-background-size: cover;
-cursor: zoom-in;
-}
-
-#kort4{
-width: 100%;
-min-height: 680px;
-background-image: url("../images/kort4.jpg");
-background-position: center;
-background-size: cover;
-cursor: zoom-in;
-}
-
-#kort5{
-width: 100%;
-min-height: 680px;
-background-image: url("../images/kort5.jpg");
-background-position: center;
-background-size: cover;
-cursor: zoom-out;
-
-}
-
-.semere{
-height: 4%;
-width: 90px;
-position: absolute;
-z-index: -1;
-margin-left: 34.6%;
-margin-top: -245px;
-}
-
-/*korttest*/
-
-.img-zoom-container {
- position: relative;
- margin-top: 20px;
-}
-
-.img-zoom-lens {
- position: absolute;
- border: 1px solid #d4d4d4;
- /*set the size of the lens:*/
- width: 80px;
- height: 80px;
-}
-
-.img-zoom-result {
- border: 1px solid black;
- box-shadow: 00px 00px 30px #000000;
- /*set the size of the result div:*/
- width: 30%;
- height: 60%;
- margin-left: -0px;
- margin-top: -49%;
- position: absolute;
-}
-
-#kort {
- background-repeat: no-repeat;
-}
-
-
-
-/*kontakt styles*/
-
-
-#hvor{
-  height: 100%;
-  width: 100%;
-  background-image: url("../images/hvor.jpg");
-background-repeat: no-repeat;
-margin-left: 35%;
-}
-
-.labelform > label{
-font-size: 18px;
-margin-top: 30px;
-padding: 12px 12px 12px 0;
-display: inline-block;
-}
-
-
-
-* {
-    box-sizing: border-box;
-}
-
-input[type=text], select, textarea {
-    width: 96.5%;
-    padding: 12px;
-    border: 1px solid #9b8368;
-    border-radius: 4px;
-    resize: vertical;
-}
-
-
-
-
-
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    margin: 20px;
-    margin-right: 45%;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-
-}
-
-
-.col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-}
-
-.col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 10px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/*All Articles*/
-
-.article_kasse1{
-  font-family: 'Montserrat', sans-serif;
-  margin: auto;
-  font-size: 20px;
-  padding: 20px 0px 0px 20px;
-  letter-spacing: 1.2pt;
-  color: #000;
-  font-weight: 700;
-  text-align: left;
-  padding: auto;
-}
- .article1{
-   background-image: url("../images/7kanten.jpg");
-   background-position: center;
-   background-size: cover;
- }
- .article2{
-   background-image: url("../images/lopus-tempus.jpg");
-   background-position: center;
-   background-size: cover;
- }
- .article3{
-   background-image: url("../images/ml.jpg");
-   background-position: center;
-   background-size: cover;
- }
- .article4{
-   background-image: url("../images/salgvedvandet.jpg");
-   background-position: center;
-   background-size: cover;
-
- }
-
- .article_kasse1 p{
-   font-family: 'Montserrat', sans-serif;
-   margin: 20px 20px 30px 0;
-   font-weight: 300;
-   line-height: 14pt;
-   font-size:12px;
- }
-
- .article_kasse2{
-   font-family: 'Montserrat', sans-serif;
-   margin: auto;
-   font-size: 20px;
-   padding: 20px 0px 0px 20px;
-   letter-spacing: 1.2pt;
-   color: #000;
-   font-weight: 700;
-   text-align: left;
-   padding: auto;
-   background-color: #ffffff;
- }
-
- .article_kasse2 p{
-   font-family: 'Montserrat', sans-serif;
-   margin: 20px 20px 30px 0;
-   font-weight: 300;
-   line-height: 14pt;
-   font-size:12px;
- }
