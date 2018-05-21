@@ -396,6 +396,9 @@ section{
   letter-spacing: 1.2pt;
 
 }
+.small h3{
+  display: none;
+  }
 .intro{
  width: 100%;
  background-color: #710000;
