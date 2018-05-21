@@ -856,6 +856,173 @@ button:hover {
 
 
 
+                    <div class="fff"><br><br>
+                                  <p><b> HTML:</b> </p>
+                                    <pre id="codeblockdel4"></pre>
+                    </div>
+
+
+                    <div class="fff">
+
+                    <br><br>
+                    <p><b>CSS:</b></p>
+<pre>
+    .indhold{
+      display: flex;
+      flex-wrap: wrap;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+
+    .event_left1 {
+      background-color:#fff;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .event_tekst1 {
+      background-color:#fff;
+      background-position: center;
+      background-size: cover;
+    }
+    .event_tekst2 {
+      background-color:#fff;
+      background-position: center;
+      background-size: cover;
+    }
+    .event_img_left {
+      background-image: url("../images/7kanten.jpg");
+     background-position: center;
+     background-size: cover;
+    }
+
+    .event_img_middle {
+      background-image: url("../images/lopus-tempus.jpg");
+     background-position: center;
+     background-size: cover;
+    }
+    .event_img_right {
+      background-image: url("../images/ml.jpg");
+     background-position: center;
+     background-size: cover;
+    }
+    .event_text_left,.event_text_middle,.event_text_right{
+      background-color:#fff;
+      background-position: center;
+      background-size: cover;
+    }
+</pre>
+</div>
+
+  <div class="fff">
+  <pre>
+
+            .event_left1,
+            .event_right1,
+            .event_left2,
+            .event_right2,
+            .event_text_left,
+            .event_text_middle,
+            .event_text_right,
+            .event_tekst2,
+            .event_img_left,
+            .event_img_middle,
+            .event_img_right{
+              width: 32%;
+              min-height: 220px;
+            }
+
+            .rcorners1 {
+              margin-top: 10px;
+                border-radius: 5px;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 7px;
+                color: #000;
+                border: 1px solid #000;
+                padding: 12px;
+                width: 120px;
+            }
+            .rcorners2 {
+              margin-top: 10px;
+                border-radius: 5px;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 7px;
+                color: #000;
+                border: 1px solid #000;
+                padding: 12px;
+                width: 65px;
+            }
+            .rcorners3 {
+              margin-top: 10px;
+                border-radius: 5px;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 7px;
+                color: #000;
+                border: 1px solid #000;
+                padding: 12px;
+                width: 85px;
+            }
+
+
+</pre>
+</div>
+
+  <div class="fff">
+  <pre>
+          .event_kasse1{
+            font-family: 'Montserrat', sans-serif;
+            margin: auto;
+            font-size: 30px;
+            padding: 20px 0px 0px 20px;
+            letter-spacing: 1.2pt;
+            color: #000;
+            font-weight: 700;
+            text-align: left;
+            padding: auto;
+          }
+          .event_kasse1 p{
+            font-family: 'Montserrat', sans-serif;
+            margin: 20px 20px 30px 0;
+            font-weight: 300;
+            line-height: 14pt;
+            font-size:12px;
+          }
+
+          .event_kasse2{
+            font-family: 'Montserrat', sans-serif;
+            margin: auto;
+            font-size: 30px;
+            padding: 20px 0px 0px 20px;
+            letter-spacing: 1.2pt;
+            color: #000;
+            font-weight: 700;
+            text-align: left;
+            padding: auto;
+          }
+          .event_kasse2 p{
+            font-family: 'Montserrat', sans-serif;
+            margin: 20px 20px 30px 0;
+            font-weight: 300;
+            line-height: 14pt;
+            font-size:12px;
+
+          }
+          .event_left1,.event_img_middle,.event_img_right,
+          .event_text_middle,.event_text_right{
+            margin-left: 2%;
+          }
+          .event_left{
+            margin-right: 2%;
+          }
+
+</pre>
+</div>
+
+
 
 
 
@@ -944,365 +1111,609 @@ button:hover {
 
 
 
+
+<h6 class"overskrift"> login </h6>
+                        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log ind så du kan tilføje artikkel</button>
+
+                        <div id="id01" class="modal">
+
+                          <form class="modal-content animate" action="/action_page.php">
+                            <div class="imgcontainer">
+                              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                              <img src="assets/images/logo.png" alt="Avatar" class="avatar">
+                            </div>
+
+                            <div class="container">
+                              <label for="uname"><b>Username</b></label>
+                              <input type="text" placeholder="Enter Username" name="uname" required>
+
+                              <label for="psw"><b>Password</b></label>
+                              <input type="password" placeholder="Enter Password" name="psw" required>
+
+                              <a href="klient.html"><button type="button">Login</button></a>
+                              <label>
+                              <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                            </div>
+
+                            <div class="container" style="background-color:#f1f1f1">
+                              <a href="index.html"><button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Gå tilbage</button></a>
+                              <span class="psw">Forgot <a href="#">password?</a></span>
+                            </div>
+                          </form>
+                        </div>
+
+                        <script>
+                          // Get the modal
+                          var modal = document.getElementById('id01');
+
+                          // When the user clicks anywhere outside of the modal, close it
+                          window.onclick = function(event) {
+                            if (event.target == modal) {
+                              modal.style.display = "none";
+                            }
+                          }
+                        </script>
+                      </div>
+
+
+                <div class="fff">
+  <p><b> HTML:</b> </p>
+                <pre id="codeblocklogin"></pre>
+                      </div>
+
+
+
+
+  <div class="fff">
+
+
+<pre>
+
+<b>CSS:</b>
+
+    input[type=text],
+    input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      border-radius: 4px;
+    }
+
+    /* Set a style for all buttons */
+
+    button {
+      background-color: #70150e;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+
+    /* Extra styles for the cancel button */
+
+    .cancelbtn {
+      width: auto;
+      padding: 10px 18px;
+      background-color: #70150e;
+      border-radius: 4px;
+    }
+
+    /* Center the image and position the close button */
+
+    .imgcontainer {
+      text-align: center;
+      margin: 24px 0 12px 0;
+      position: relative;
+    }
+
+    img.avatar {
+      width: 16%;
+      border-radius: 0%;
+    }
+
+    .container {
+      padding: 16px;
+    }
+
+    span.psw {
+      float: right;
+      padding-top: 16px;
+    }
+
+    /* The Modal (background) */
+
+    .modal {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      /* Stay in place */
+      z-index: 1;
+      /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%;
+      /* Full width */
+      height: 100%;
+      /* Full height */
+      overflow: auto;
+      /* Enable scroll if needed */
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/ opacity */
+      padding-top: 60px;
+    }
+
+  </pre>
+  </div>
+
+    <div class="fff">
+    <pre>
+
+
+    /* Modal Content/Box */
+
+    .modal-content {
+      background-color: #C4B298;
+      margin: 5% auto 15% auto;
+      /* 5% from the top, 15% from the bottom and centered */
+      border: 1px solid #888;
+      width: 30%;
+      /* Could be more or less, depending on screen size */
+    }
+
+    /* The Close Button (x) */
+
+    .close {
+      position: absolute;
+      right: 25px;
+      top: 0;
+      color: #000;
+      font-size: 35px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: red;
+      cursor: pointer;
+    }
+
+    /* Add Zoom Animation */
+
+    .animate {
+      -webkit-animation: animatezoom 0.6s;
+      animation: animatezoom 0.6s
+    }
+
+    @-webkit-keyframes animatezoom {
+      from {
+        -webkit-transform: scale(0)
+      }
+      to {
+        -webkit-transform: scale(1)
+      }
+    }
+
+    @keyframes animatezoom {
+      from {
+        transform: scale(0)
+      }
+      to {
+        transform: scale(1)
+      }
+    }
+
+    /* Change styles for span and cancel button on extra small screens */
+
+    @media screen and (max-width: 300px) {
+      span.psw {
+        display: block;
+        float: none;
+      }
+      .cancelbtn {
+        width: 100%;
+      }
+    }
+</pre>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <h6 class="overskrift"> Program layout </h6>
 
 
-  <main>
-
-
-  <!--  <div class="program-background">-->
-
-      <div id="main-program">
-        <div>
-          <h2>Fredag</h2>
-          <div class="time-on-days">
-
-            <div class="event-and-date">
-              <div class="time-frame">
-                <p>10:00<br>11:00</div>
-              <div class="time-label">
-                <button onclick="programpopups(this)" class="popup-info">
-          <label>MIDDELALDERGØGL I BØRNEHØJDE OG
-            KØBSTADSJUBILÆUM </label>
-            <p>STED: Varde Torv <br>
-            ARRANGØR: Varde Kommune</P>
-
-            <span class="popup-info2">
-              tekst</span>
-            </div>
-        </div>
-
-
-        <div class="event-and-date">
-          <div class="time-frame">
-          <p>13:00<br>14:00</p></div>
-          <div class="time-label">
-            <button onclick="programpopups(this)" class="popup-info">
-          <label>Historisk Byvandring </label>
-            <p>STED: Varde Torv <br>
-            ARRANGØR: Musik og Billdskolen</P>
-
-            <span class="popup-info2">
-              tekst  </span>
-
-            </div>
-        </div>
-
-        <div class="event-and-date">
-          <div class="time-frame">
-          <p>15:15<br>17:15</div>
-          <div class="time-label">
-            <button onclick="programpopups(this)" class="popup-info">
-          <label>FORM DIN EGEN JYDEPOTTE I LER
-           </label>
-            <p>STED: Varde Torv <br>
-            ARRANGØR: Varde Kommune</P>
-
-            <span class="popup-info2">
-            tekst</span>
-
-            </div>
-        </div>
-
-
-        <div class="event-and-date">
-          <div class="time-frame">
-          <p>16:00<br>22:00</div>
-          <div class="time-label">
-            <button onclick="programpopups(this)" class="popup-info">
-          <label>VIRELAI OG ALMUNE
-            - MIDDELALDERMUSIK </label>
-            <p>STED: Torv og Gågade <br>
-            ARRANGØR: Varde Handel og Varde Kommune</P>
-
-            <span class="popup-info2">
-              tekst
-            </span>
-
-            </div>
-        </div>
-
-        <div class="event-and-date">
-          <div class="time-frame">
-          <p>17:00<br>22:00</div>
-          <div class="time-label">
-            <button onclick="programpopups(this)" class="popup-info">
-          <label>STREET FOOD - ÅBENT MADTELT MED LANGBORD  </label>
-            <p>STED: Varde Torv <br>
-            ARRANGØR: Varde Handel </P>
-
-            <span class="popup-info2">
-            tekst
-            </span>
-
-            </div>
-        </div>
-
-        <div class="event-and-date">
-          <div class="time-frame">
-          <p>18:15<br>18:15</div>
-          <div class="time-label">
-            <button onclick="programpopups(this)" class="popup-info">
-          <label>FOLKEDANSK </label>
-            <p>STED: Varde Torv <br>
-            ARRANGØR: Varde Kommune</P>
-
-            <span class="popup-info2">
-              tekst
-            </span>
-
-            </div>
-        </div>
-      </div>
-    </div>
-
-    <div>
-      <h2>Lørdag</h2>
-      <div class="time-on-days">
-
-        <div class="event-and-date">
-          <div class="time-frame">
-          <p>10:00<br>14:00</div>
-          <div class="time-label">
-            <button onclick="programpopups(this)" class="popup-info">
-          <label>ÅBENT KALKMALERVÆRKSTED FOR SKOLER</label>
-            <p>STED: museum Frello <br>
-            ARRANGØR: Vardemuseerne</P>
-
-            <span class="popup-info2">
-              tekst
-            </span>
-
-            </div>
-        </div>
-
-        <div class="event-and-date">
-          <div class="time-frame">
-          <p>17:00<br>17:45</div>
-          <div class="time-label">
-            <button onclick="programpopups(this)" class="popup-info">
-          <label>ÅBNING AF KØBSTADEN
-            V. BORGMESTER ERIK BUHL </label>
-            <p>STED: Varde Torv <br>
-            ARRANGØR: Varde Kommune</P>
-
-            <span class="popup-info2">
-            tekst
-            </span>
-
-            </div>
-        </div>
-
-        <div class="event-and-date">
-          <div class="time-frame">
-          <p>19:00<br>19:30</div>
-          <div class="time-label">
-            <button onclick="programpopups(this)" class="popup-info">
-          <label>MIDDELALDERANDAGT I DET FRI </label>
-            <p>STED: Sct. Nikolai Kirkeplads <br>
-            ARRANGØR: Varde Meningsråd</P>
-
-            <span class="popup-info2">
-              tekst
-            </span>
-
-            </div>
-        </div>
-
-        <div class="event-and-date">
-          <div class="time-frame">
-          <p>15:15<br>16:15</div>
-          <div class="time-label">
-            <button onclick="programpopups(this)" class="popup-info">
-          <label>MUSIKSKOLEELEVERNE SPILLER OP </label>
-            <p>STED: Varde Torv <br>
-            ARRANGØR: Musik og Billdskolen</P>
-
-            <span class="popup-info2">
-              tekst
-            </span>
-
-            </div>
-        </div>
-
-      </div>
-      </div>
-    <div>
-      <h2>Søndag</h2>
-      <div class="time-on-days">
-
-        <div class="event-and-date">
-          <div class="time-frame">
-          <p>14:00<br>16:00</div>
-          <div class="time-label">
-            <button onclick="programpopups(this)" class="popup-info">
-          <label>MIDDELALDERGØGL I BØRNEHØJDE OG
-            KØBSTADSJUBILÆUM </label>
-            <p>STED: Opvisningspladsen <br>
-            ARRANGØR: Varde Kommune</P>
-
-            <span class="popup-info2">
-              tekst
-            </span>
-
-            </div>
-        </div>
-
-        <div class="event-and-date">
-          <div class="time-frame">
-          <p>18:00<br>19:00</div>
-          <div class="time-label">
-            <button onclick="programpopups(this)" class="popup-info">
-          <label>MIDDELALDERENS ÅND  </label>
-            <p>STED: Varde Torv ved bålet <br>
-            ARRANGØR: ProVarde </P>
-
-            <span class="popup-info2">
-            tekst
-            </span>
-
-            </div>
-        </div>
-
-        <div class="event-and-date">
-          <div class="time-frame">
-          <p>19:00<br>20:00</div>
-          <div class="time-label">
-            <button onclick="programpopups(this)" class="popup-info">
-          <label>FOREDRAG – ”FRA BONDEOPRØR TIL
-            KØBSTAD </label>
-            <p>STED: Den store trappe på Det Gl. Rådhus <br>
-            ARRANGØR: ProVarde</P>
-
-            <span class="popup-info2">
-              tekst
-            </span>
-
-            </div>
-        </div>
-
-        <div class="event-and-date">
-          <div class="time-frame">
-          <p>20:30<br>21:00</div>
-          <div class="time-label">
-            <button onclick="programpopups(this)" class="popup-info">
-          <label>VERDENS STØRSTE KÆDEDANS </label>
-            <p>STED: Varde Torv og Gågade <br>
-            ARRANGØR: Varde Handel og Varde Kommune</P>
-
-            <span class="popup-info2">
-              tekst
-            </span>
-
-            </div>
-        </div>
-
-        <div class="event-and-date">
-          <div class="time-frame">
-          <p>21:00<br>22:30</div>
-          <div class="time-label">
-            <button onclick="programpopups(this)" class="popup-info">
-          <label>”5KLARINETTER” </label>
-            <p>STED: Varde Torv -scenen <br>
-            ARRANGØR: Varde Handel</P>
-
-            <span class="popup-info2">
-              tekst
-            </span>
-
-            </div>
-        </div>
-
-        <div class="event-and-date">
-          <div class="time-frame">
-          <p>21:00<br>22:30</div>
-          <div class="time-label">
-            <button onclick="programpopups(this)" class="popup-info">
-          <label>MORD I VARDE KØBSTAD – NATTEVANDRING </label>
-            <p>STED: Varde Torv <br>
-            ARRANGØR: Varde Kommune</P>
-
-            <span class="popup-info2">
-            tekst
-            </span>
-
-            </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-  <h2 id="fleredagsop"> Flere-dags oplevelser</h2>
-  <div class="top-program">
-
-    <div class="downbox">
-    <p> BARBERKIRURGEN FORTÆLLER
-      – ÅBENT TELT </p>
-      </div>
-
-      <div class="downbox">
-      <p> DE NORDJYSKE LEJESVENDE
-        – TOTALTEATER OG FORMIDLING</p>
-        </div>
-
-        <div class="downbox">
-        <p> ILDSHOW OG HISTORISK HATTETEATER
-          MED MESTER PEDER OG ILDKNÆGTEN </p>
-        </div>
-
-          <div class="downbox">
-          <p> TOTALTEATER MED 7 KANTEN
-            – HWA FATTER GJØR </p>
-            </div>
-
-            <div class="downbox">
-            <p> MODESHOW FRA MIDDELALDEREN </p>
-            </div>
-
-              <div class="downbox">
-              <p> BØRNEOMRÅDE </p>
-              </div>
-
-                <div class="downbox">
-                <p> SPORT I MIDDELALDEREN </p>
-                </div>
-  </div>
-
-
-      <div class="top-program">
-
-        <div class="downandgreen">
-        <p>Hele Lørdag <br> og Søndag </p>
-          </div>
-
-          <div class="downandgreen">
-          <p>Hele Lørdag <br> og Søndag </p>
-            </div>
-
-            <div class="downandgreen">
-            <p>Hele Lørdag <br> og Søndag </p>
-              </div>
-
-              <div class="downandgreen">
-              <p> Lørdag  KL. 11.30, 14.30 <br>
-                  Søndag  KL. 11.00, 13.45</p>
-                </div>
-
-                <div class="downandgreen">
-                <p> Lørdag KL. 12.30 <br>
-                   Søndag KL. 14.15 </p>
-                  </div>
-
-                  <div class="downandgreen">
-                  <p> Hele weekenden fra <br>KL. 12:00 til KL. 15:00 </p>
-                    </div>
-
-                    <div class="downandgreen">
-                    <p> Hele weekenden fra <br> KL. 12:30 til KL. 17:00 </p>
-                      </div>
-      </div>
-    </div>
-</main>
+                                        <main>
+
+
+                                        <!--  <div class="program-background">-->
+
+                                            <div id="main-program">
+                                              <div>
+                                                <h2>Fredag</h2>
+                                                <div class="time-on-days">
+
+                                                  <div class="event-and-date">
+                                                    <div class="time-frame">
+                                                      <p>10:00<br>11:00</div>
+                                                    <div class="time-label">
+                                                      <button onclick="programpopups(this)" class="popup-info">
+                                                <label>MIDDELALDERGØGL I BØRNEHØJDE OG
+                                                  KØBSTADSJUBILÆUM </label>
+                                                  <p>STED: Varde Torv <br>
+                                                  ARRANGØR: Varde Kommune</P>
+
+                                                  <span class="popup-info2">
+                                                    tekst</span>
+                                                  </div>
+                                              </div>
+
+
+                                              <div class="event-and-date">
+                                                <div class="time-frame">
+                                                <p>13:00<br>14:00</p></div>
+                                                <div class="time-label">
+                                                  <button onclick="programpopups(this)" class="popup-info">
+                                                <label>Historisk Byvandring </label>
+                                                  <p>STED: Varde Torv <br>
+                                                  ARRANGØR: Musik og Billdskolen</P>
+
+                                                  <span class="popup-info2">
+                                                    tekst  </span>
+
+                                                  </div>
+                                              </div>
+
+                                              <div class="event-and-date">
+                                                <div class="time-frame">
+                                                <p>15:15<br>17:15</div>
+                                                <div class="time-label">
+                                                  <button onclick="programpopups(this)" class="popup-info">
+                                                <label>FORM DIN EGEN JYDEPOTTE I LER
+                                                 </label>
+                                                  <p>STED: Varde Torv <br>
+                                                  ARRANGØR: Varde Kommune</P>
+
+                                                  <span class="popup-info2">
+                                                  tekst</span>
+
+                                                  </div>
+                                              </div>
+
+
+                                              <div class="event-and-date">
+                                                <div class="time-frame">
+                                                <p>16:00<br>22:00</div>
+                                                <div class="time-label">
+                                                  <button onclick="programpopups(this)" class="popup-info">
+                                                <label>VIRELAI OG ALMUNE
+                                                  - MIDDELALDERMUSIK </label>
+                                                  <p>STED: Torv og Gågade <br>
+                                                  ARRANGØR: Varde Handel og Varde Kommune</P>
+
+                                                  <span class="popup-info2">
+                                                    tekst
+                                                  </span>
+
+                                                  </div>
+                                              </div>
+
+                                              <div class="event-and-date">
+                                                <div class="time-frame">
+                                                <p>17:00<br>22:00</div>
+                                                <div class="time-label">
+                                                  <button onclick="programpopups(this)" class="popup-info">
+                                                <label>STREET FOOD - ÅBENT MADTELT MED LANGBORD  </label>
+                                                  <p>STED: Varde Torv <br>
+                                                  ARRANGØR: Varde Handel </P>
+
+                                                  <span class="popup-info2">
+                                                  tekst
+                                                  </span>
+
+                                                  </div>
+                                              </div>
+
+                                              <div class="event-and-date">
+                                                <div class="time-frame">
+                                                <p>18:15<br>18:15</div>
+                                                <div class="time-label">
+                                                  <button onclick="programpopups(this)" class="popup-info">
+                                                <label>FOLKEDANSK </label>
+                                                  <p>STED: Varde Torv <br>
+                                                  ARRANGØR: Varde Kommune</P>
+
+                                                  <span class="popup-info2">
+                                                    tekst
+                                                  </span>
+
+                                                  </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <div>
+                                            <h2>Lørdag</h2>
+                                            <div class="time-on-days">
+
+                                              <div class="event-and-date">
+                                                <div class="time-frame">
+                                                <p>10:00<br>14:00</div>
+                                                <div class="time-label">
+                                                  <button onclick="programpopups(this)" class="popup-info">
+                                                <label>ÅBENT KALKMALERVÆRKSTED FOR SKOLER</label>
+                                                  <p>STED: museum Frello <br>
+                                                  ARRANGØR: Vardemuseerne</P>
+
+                                                  <span class="popup-info2">
+                                                    tekst
+                                                  </span>
+
+                                                  </div>
+                                              </div>
+
+                                              <div class="event-and-date">
+                                                <div class="time-frame">
+                                                <p>17:00<br>17:45</div>
+                                                <div class="time-label">
+                                                  <button onclick="programpopups(this)" class="popup-info">
+                                                <label>ÅBNING AF KØBSTADEN
+                                                  V. BORGMESTER ERIK BUHL </label>
+                                                  <p>STED: Varde Torv <br>
+                                                  ARRANGØR: Varde Kommune</P>
+
+                                                  <span class="popup-info2">
+                                                  tekst
+                                                  </span>
+
+                                                  </div>
+                                              </div>
+
+                                              <div class="event-and-date">
+                                                <div class="time-frame">
+                                                <p>19:00<br>19:30</div>
+                                                <div class="time-label">
+                                                  <button onclick="programpopups(this)" class="popup-info">
+                                                <label>MIDDELALDERANDAGT I DET FRI </label>
+                                                  <p>STED: Sct. Nikolai Kirkeplads <br>
+                                                  ARRANGØR: Varde Meningsråd</P>
+
+                                                  <span class="popup-info2">
+                                                    tekst
+                                                  </span>
+
+                                                  </div>
+                                              </div>
+
+                                              <div class="event-and-date">
+                                                <div class="time-frame">
+                                                <p>15:15<br>16:15</div>
+                                                <div class="time-label">
+                                                  <button onclick="programpopups(this)" class="popup-info">
+                                                <label>MUSIKSKOLEELEVERNE SPILLER OP </label>
+                                                  <p>STED: Varde Torv <br>
+                                                  ARRANGØR: Musik og Billdskolen</P>
+
+                                                  <span class="popup-info2">
+                                                    tekst
+                                                  </span>
+
+                                                  </div>
+                                              </div>
+
+                                            </div>
+                                            </div>
+                                          <div>
+                                            <h2>Søndag</h2>
+                                            <div class="time-on-days">
+
+                                              <div class="event-and-date">
+                                                <div class="time-frame">
+                                                <p>14:00<br>16:00</div>
+                                                <div class="time-label">
+                                                  <button onclick="programpopups(this)" class="popup-info">
+                                                <label>MIDDELALDERGØGL I BØRNEHØJDE OG
+                                                  KØBSTADSJUBILÆUM </label>
+                                                  <p>STED: Opvisningspladsen <br>
+                                                  ARRANGØR: Varde Kommune</P>
+
+                                                  <span class="popup-info2">
+                                                    tekst
+                                                  </span>
+
+                                                  </div>
+                                              </div>
+
+                                              <div class="event-and-date">
+                                                <div class="time-frame">
+                                                <p>18:00<br>19:00</div>
+                                                <div class="time-label">
+                                                  <button onclick="programpopups(this)" class="popup-info">
+                                                <label>MIDDELALDERENS ÅND  </label>
+                                                  <p>STED: Varde Torv ved bålet <br>
+                                                  ARRANGØR: ProVarde </P>
+
+                                                  <span class="popup-info2">
+                                                  tekst
+                                                  </span>
+
+                                                  </div>
+                                              </div>
+
+                                              <div class="event-and-date">
+                                                <div class="time-frame">
+                                                <p>19:00<br>20:00</div>
+                                                <div class="time-label">
+                                                  <button onclick="programpopups(this)" class="popup-info">
+                                                <label>FOREDRAG – ”FRA BONDEOPRØR TIL
+                                                  KØBSTAD </label>
+                                                  <p>STED: Den store trappe på Det Gl. Rådhus <br>
+                                                  ARRANGØR: ProVarde</P>
+
+                                                  <span class="popup-info2">
+                                                    tekst
+                                                  </span>
+
+                                                  </div>
+                                              </div>
+
+                                              <div class="event-and-date">
+                                                <div class="time-frame">
+                                                <p>20:30<br>21:00</div>
+                                                <div class="time-label">
+                                                  <button onclick="programpopups(this)" class="popup-info">
+                                                <label>VERDENS STØRSTE KÆDEDANS </label>
+                                                  <p>STED: Varde Torv og Gågade <br>
+                                                  ARRANGØR: Varde Handel og Varde Kommune</P>
+
+                                                  <span class="popup-info2">
+                                                    tekst
+                                                  </span>
+
+                                                  </div>
+                                              </div>
+
+                                              <div class="event-and-date">
+                                                <div class="time-frame">
+                                                <p>21:00<br>22:30</div>
+                                                <div class="time-label">
+                                                  <button onclick="programpopups(this)" class="popup-info">
+                                                <label>”5KLARINETTER” </label>
+                                                  <p>STED: Varde Torv -scenen <br>
+                                                  ARRANGØR: Varde Handel</P>
+
+                                                  <span class="popup-info2">
+                                                    tekst
+                                                  </span>
+
+                                                  </div>
+                                              </div>
+
+                                              <div class="event-and-date">
+                                                <div class="time-frame">
+                                                <p>21:00<br>22:30</div>
+                                                <div class="time-label">
+                                                  <button onclick="programpopups(this)" class="popup-info">
+                                                <label>MORD I VARDE KØBSTAD – NATTEVANDRING </label>
+                                                  <p>STED: Varde Torv <br>
+                                                  ARRANGØR: Varde Kommune</P>
+
+                                                  <span class="popup-info2">
+                                                  tekst
+                                                  </span>
+
+                                                  </div>
+                                              </div>
+
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <h2 id="fleredagsop"> Flere-dags oplevelser</h2>
+                                        <div class="top-program">
+
+                                          <div class="downbox">
+                                          <p> BARBERKIRURGEN FORTÆLLER
+                                            – ÅBENT TELT </p>
+                                            </div>
+
+                                            <div class="downbox">
+                                            <p> DE NORDJYSKE LEJESVENDE
+                                              – TOTALTEATER OG FORMIDLING</p>
+                                              </div>
+
+                                              <div class="downbox">
+                                              <p> ILDSHOW OG HISTORISK HATTETEATER
+                                                MED MESTER PEDER OG ILDKNÆGTEN </p>
+                                              </div>
+
+                                                <div class="downbox">
+                                                <p> TOTALTEATER MED 7 KANTEN
+                                                  – HWA FATTER GJØR </p>
+                                                  </div>
+
+                                                  <div class="downbox">
+                                                  <p> MODESHOW FRA MIDDELALDEREN </p>
+                                                  </div>
+
+                                                    <div class="downbox">
+                                                    <p> BØRNEOMRÅDE </p>
+                                                    </div>
+
+                                                      <div class="downbox">
+                                                      <p> SPORT I MIDDELALDEREN </p>
+                                                      </div>
+                                        </div>
+
+
+                                            <div class="top-program">
+
+                                              <div class="downandgreen">
+                                              <p>Hele Lørdag <br> og Søndag </p>
+                                                </div>
+
+                                                <div class="downandgreen">
+                                                <p>Hele Lørdag <br> og Søndag </p>
+                                                  </div>
+
+                                                  <div class="downandgreen">
+                                                  <p>Hele Lørdag <br> og Søndag </p>
+                                                    </div>
+
+                                                    <div class="downandgreen">
+                                                    <p> Lørdag  KL. 11.30, 14.30 <br>
+                                                        Søndag  KL. 11.00, 13.45</p>
+                                                      </div>
+
+                                                      <div class="downandgreen">
+                                                      <p> Lørdag KL. 12.30 <br>
+                                                         Søndag KL. 14.15 </p>
+                                                        </div>
+
+                                                        <div class="downandgreen">
+                                                        <p> Hele weekenden fra <br>KL. 12:00 til KL. 15:00 </p>
+                                                          </div>
+
+                                                          <div class="downandgreen">
+                                                          <p> Hele weekenden fra <br> KL. 12:30 til KL. 17:00 </p>
+                                                            </div>
+                                            </div>
+                                          </div>
+                                      </main>
 
 <script>
 // When the user clicks on div, open the popup
@@ -1326,6 +1737,176 @@ window.onclick = function(event) {
 }
 
 </script>
+
+
+
+
+
+<div class="fff"><br><br>
+              <p><b> HTML:</b> </p>
+                <pre id="codeblock10"></pre>
+</div>
+
+
+
+
+<div class="fff">
+
+
+
+<br><br>
+<p><b>CSS:</b></p>
+<pre>
+
+      .program-background{
+       background-image: url
+       ("../images/boatatriverbed.jpg");
+       position: absolute;
+       background-repeat: no-repeat;
+       background-size: 100%;
+      }
+      .top-program {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+      }
+
+      .top-program > div {
+        width: 14%;
+        text-align: center;
+        line-height: 100%;
+        font-size: 15px;
+      }
+      #fleredagsop{
+        margin-top: -4%;
+      }
+      .downbox{
+        background-color:#a19496;
+        position: relative;
+        margin: 0.5%;
+        margin-bottom: 0;
+
+      }
+      .downandgreen{
+        position: relative;
+        margin: 0.5%;
+        margin-top: 0;
+        background-color: #667a29;
+        color: #ecf6f8;
+      }
+    </pre>
+    </div>
+
+      <div class="fff">
+      <pre>
+
+
+
+
+
+      #main-program {
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          display: -webkit-flex; /* Safari */
+          display: flex;
+      }
+
+      #main-program div {
+          -webkit-flex: 1;  /* Safari 6.1+ */
+          -ms-flex: 1;  /* IE 10 */
+          flex: 1;
+      }
+
+
+      .time-on-days {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        flex-direction: column;
+      }
+
+      .time-on-days > div {
+        background-color: #ecf6f8;
+        text-align: center;
+        width: 95%;
+        margin: 3%;
+        line-height: 100%;
+
+      }
+       .event-and-date {
+         display: flex;
+         flex-wrap: nowrap;
+      }
+
+      .time-frame{
+      font-size: 20px;
+      background-color: #667a29;
+      line-height: 100%;
+      max-width: 100px;
+      color: #ecf6f8;
+      }
+
+    </pre>
+    </div>
+
+      <div class="fff">
+      <pre>
+
+
+
+
+
+      .time-label{
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      }
+
+      .popup-info{
+      width: 100%;
+      height: 100%;
+      border: none;
+      background-color: transparent;
+      background-color: #2e304f;
+      color: #a19496;
+      }
+
+      .popup-info2{
+      display: inline-block;
+      width: 100%;
+      min-height: 100%;
+      visibility: hidden;
+      background-color: #555;
+      color: #fff;
+      border-radius: 6px;
+      padding: 20px;
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+      margin-left: -50%;
+
+      }
+
+      .time-label .show {
+       visibility: visible;
+       -webkit-animation: fadeIn 0,5s;
+       animation: fadeIn 0.5s;
+      }
+</pre>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 
