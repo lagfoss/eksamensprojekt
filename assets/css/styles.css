@@ -466,12 +466,6 @@ section{
  background-size: cover;
 }
 
-.inner_img{
-  background-color: #fff;
-  width: 100px;
-  height: 100px;
- position: absolute;
-}
 
 .event_left1 {
   background-color:#fff;
