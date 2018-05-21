@@ -622,6 +622,40 @@ section{
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
 
+  h1 {
+    font-family: augusta;
+    margin: auto;
+    font-size: 7vw;
+    padding: 150px 20px 0 20px;
+    letter-spacing: 1.2pt;
+    color: #fff;
+    text-align: center;
+    text-shadow: 00px 0px 80px #000000;
+    padding: auto;
+  }
+
+  h2{
+    font-family: augusta;
+    margin: auto;
+    font-size: 6.5vw;
+    padding: 0px 20px 0 20px;
+    letter-spacing: 1.2pt;
+    color: #fff;
+    text-align: center;
+    text-shadow: 00px 0px 60px #000000;
+    padding: auto;
+  }
+
+  h4{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 75px;
+  font-size: 5.5vw;
+  font-weight: 700;
+  letter-spacing: 0.75pt;
+  vertical-align:middle;
+  color: #fff;
+  }
 
   .overskrift{
     font-family: 'Montserrat', sans-serif;
@@ -729,6 +763,9 @@ footer {
 
 /* Tablet Styles */
 @media only screen and (min-width: 400.01px) and (max-width: 720px) {
+
+
+
   .event_kasse1{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
