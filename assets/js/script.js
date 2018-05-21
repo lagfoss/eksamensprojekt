@@ -29,6 +29,26 @@ function responsiveNav() {
     }
 }
 
+// Program siden popup
+// When the user clicks on div, open the popup
+function programpopups(a) {
+  a.parentNode.getElementsByClassName("popup-info2")[0].classList.toggle("show");
+}
+
+// Close the popup if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.popup-info')) {
+
+    var popup = document.getElementsByClassName("popup-info2");
+    var i;
+    for (i = 0; i < popup.length; i++) {
+      var openPopup = popup[i];
+      if (openPopup.classList.contains('show')) {
+        openPopup.classList.remove('show');
+      }
+    }
+  }
+}
 
 
 /*style giude html knap 1*/
