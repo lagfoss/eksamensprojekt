@@ -621,6 +621,29 @@ section{
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
+
+
+  .overskrift{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    font-size: 20px;
+    padding: 20px 0px 0px 0px;
+    letter-spacing: 1.2pt;
+    line-height: 22pt;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding: auto;
+  }
+  .event_kasse1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+  }
+  .event_kasse1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size:12px;
+  }
+
   .seo_om_vmf{
     width: 100%;
     margin-top: 20px;
@@ -706,9 +729,30 @@ footer {
 
 /* Tablet Styles */
 @media only screen and (min-width: 400.01px) and (max-width: 720px) {
+  .event_kasse1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+  }
+  .event_kasse1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size:12px;
+  }
   footer{
     margin-top: 20px;
   }
+  .overskrift{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    font-size: 30px;
+    padding: 20px 20px 10px 20px;
+    letter-spacing: 1.2pt;
+    line-height: 32pt;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding: auto;
+  }
+
   .indhold{
     display: flex;
     flex-wrap: wrap;
