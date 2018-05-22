@@ -20,75 +20,94 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 
+
+
+
+
+
+
+
+
 <body>
   <script>
-    function imageZoom(imgID, resultID) {
+    function imageZoom(stortkort, resultatkort) {
       var img, lens, result, cx, cy;
-      img = document.getElementById(imgID);
-      result = document.getElementById(resultID);
+      img = document.getElementById(stortkort);
+      result = document.getElementById(resultatkort);
 
-      /*create lens:*/
+
+
+/*dragoverfirkant*/
+      /*her laves dragoverfirkant*/
       lens = document.createElement("DIV");
       lens.setAttribute("class", "img-zoom-lens");
 
-      /*insert lens:*/
+      /*her indsættes og vises dagoverfirkanen på skærmen*/
       img.parentElement.insertBefore(lens, img);
 
-      /*calculate the ratio between result DIV and lens:*/
+
+/*resultatkort*/
+      /*her beregnes forholdet mellem resultatkortet og dragover firkanten*/
       cx = result.offsetWidth / lens.offsetWidth;
       cy = result.offsetHeight / lens.offsetHeight;
 
-      /*set background properties for the result DIV:*/
+      /*her vises resultat fra dragoverfirkant i resultatkort*/
       result.style.backgroundImage = "url('" + img.src + "')";
       result.style.backgroundSize = (img.width * cx) + "px " + (img.height * cy) + "px";
 
-      /*execute a function when someone moves the cursor over the image, or the lens:*/
+
+
+/*eventlistendner*/
+      /*dragoverfirkant og resultetkort funktion skal vises ved dragover*/
       lens.addEventListener("mousemove", moveLens);
       img.addEventListener("mousemove", moveLens);
 
-      /*and also for touch screens:*/
+      /*samme for touchskærme*/
       lens.addEventListener("touchmove", moveLens);
       img.addEventListener("touchmove", moveLens);
 
-      function moveLens(e) {
+
+
+
+function moveLens(e) {
         var pos, x, y;
-        /*prevent any other actions that may occur when moving over the image:*/
+
+        /*forhindre eventuelle andre handlinger, der kan opstå, når du flytter musen over billedet:*/
         e.preventDefault();
-        /*get the cursor's x and y positions:*/
+        /*her fås musens x og y position når man holder musen over*/
         pos = getCursorPos(e);
-        /*calculate the position of the lens:*/
+
+        /*beregning af positionen af lensen (dragover firkenten)*/
         x = pos.x - (lens.offsetWidth / 2);
         y = pos.y - (lens.offsetHeight / 2);
-        /*prevent the lens from being positioned outside the image:*/
-        if (x > img.width - lens.offsetWidth) {
-          x = img.width - lens.offsetWidth;
-        }
-        if (x < 0) {
-          x = 0;
-        }
-        if (y > img.height - lens.offsetHeight) {
-          y = img.height - lens.offsetHeight;
-        }
-        if (y < 0) {
-          y = 0;
-        }
-        /*set the position of the lens:*/
+
+
+
+
+        /*her sættes positionen af lensen (dragover firkenten)*/
         lens.style.left = x + "px";
         lens.style.top = y + "px";
-        /*display what the lens "sees":*/
+
+        /*Vis hvad lensen (dragoverfirkanten) ser*/
         result.style.backgroundPosition = "-" + (x * cx) + "px -" + (y * cy) + "px";
       }
 
-      function getCursorPos(e) {
+
+
+
+  function getCursorPos(e) {
         var a, x = 0,
           y = 0;
         e = e || window.event;
-        /*get the x and y positions of the image:*/
+
+        /*her fås x og y positioner af det store kort*/
         a = img.getBoundingClientRect();
-        /*calculate the cursor's x and y coordinates, relative to the image:*/
+
+        /*Her beregnes musens x og y koordinater i forhold til det store kort*/
         x = e.pageX - a.left;
         y = e.pageY - a.top;
-        /*consider any page scrolling:*/
+
+        /*her overvejes hver side scrollin / eller måske position?*/
         x = x - window.pageXOffset;
         y = y - window.pageYOffset;
         return {
@@ -98,6 +117,11 @@
       }
     }
   </script>
+
+
+
+
+
 
   <div class="logo">
     <a href="index.html"><img class="banner" src="assets/images/logo.png" alt=""></a>
@@ -129,8 +153,9 @@
 
   <main>
     <div class="img-zoom-container">
-      <a href="kort5.html"><img id="kort" src="assets/images/kort3k.jpg" width="100%" >
-      <div id="myresult" class="img-zoom-result"></div>
+      <a href="kort5.html">
+      <img id="kort" src="assets/images/kort3k.jpg" width="100%" >
+      <div id="myresult" class="img-zoom-result"></div></a>
     </div>
 
 
