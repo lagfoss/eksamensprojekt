@@ -66,6 +66,13 @@ window.onclick = function(event) {
 
 
 
+/*indput felter styleguide*/
+  Codeblock('block', `
+    <body>
+      <label>Skriv her</label><br>
+      <input type="text"  required></textarea>
+    </body>
+  `);
 
 
 
@@ -77,7 +84,7 @@ window.onclick = function(event) {
 /*style giude html knap 1*/
 Codeblock('block1', `
   <body>
-  <div class="rcorners2"> SHOW </div>
+    <div class="rcorners2"> SHOW </div>
   </body>
 `);
 
@@ -85,7 +92,7 @@ Codeblock('block1', `
 
 
 
-/
+
 
 /*style giude html knap 2*/
 Codeblock('block2', `
@@ -115,14 +122,15 @@ Codeblock('block3', `
 
 /*style giude html menu*/
 Codeblock('block4', `
-  <body>
-    <div class="logo">
-      <a href="index.html"><img class="banner"
-        src="assets/images/logo.png"
-      alt="Varde Middelalderfestival banner"></a>
-    </div>
+<body>
+  <div class="logo">
+    <a href="index.html"><img class="banner"
+      src="assets/images/logo.png"
+      alt="Varde Middelalderfestival banner">
+    </a>
+  </div>
 
-    <nav id="myNav">
+  <nav id="myNav">
       <a href="program.html">Program</a>
       <a href="omfestivalen.html">Om festivalen</a>
       <a href="praktiskinfo.html">Praktisk info</a>
@@ -131,11 +139,9 @@ Codeblock('block4', `
       <a href="blivfrivillig.html">Bliv frivillig</a>
       <a href="kontakt.html">Kontakt</a>
       <div class="dropdown">
-
-        </div>
       </div>
-    </nav>
-  </body>
+  </nav>
+</body>
 `);
 
 
@@ -152,7 +158,7 @@ Codeblock('block4', `
 
 /*layout del 1*/
 Codeblock('block5', `
-  <body>
+<body>
     <section>
       <h1>Varde Middelalderfestival</h1>
       <h2>Den 8 - 10 AUGUST 2019</h2>
@@ -167,7 +173,7 @@ Codeblock('block5', `
       eventyr, vandreture,
       forelæsninger og meget mere.</h2>
     </div>
-  </body>
+</body>
 `);
 
 
@@ -179,15 +185,14 @@ Codeblock('block5', `
 
 /*layout del 2*/
 Codeblock('block6', `
-  <body>
-    <div class="indhold">
+<body>
+  <div class="indhold">
     <!-- praktiskinfo 1 -->
-    <div class="seo_om_vmf">
+  <div class="seo_om_vmf">
 
-    <div class="event_kasse1">
-    Praktisk Info
-    <p>
-    Hele middelalderfestivalens
+  <div class="event_kasse1">
+     Praktisk Info
+    <p>Hele middelalderfestivalens
     weekendprogram foregår ved Varde Å.</p>
     <p> Der er indgang til Middelalderpladsen
     fra Slotsgade. Nærmeste P-plads er på
@@ -205,7 +210,7 @@ Codeblock('block6', `
     kl. 9.00-13.00. Der var gratis entré
     til festivalområdet.
     </p>
-    </div>
+</div>
 
     </div>
     <div class="praktiskinfo">
@@ -226,17 +231,21 @@ Codeblock('block6', `
 
 /*del 3*/
 Codeblock('block7', `
-  <body>
-    <div class='indhold'>
-     <div class='program'><h4><a  href="assets/images/
-     program_middelalderfestival_koebstad_575_varde.pdf"
-     target="_blank">Se Program</a></h4> </div>
-     <div class='kort'><h4><a href="kort1.html">Se Kort
-     </a></h4> </div>
-     <div class='info'><h4><a href="praktiskinfo.html">
-     Praktisk Info</a></h4> </div>
-      </div>
-  </body>
+<body>
+  <div class='indhold'>
+
+  <div class='program'><h4><a  href="assets/images/
+  program_middelalderfestival_koebstad_575_varde.pdf"
+  target="_blank">Se Program</a></h4> </div>
+
+  <div class='kort'><h4><a href="kort1.html">Se Kort
+  </a></h4> </div>
+
+  <div class='info'><h4><a href="praktiskinfo.html">
+  Praktisk Info</a></h4> </div>
+
+  </div>
+</body>
 `);
 
 
@@ -244,62 +253,62 @@ Codeblock('block7', `
 
 /*del 4*/
 Codeblock('block8', `
-  <body>
-    <div class="indhold">
-      <!-- 1 Event -->
-      <div class="event_img_left">
-      </div>
+<body>
+  <div class="indhold">
+    <!-- 1 Event -->
+    <div class="event_img_left">
+    </div>
 
-      <div class="event_img_middle">
-      </div>
+    <div class="event_img_middle">
+    </div>
 
-      <div class="event_img_right">
-      </div>
+    <div class="event_img_right">
+    </div>
 
-        <div class="event_text_left">
+    <div class="event_text_left">
 
-          <div class="event_kasse1">
-            7 kanten
-          <div class="rcorners1">
-            PROGRAM EVENT
-          </div>
-           <p>7-kanten er en af Danmarks største og mest aktive
-           amatørteaterforeninger med cirka 500 medlemmer
-           inklusive en børneafdeling på ca. 60 og en
-           ungdomsafdeling på ca. 40 og en afdeling for
-           pensionister "Teater om Dagen". </p>
-          </div>
+    <div class="event_kasse1">
+        7 kanten
+    <div class="rcorners1">
+        PROGRAM EVENT
+    </div>
+        <p>7-kanten er en af Danmarks største og
+        mest aktive amatørteaterforeninger med
+        cirka 500 medlemmer inklusive en
+        børneafdeling på ca. 60 og en
+        ungdomsafdeling på ca. 40 og en afdeling
+        for pensionister "Teater om Dagen". </p>
+    </div>
+    </div>
 
+    <div class="event_text_middle">
+
+    <div class="event_kasse2">
+        Lupus Tempus
+    <div class="rcorners2">
+        SHOW
+    </div>
+        <p>Lupus Tempus –et historisk selskab
+        blev dannet i november 2006 og består
+        i dag af 10 medlemmer.
+        Vi formidler og levendegøre nordeuropæisk
+        middelalder kulturarv gennem reenactment.</p>
+    </div>
         </div>
-
-        <div class="event_text_middle">
-
-          <div class="event_kasse2">
-            Lupus Tempus
-            <div class="rcorners2">
-              SHOW
-        </div>
-          <p>Lupus Tempus –et historisk selskab
-            blev dannet i november 2006 og består
-            i dag af 10 medlemmer.
-            Vi formidler og levendegøre nordeuropæisk
-            middelalder kulturarv gennem reenactment.</p>
-            </div>
-        </div>
-
         <div class="event_text_right">
-
-          <div class="event_kasse2">
+        <div class="event_kasse2">
             Mikkel Langbue
-            <div class="rcorners3">
+        <div class="rcorners3">
               Frivillig
-                </div>
-                    <p>Mikkel Langbue indtager markedet. Grin som pisket af historierne om Sorte Karen, De grimme kællinger og Laurits Låddenhals.</p>
+        </div>
+              <p>Mikkel Langbue indtager markedet.
+                Grin som pisket af historierne om
+                Sorte Karen, De grimme kællinger
+                og Laurits Låddenhals.</p>
             </div>
         </div>
         <!-- 1 Event Slut -->
     </div>
-
 
       </div>
   </body>
@@ -336,15 +345,7 @@ Codeblock('block9', `
 /*program*/
 Codeblock('block10', `
   <body>
-    <div class='indhold'>
-     <div class='program'><h4><a  href="assets/images/
-     program_middelalderfestival_koebstad_575_varde.pdf"
-     target="_blank">Se Program</a></h4> </div>
-     <div class='kort'><h4><a href="kort1.html">Se Kort
-     </a></h4> </div>
-     <div class='info'><h4><a href="praktiskinfo.html">
-     Praktisk Info</a></h4> </div>
-      </div>
+
   </body>
 `);
 
