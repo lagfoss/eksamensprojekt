@@ -354,6 +354,16 @@ h4 a:active {
 
 @media screen and (max-width: 920px) {
 
+  nav a, .dropdown img, .dropdown .droplang, .empty2 {
+    display: none;
+  }
+  nav a.icon {
+    position: relative;
+    margin-top: 15px;
+    float: right;
+    display: block;
+  }
+
   #main-program {
       width: %;
       margin: 0 auto;
@@ -367,19 +377,7 @@ h4 a:active {
       flex: 1;
   }
 
-  nav a, .dropdown img, .dropdown .droplang, .empty2 {
-    display: none;
-  }
-  nav a.icon {
-    position: relative;
-    margin-top: 15px;
-    float: right;
-    display: block;
-  }
 
-
-
-  }
 }
 
 @media screen and (max-width: 920px) {
@@ -934,7 +932,7 @@ footer {
    margin-top: 20px;
     background-position: center;
     background-size: cover;
-    
+
 
    }
    .top-program {
