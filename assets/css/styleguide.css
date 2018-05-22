@@ -398,126 +398,6 @@ margin-bottom: 15px;
 
 
 
-/*program*/
-
-.program-background{
- background-image: url("../images/boatatriverbed.jpg");
- position: absolute;
- background-repeat: no-repeat;
- background-size: 100%;
-}
-.top-program {
-  display: flex;
-  flex-wrap: nowrap;
-  align-content: center;
-}
-
-.top-program > div {
-  width: 14%;
-  text-align: center;
-  line-height: 100%;
-  font-size: 15px;
-}
-#fleredagsop{
-  margin-top: -4%;
-}
-.downbox{
-  background-color:#a19496;
-  position: relative;
-  margin: 0.5%;
-  margin-bottom: 0;
-
-}
-.downandgreen{
-  position: relative;
-  margin: 0.5%;
-  margin-top: 0;
-  background-color: #667a29;
-  color: #ecf6f8;
-}
-
-#main-program {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    display: -webkit-flex; /* Safari */
-    display: flex;
-}
-
-#main-program div {
-    -webkit-flex: 1;  /* Safari 6.1+ */
-    -ms-flex: 1;  /* IE 10 */
-    flex: 1;
-}
-
-
-.time-on-days {
-  display: flex;
-  width: 80%;
-  margin: auto;
-  flex-direction: column;
-}
-
-.time-on-days > div {
-  background-color: #ecf6f8;
-  text-align: center;
-  width: 95%;
-  margin: 3%;
-  line-height: 100%;
-
-}
- .event-and-date {
-   display: flex;
-   flex-wrap: nowrap;
-}
-
-.time-frame{
-font-size: 20px;
-background-color: #667a29;
-line-height: 100%;
-max-width: 100px;
-color: #ecf6f8;
-}
-.time-label{
-position: relative;
-display: inline-block;
-cursor: pointer;
-}
-
-.popup-info{
-width: 100%;
-height: 100%;
-border: none;
-background-color: transparent;
-background-color: #2e304f;
-color: #a19496;
-}
-
-.popup-info2{
-display: inline-block;
-width: 100%;
-min-height: 100%;
-visibility: hidden;
-background-color: #555;
-color: #fff;
-border-radius: 6px;
-padding: 20px;
-position: absolute;
-z-index: 1;
-bottom: 0;
-margin-left: -50%;
-
-}
-
-.time-label .show {
- visibility: visible;
- -webkit-animation: fadeIn 0,5s;
- animation: fadeIn 0.5s;
-}
-
-
-
-
 
 
 
@@ -842,4 +722,318 @@ h4 a:active {
 }
 .event_left{
   margin-right: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*login*/
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+/* Set a style for all buttons */
+
+button {
+  background-color: #70150e;
+  color: white;
+  padding: 14px 20px;
+  margin: 0px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #70150e;
+  border-radius: 4px;
+}
+
+/* Center the image and position the close button */
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 16%;
+  border-radius: 0%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+  background-color: #C4B298;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 30%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*program*/
+.program-background{
+ background-image: url("../images/boatatriverbed.jpg");
+ position: absolute;
+ background-repeat: no-repeat;
+ background-size: 100%;
+}
+.top-program {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+
+.top-program > div {
+  width: 14%;
+  text-align: center;
+  line-height: 100%;
+  font-size: 15px;
+}
+#fleredagsop{
+  margin-top: -4%;
+}
+.downbox{
+  background-color:#a19496;
+  position: relative;
+  margin: 0.5%;
+  margin-bottom: 0;
+
+}
+.downandgreen{
+  position: relative;
+  margin: 0.5%;
+  margin-top: 0;
+  background-color: #667a29;
+  color: #ecf6f8;
+}
+
+#main-program {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+
+#main-program div {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+}
+
+
+.time-on-days {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+}
+
+.time-on-days > div {
+  background-color: #ecf6f8;
+  text-align: center;
+  width: 95%;
+  margin: 3%;
+  line-height: 100%;
+
+}
+ .event-and-date {
+   display: flex;
+   flex-wrap: nowrap;
+}
+
+.time-frame{
+font-size: 20px;
+background-color: #667a29;
+line-height: 100%;
+max-width: 100px;
+color: #ecf6f8;
+}
+.time-label{
+position: relative;
+display: inline-block;
+cursor: pointer;
+}
+
+.popup-info{
+width: 100%;
+height: 100%;
+border: none;
+background-color: transparent;
+background-color: #2e304f;
+color: #a19496;
+}
+
+.popup-info2{
+display: inline-block;
+width: 100%;
+min-height: 100%;
+visibility: hidden;
+background-color: #555;
+color: #fff;
+border-radius: 6px;
+padding: 20px;
+position: absolute;
+z-index: 1;
+bottom: 0;
+margin-left: -50%;
+
+}
+
+.time-label .show {
+ visibility: visible;
+ -webkit-animation: fadeIn 0,5s;
+ animation: fadeIn 0.5s;
 }
