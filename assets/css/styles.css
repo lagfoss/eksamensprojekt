@@ -547,7 +547,7 @@ section{
 }
 
 .frivillig {
- background-color:#fff;
+ background-image: url("../images/frivillig.png");
  background-position: center;
  background-size: cover;
 }
@@ -1190,7 +1190,7 @@ margin-left: 35%;
        margin-right: 45%;
        border-radius: 4px;
        cursor: pointer;
-       float: right;
+       text-align: center;
    }
 
    input[type=submit]:hover {
