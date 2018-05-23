@@ -805,6 +805,7 @@ span.psw {
 
 /* The Modal (background) */
 
+
 .modal {
   display: none;
   /* Hidden by default */
@@ -924,59 +925,61 @@ span.psw {
 
 /*program*/
 .program-background{
- background-image: url("../images/boatatriverbed.jpg");
- position: absolute;
- background-repeat: no-repeat;
- background-size: 100%;
+/*  background-image: url("../images/boatatriverbed.jpg"); */
+margin-top: 20px;
+ background-position: center;
+ background-size: cover;
+
+
 }
 .top-program {
   display: flex;
-  flex-wrap: nowrap;
-  align-content: center;
+flex-wrap: wrap;
+margin: 0 auto;
+  width: 95%;
+
 }
 
 .top-program > div {
-  width: 14%;
+  max-width: 18%;
+  min-width: 200px;
+  margin: 10px;
   text-align: center;
-  line-height: 100%;
+
   font-size: 15px;
 }
 #fleredagsop{
-  margin-top: -4%;
+  margin-top: 20px;
 }
 .downbox{
   background-color:#a19496;
-  position: relative;
+  min-height: 250px;
   margin: 0.5%;
   margin-bottom: 0;
 
 }
+.downandwhite{
+  height: 50%;
+  padding: 10px;
+  margin-bottom: 0;
+  background-color: #a19496;
+
+}
 .downandgreen{
-  position: relative;
-  margin: 0.5%;
-  margin-top: 0;
+  height: 50%;
+  margin-top: 10px;
+  padding: 10px 0 10px 0;
+  margin-bottom: 0;
   background-color: #667a29;
   color: #ecf6f8;
 }
 
-#main-program {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    display: -webkit-flex; /* Safari */
-    display: flex;
-}
 
-#main-program div {
-    -webkit-flex: 1;  /* Safari 6.1+ */
-    -ms-flex: 1;  /* IE 10 */
-    flex: 1;
-}
 
 
 .time-on-days {
   display: flex;
-  width: 80%;
+  width: 100%;
   margin: auto;
   flex-direction: column;
 }
@@ -990,6 +993,7 @@ span.psw {
 
 }
  .event-and-date {
+
    display: flex;
    flex-wrap: nowrap;
 }
@@ -1036,4 +1040,102 @@ margin-left: -50%;
  visibility: visible;
  -webkit-animation: fadeIn 0,5s;
  animation: fadeIn 0.5s;
+}
+
+
+
+@media only screen and (min-width: 720.01px) {
+ .indhold {
+   padding-top: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   width: 80%;
+   margin: 0 auto;
+ }
+ .program,
+ .kort,
+ .info{
+   width: 32%;
+   height: 180px;
+   max-height: 180px;
+}
+.event_left1,
+.event_right1,
+.event_left2,
+.event_right2,
+.event_text_left,
+.event_text_middle,
+.event_text_right,
+.event_tekst2,
+.event_img_left,
+.event_img_middle,
+.event_img_right{
+  width: 32%;
+  min-height: 220px;
+}
+.event_left1,.event_img_middle,.event_img_right,.event_text_middle,.event_text_right{
+  margin-left: 2%;
+}
+.event_left{
+  margin-right: 2%;
+}
+.info{
+  margin-left: 2%;
+}
+.program{
+  margin-right: 2%;
+}
+.seo_om_vmf,.seo_om_vmf2,.praktiskinfo,.kortkontakt,.omfestivalen,.aktor,
+.article1,.article2,.article3,.article4,.article_kasse2{
+  width: 50%;
+  min-height: 220px;}
+
+  #main-program {
+      width: 95%;
+      margin: 0 auto;
+      text-align: center;
+      display: -webkit-flex; /* Safari */
+      display: flex;
+  }
+
+  #main-program div {
+      -webkit-flex: 1;  /* Safari 6.1+ */
+      -ms-flex: 1;  /* IE 10 */
+      flex: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*login*/
+#block11{
+  margin-left: -250px;
+  margin-top: 20px;
+}
+
+.htmllogin{
+    margin-left: -240px;
+    margin-top: 50px;
 }
