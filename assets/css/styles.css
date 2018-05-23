@@ -766,13 +766,15 @@ footer {
 }
 
 .fb{
-  width: 35px;
+  width: 60px;
   padding: 5px;
+  margin-bottom: 4%;
     text-decoration: none;
 }
 .ig{
-  width: 35px;
+  width: 60px;
   padding: 5px;
+    margin-bottom: 4%;
     text-decoration: none;
 }
 
