@@ -925,16 +925,17 @@ footer {
   }
 }
 
-   /*Program Styles*/
+
 
    .program-background{
-   /*  background-image: url("../images/boatatriverbed.jpg"); */
    margin-top: 20px;
-    background-position: center;
+    background-image:url("../images/boatatriverbed.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
     background-size: cover;
-
-
+    background-size: contain;
    }
+
    .top-program {
      display: flex;
   flex-wrap: wrap;
@@ -952,25 +953,24 @@ footer {
      font-size: 15px;
    }
    #fleredagsop{
-     margin-top: 20px;
+     margin-top: -25px;
    }
    .downbox{
      background-color:#a19496;
-     min-height: 250px;
+     min-height: 150px;
+     width: 0;
      margin: 0.5%;
      margin-bottom: 0;
 
    }
    .downandwhite{
      height: 50%;
-     padding: 10px;
      margin-bottom: 0;
      background-color: #a19496;
 
    }
    .downandgreen{
-     height: 50%;
-     margin-top: 10px;
+     height: 40%;
      padding: 10px 0 10px 0;
      margin-bottom: 0;
      background-color: #667a29;
