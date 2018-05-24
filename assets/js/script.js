@@ -49,7 +49,7 @@ window.onclick = function(event) {
     }
   }
 }
-
+// Program siden popup SLUT
 
 
 
