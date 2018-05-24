@@ -1038,7 +1038,6 @@ footer {
 }
 
 .popup-info2{
-  display: inline-block;
   width: 100%;
   min-height: 100%;
   visibility: hidden;
@@ -1049,7 +1048,6 @@ footer {
   position: absolute;
   z-index: 1;
   bottom: 0;
-  margin-left: -50%;
 }
 
 .time-label .show {
