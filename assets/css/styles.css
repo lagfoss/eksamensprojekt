@@ -944,8 +944,6 @@ footer {
      flex-wrap: wrap;
      margin: 0 auto;
      width: 100%;
-
-
    }
 
    .top-program > div {
@@ -953,25 +951,25 @@ footer {
      min-width: 150px;
      margin: 6px;
      text-align: center;
-
      font-size: 13px;
    }
-   #fleredagsop{
 
+   #fleredagsop{
    }
+
    .downbox{
      background-color:#a19496;
      min-height: 150px;
      margin: 0.5%;
      padding-bottom: 10px;
-
    }
+
    .downandwhite{
      height: 50%;
      margin-bottom: 0;
      background-color: #a19496;
-
    }
+
    .downandgreen{
      height: 50%;
      padding-top: 10px;
@@ -979,9 +977,6 @@ footer {
      background-color: #667a29;
      color: #ecf6f8;
    }
-
-
-
 
    .time-on-days {
      display: flex;
@@ -996,10 +991,9 @@ footer {
      width: 95%;
      margin: 3%;
      line-height: 100%;
-
    }
-    .event-and-date {
 
+    .event-and-date {
       display: flex;
       flex-wrap: nowrap;
 }
@@ -1011,6 +1005,7 @@ footer {
   max-width: 100px;
   color: #ecf6f8;
 }
+
 .time-label{
   position: relative;
   display: inline-block;
@@ -1039,7 +1034,6 @@ footer {
   z-index: 1;
   bottom: 0;
   margin-left: -50%;
-
 }
 
 .time-label .show {
