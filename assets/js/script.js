@@ -319,22 +319,41 @@ Codeblock('block8', `
 
 /*style giude html foter*/
 Codeblock('block9', `
-  <body>
-    <footer><div class="footer_tekst">
-        Varde Kommune  -
-        Bytoften 2  -
-        6800 Varde  -
-        79 94 68 00  -
+<body>
+  <footer><div class="footer_tekst">
+  Varde Kommune  -
+  Bytoften 2  -
+  6800 Varde  -
+  79 94 68 00  -
 
-        vardekommune@varde.dk  -
+  vardekommune@varde.dk  -
 
-        CVR-nr: 2918 9811  </div>
-        <a href="#"> <img
-        class="vardekommune"
-        src="assets/images/vk_logo.png"
-        alt=""> </a>
-      </footer>
-  </body>
+  CVR-nr: 2918 9811  </div>
+
+  <a href="login.html"><button class="klient"
+    onclick="document.getElementById('id01')
+    .style.display='block'" style="width:auto;">
+    Log ind på klientside</button></a>
+
+
+  <div class="socialmedier">
+  <a target="_blank"
+    href="https://www.facebook.com/kulturugen/">
+  <img class="fb" src="assets/images/facebook.png"
+  alt="Varde facebook"> </a>
+  <a target="_blank"
+    href="http://www.vardekommune.dk">
+  <img class="vardekommune"
+    src="assets/images/vk_logo.png"
+    alt=""> </a> <a target="_blank"
+    href="https://www.instagram.com/explore/tags/viinaturen/">
+  <img class="ig"
+    src="assets/images/instagram.png"
+    alt="Varde Instagram"> </a>
+  </div>
+
+  </footer>
+</body>
 `);
 
 

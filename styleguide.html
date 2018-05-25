@@ -1042,8 +1042,7 @@ button:hover {
 
   <h6 class="overskrift"> Footer </h6>
 
-                  <footer><div class="footer_tekst">
-
+                    <footer><div class="footer_tekst">
                     Varde Kommune  -
                     Bytoften 2  -
                     6800 Varde  -
@@ -1052,9 +1051,30 @@ button:hover {
                     vardekommune@varde.dk  -
 
                     CVR-nr: 2918 9811  </div>
-                     <a href="#"> <img class="vardekommune"
-                       src="assets/images/vk_logo.png" alt=""> </a>
-                </footer>
+
+                    <a href="login.html"><button class="klient"
+                      onclick="document.getElementById('id01')
+                      .style.display='block'" style="width:auto;">
+                      Log ind på klientside</button></a>
+
+
+                    <div class="socialmedier">
+                    <a target="_blank"
+                      href="https://www.facebook.com/kulturugen/">
+                    <img class="fb" src="assets/images/facebook.png"
+                    alt="Varde facebook"> </a>
+                    <a target="_blank"
+                      href="http://www.vardekommune.dk">
+                    <img class="vardekommune"
+                      src="assets/images/vk_logo.png"
+                      alt=""> </a> <a target="_blank"
+                      href="https://www.instagram.com/explore/tags/viinaturen/">
+                    <img class="ig"
+                      src="assets/images/instagram.png"
+                      alt="Varde Instagram"> </a>
+                    </div>
+
+                    </footer>
 
   <div class="fff"><br><br>
                 <p><b> HTML:</b> </p>
@@ -1069,33 +1089,65 @@ button:hover {
 
                 <pre>
 
-        <b>CSS:</b>
+                            <b>CSS:</b>
 
-      footer{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 10px;
-        letter-spacing: 1.3pt;
-        line-height: 24pt;
-        color: #fff;
-        background-color: #2D314E;
-        font-weight: 300;
-        padding-top: 20px;
-        min-height: 80px;
-        text-align: center;
-        }
+                            footer{
+                              font-family: 'Montserrat', sans-serif;
+                              font-size: 10px;
+                              letter-spacing: 1.3pt;
+                              line-height: 24pt;
+                              color: #fff;
+                              font-weight: 300;
+                              padding-top: 20px;
+                              min-height: 80px;
+                            }
 
-    .footer_tekst{
-         width: 100%;
-         margin-bottom: 10px;
-         text-align: center;
-          }
+                            .footer_tekst{
+                              width: 100%;
+                              margin-bottom: 10px;
+                            }
 
+                            .klient {
+                              background-color: #2d314e;
+                              color: white;
+                              padding: 12px 20px;
+                              margin: 20px;
+                              border: 1px solid #fff;
+                              border-radius: 4px;
+                              cursor: pointer;
+                              width: 100%;
+                              }
 
-    .vardekommune{
-          width: 8%;
-          text-align: center;
-          margin-bottom: 15px;
-          }
+                              .fb{
+                                width: 60px;
+                                padding: 5px;
+                                margin-bottom: 2.3%;
+                                  text-decoration: none;
+                              }
+
+                              .ig{
+                                width: 60px;
+                                padding: 5px;
+                                  margin-bottom: 2.3%;
+                                  text-decoration: none;
+                              }
+
+                              .vardekommune{
+                              width: 8%;
+                              text-align: center;
+                              margin-bottom: 15px;
+                              }
+
+                              footer {
+                                 left: 0;
+                                 bottom: 0;
+                                 width: 100%;
+                                 margin: 30px auto 00px auto;
+                                 padding: 20px 20px 0 20px;
+                                 background-color: #2d314e;
+                                 color: white;
+                                 text-align: center;
+                              }
                 </pre>
               </div>
 

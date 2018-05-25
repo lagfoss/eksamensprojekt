@@ -368,25 +368,57 @@ footer{
   letter-spacing: 1.3pt;
   line-height: 24pt;
   color: #fff;
-  background-color: #2D314E;
   font-weight: 300;
   padding-top: 20px;
   min-height: 80px;
-  text-align: center;
 }
 
 .footer_tekst{
   width: 100%;
   margin-bottom: 10px;
+}
+
+.klient {
+  background-color: #2d314e;
+  color: white;
+  padding: 12px 20px;
+  margin: 20px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  }
+
+  .fb{
+    width: 60px;
+    padding: 5px;
+    margin-bottom: 2.3%;
+      text-decoration: none;
+  }
+
+  .ig{
+    width: 60px;
+    padding: 5px;
+      margin-bottom: 2.3%;
+      text-decoration: none;
+  }
+
+  .vardekommune{
+  width: 8%;
   text-align: center;
-}
+  margin-bottom: 15px;
+  }
 
-
-.vardekommune{
-width: 8%;
-text-align: center;
-margin-bottom: 15px;
-}
+  footer {
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     margin: 30px auto 00px auto;
+     padding: 20px 20px 0 20px;
+     background-color: #2d314e;
+     color: white;
+     text-align: center;
+  }
 
 
 
