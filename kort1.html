@@ -22,12 +22,12 @@
 </head>
 
 <body>
-  <div class="logo">
-    <a href="index.html"><img class="banner" src="assets/images/logo.png" alt="Varde Middelalderfestival banner"></a>
-  </div>
   <header>
+    <div class="logo">
+      <a href="index.html"><img class="banner" src="assets/images/logo.png" alt="Varde Middelalderfestival banner"></a>
+    </div>
     <nav id="myNav">
-      <a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="responsiveNav()">&#9776;</a>
+      <a href="javascript:void();" style="font-size:20px;" class="icon" onclick="responsiveNav()">&#9776;</a>
       <a href="program.html">Program</a>
       <a href="omfestivalen.html">Om festivalen</a>
       <a href="praktiskinfo.html">Praktisk info</a>
@@ -42,6 +42,7 @@
         </div>
       </div>
     </nav>
+  </header>
 
 
   </header>
@@ -49,14 +50,31 @@
 
   <main>
 
-    <a href="korttest.html"> <img id="kort1">
-    </img></a>
+    <a href="korttest.html"> <div id="kort1">
+    </div></a>
 
 
 
 
   </main>
-  <footer>
+  <footer><div class="footer_tekst">
+Varde Kommune  -
+Bytoften 2  -
+6800 Varde  -
+79 94 68 00  -
+
+vardekommune@varde.dk  -
+
+CVR-nr: 2918 9811  </div>
+
+<button class="klient" onclick="window.location.href='login.html'" style="width:auto;">Log ind på klientside</button>
+
+
+<div class="socialmedier">
+  <a target="_blank" href="https://www.facebook.com/kulturugen/"><img class="fb" src="assets/images/facebook.png" alt="Varde facebook"> </a>
+  <a target="_blank" href="http://www.vardekommune.dk"> <img class="vardekommune" src="assets/images/vk_logo.png" alt=""> </a>
+  <a target="_blank" href="https://www.instagram.com/explore/tags/viinaturen/"><img class="ig" src="assets/images/instagram.png" alt="Varde Instagram"> </a>
+</div>
 
   </footer>
 </body>
