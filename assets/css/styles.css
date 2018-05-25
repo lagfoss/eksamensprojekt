@@ -66,6 +66,22 @@ Colors:
     height: 20px;
   }
 
+
+  .klient {
+    background-color: #2d314e;
+    color: white;
+    padding: 12px 20px;
+    margin: 20px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    }
+
+button:hover {
+    opacity: 0.8;
+    }
+
 @font-face {
     font-family:"augusta";
     src: url("../font/Augusta.eot");
@@ -119,7 +135,6 @@ footer{
 width: 8%;
 text-align: center;
 margin-bottom: 15px;
-
 }
 
 .overskrift{
@@ -365,7 +380,7 @@ h4 a:active {
   }
 
   #main-program {
-      width: %;
+
       margin: 0 auto;
       text-align: center;
 
@@ -547,7 +562,7 @@ section{
 }
 
 .frivillig {
- background-image: url("../images/frivillig.png");
+ background-image: url("../images/frivillig.jpg");
  background-position: center;
  background-size: cover;
 }
@@ -933,8 +948,8 @@ footer {
    margin-top: 20px;
     background-image:url("../images/boatatriverbed.jpg");
     background-repeat: no-repeat;
-    background-position: top;
     background-size: cover;
+    background-position: top;
     background-size: contain;
    }
 
@@ -1022,8 +1037,6 @@ footer {
 }
 
 .popup-info2{
-  display: inline-block;
-  width: 100%;
   min-height: 100%;
   visibility: hidden;
   background-color: #555;
@@ -1033,7 +1046,6 @@ footer {
   position: absolute;
   z-index: 1;
   bottom: 0;
-  margin-left: -50%;
 }
 
 .time-label .show {
@@ -1137,6 +1149,7 @@ cursor: zoom-out;
     background-repeat: no-repeat;
   }
 
+.kortbrede{ width: 100%}
 
 
    /*kontakt styles*/

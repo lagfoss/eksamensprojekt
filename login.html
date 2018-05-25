@@ -19,8 +19,6 @@
   <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-</head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -41,7 +39,7 @@
 
     /* Set a style for all buttons */
 
-    button {
+    button, input[type=submit] {
       background-color: #70150e;
       color: white;
       padding: 14px 20px;
@@ -52,7 +50,7 @@
       border-radius: 4px;
     }
 
-    button:hover {
+    button:hover, input[type=submit]:hover {
       opacity: 0.8;
     }
 
@@ -179,8 +177,7 @@
 </head>
 
 <body>
-
-
+  <main>
 
   <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log ind så du kan tilføje artikkel</button>
 
@@ -194,24 +191,27 @@
       </div>
 
       <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
+        <label><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required/>
 
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+        <label><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required/>
 
-        <a href="klient.html"><button type="button">Login</button></a>
+        <input type="submit" onclick="window.location.href='klient.html'" value="Login"/>
         <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
       </div>
 
       <div class="container" style="background-color:#f1f1f1">
-        <a href="index.html"><button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Gå tilbage</button></a>
+        <button type="button" onclick="window.location.href='index.html'" class="cancelbtn">Gå tilbage</button>
         <span class="psw">Forgot <a href="#">password?</a></span>
       </div>
     </form>
   </div>
+</main>
+
+
 
   <script>
     // Get the modal
